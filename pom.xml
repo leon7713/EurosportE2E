@@ -8,5 +8,24 @@
     <artifactId>EurosportE2E</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <dependencies>
+    <dependency>
+        <groupId>org.apache.commons</groupId>
+        <artifactId>commons-io</artifactId>
+        <version>1.3.2</version>
+    </dependency>
+    <dependency>
+        <groupId>org.testng</groupId>
+        <artifactId>testng</artifactId>
+        <version>6.14.3</version>
+        <scope>test</scope>
+    </dependency>
+    <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-java</artifactId>
+        <version>3.14.0</version>
+    </dependency>
+    </dependencies>
+
 
 </project>
