@@ -6,10 +6,6 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/pageObject/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObject/MainPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/resources/base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/base.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Sanity/validateMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Sanity/validateMainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pageObject/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObject/MainPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/resources/base.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/resources/base.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Sanity/validateMainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Sanity/validateMainPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Sanity/validateMainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="488">
-              <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+            <state relative-caret-position="527">
+              <caret line="31" column="45" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,34 +32,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/MainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="15" column="71" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
+            <state relative-caret-position="476">
+              <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1099#1100#0" expanded="true" />
+                <element signature="e#1141#1142#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Sanity/Listeners.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/SideMenuPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+            <state relative-caret-position="233">
+              <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#347#348#0" expanded="true" />
-                <element signature="e#383#384#0" expanded="true" />
+                <element signature="e#165#166#0" expanded="true" />
+                <element signature="e#200#201#0" expanded="true" />
+                <element signature="e#367#368#0" expanded="true" />
+                <element signature="e#395#396#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testng.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -86,10 +77,11 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/base.java" />
         <option value="$PROJECT_DIR$/src/main/java/resources/data.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/resources/base.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageObject/MainPage.java" />
         <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/src/test/java/Sanity/Listeners.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObject/MainPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/resources/base.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObject/SideMenuPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/Sanity/validateMainPage.java" />
       </list>
     </option>
@@ -106,6 +98,9 @@
     <option name="y" value="20" />
     <option name="width" value="1346" />
     <option name="height" value="688" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -183,7 +178,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545468180973" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545495055700" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -253,21 +248,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__Users_Leonidus_projects_EurosportE2E_testng_xml - 2018.12.22 at 10h 11m 20s.xml">
-      <configuration name="C:/Users/Leonidus/projects/EurosportE2E/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Leonidus_projects_EurosportE2E_testng_xml - 2018.12.22 at 10h 13m 02s.xml">
-      <configuration name="C:/Users/Leonidus/projects/EurosportE2E/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Leonidus_projects_EurosportE2E_testng_xml - 2018.12.22 at 10h 13m 35s.xml">
-      <configuration name="C:/Users/Leonidus/projects/EurosportE2E/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Leonidus_projects_EurosportE2E_testng_xml - 2018.12.22 at 10h 22m 28s.xml">
-      <configuration name="C:/Users/Leonidus/projects/EurosportE2E/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Leonidus_projects_EurosportE2E_testng_xml - 2018.12.22 at 10h 23m 27s.xml">
-      <configuration name="C:/Users/Leonidus/projects/EurosportE2E/testng.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="C__Users_Leonidus_projects_EurosportE2E_testng_xml - 2018.12.22 at 10h 29m 25s.xml">
       <configuration name="C:/Users/Leonidus/projects/EurosportE2E/testng.xml" configurationId="TestNG" />
     </history-entry>
@@ -281,6 +261,21 @@
       <configuration name="C:/Users/Leonidus/projects/EurosportE2E/testng.xml" configurationId="TestNG" />
     </history-entry>
     <history-entry file="C__Users_Leonidus_projects_EurosportE2E_testng_xml - 2018.12.22 at 10h 40m 59s.xml">
+      <configuration name="C:/Users/Leonidus/projects/EurosportE2E/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Leonidus_projects_EurosportE2E_testng_xml - 2018.12.22 at 17h 49m 53s.xml">
+      <configuration name="C:/Users/Leonidus/projects/EurosportE2E/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Leonidus_projects_EurosportE2E_testng_xml - 2018.12.22 at 17h 54m 38s.xml">
+      <configuration name="C:/Users/Leonidus/projects/EurosportE2E/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Leonidus_projects_EurosportE2E_testng_xml - 2018.12.22 at 17h 56m 22s.xml">
+      <configuration name="C:/Users/Leonidus/projects/EurosportE2E/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Leonidus_projects_EurosportE2E_testng_xml - 2018.12.22 at 17h 58m 37s.xml">
+      <configuration name="C:/Users/Leonidus/projects/EurosportE2E/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Leonidus_projects_EurosportE2E_testng_xml - 2018.12.22 at 18h 10m 46s.xml">
       <configuration name="C:/Users/Leonidus/projects/EurosportE2E/testng.xml" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -297,7 +292,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -344,12 +339,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/resources/base.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Sanity/Listeners.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="221">
+          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -361,32 +358,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Sanity/Listeners.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/resources/base.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+        <state relative-caret-position="153">
+          <caret line="51" column="44" selection-start-line="51" selection-start-column="44" selection-end-line="51" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#347#348#0" expanded="true" />
-            <element signature="e#383#384#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="71" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
+        <state relative-caret-position="476">
+          <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1099#1100#0" expanded="true" />
+            <element signature="e#1141#1142#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/SideMenuPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#165#166#0" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Sanity/validateMainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+        <state relative-caret-position="527">
+          <caret line="31" column="45" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

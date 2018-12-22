@@ -13,7 +13,8 @@ public class MainPage {
     }
 
     By mainLogo = By.className("header-logo");
-    By categoryList = By.xpath("//*[@class = \"categorylist__item\"]");
+    By categoryList = By.xpath("//*[contains(@class, \"categorylist__item\")]");
+    By moreBtn = By.xpath("//*[@class = \"categorylist__item categorylist__item--sports\"]/a");
 
 
     public WebElement getMainLogo() {
@@ -29,5 +30,9 @@ public class MainPage {
     public int getCategoryListNumber () {
         int categoryListNumber = driver.findElements(categoryList).size();
         return categoryListNumber;
+    }
+
+    public WebElement getMoreBtn () {
+        return driver.findElement(moreBtn);
     }
 }
