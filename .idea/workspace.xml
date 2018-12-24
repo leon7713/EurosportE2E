@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="48cf84e9-ac89-4f4b-9bc2-81a63e93a1b6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageObject/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObject/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/resources/base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/base.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Sanity/validateMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Sanity/validateMainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Sanity/Listeners.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Sanity/Listeners.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Sanity/validateMainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Sanity/validateMainPage.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,10 +17,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Sanity/validateMainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
+            <state relative-caret-position="425">
               <caret line="31" column="45" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -30,14 +30,30 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testng.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/MainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
+            <state relative-caret-position="459">
               <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1099#1100#0" expanded="true" />
-                <element signature="e#1141#1142#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -46,14 +62,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/SideMenuPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
+            <state relative-caret-position="187">
               <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#165#166#0" expanded="true" />
-                <element signature="e#200#201#0" expanded="true" />
-                <element signature="e#367#368#0" expanded="true" />
-                <element signature="e#395#396#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -74,7 +86,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/base.java" />
         <option value="$PROJECT_DIR$/src/main/java/resources/data.properties" />
         <option value="$PROJECT_DIR$/testng.xml" />
@@ -83,6 +94,7 @@
         <option value="$PROJECT_DIR$/src/main/java/resources/base.java" />
         <option value="$PROJECT_DIR$/src/main/java/pageObject/SideMenuPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/Sanity/validateMainPage.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -107,6 +119,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -173,12 +187,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545495055700" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545495178034" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -248,9 +260,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__Users_Leonidus_projects_EurosportE2E_testng_xml - 2018.12.22 at 10h 29m 25s.xml">
-      <configuration name="C:/Users/Leonidus/projects/EurosportE2E/testng.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="C__Users_Leonidus_projects_EurosportE2E_testng_xml - 2018.12.22 at 10h 30m 04s.xml">
       <configuration name="C:/Users/Leonidus/projects/EurosportE2E/testng.xml" configurationId="TestNG" />
     </history-entry>
@@ -278,6 +287,9 @@
     <history-entry file="C__Users_Leonidus_projects_EurosportE2E_testng_xml - 2018.12.22 at 18h 10m 46s.xml">
       <configuration name="C:/Users/Leonidus/projects/EurosportE2E/testng.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="C__Users_Leonidus_projects_EurosportE2E_testng_xml - 2018.12.24 at 19h 53m 24s.xml">
+      <configuration name="C:/Users/Leonidus/projects/EurosportE2E/testng.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -292,7 +304,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2685325" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -301,7 +313,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.400982" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.400982" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -325,13 +337,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/resources.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/pageObject.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/base.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/resources/data.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -351,13 +356,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/resources/base.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -370,37 +368,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
+        <state relative-caret-position="459">
           <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1099#1100#0" expanded="true" />
-            <element signature="e#1141#1142#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/SideMenuPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
+        <state relative-caret-position="187">
           <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#165#166#0" expanded="true" />
-            <element signature="e#200#201#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#395#396#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Sanity/validateMainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
+        <state relative-caret-position="425">
           <caret line="31" column="45" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
         </state>
       </provider>
     </entry>
