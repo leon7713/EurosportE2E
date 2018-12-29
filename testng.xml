@@ -6,9 +6,20 @@
         <listener class-name="Sanity.Listeners" />
     </listeners>
     
-    <test verbose="2" preserve-order="true" name="C:/Users/Leonidus/projects/EurosportE2E">
+    <test verbose="2" preserve-order="true" name="Test - validate main page">
         <classes>
-            <class name="Sanity.validateMainPage"/>
+            <class name="Sanity.validateMainPage">
+                <methods>
+                    <include name="verifyCatNumber"/>
+                    <include name="verifyLegalNotices"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true" name="Test - validate side main page">
+        <classes>
+            <class name="Sanity.validateSideMenuPage"/>
         </classes>
     </test>
 </suite>

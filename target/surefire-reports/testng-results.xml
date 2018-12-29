@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-12-29T15:28:19Z" name="All Test Suite" finished-at="2018-12-29T15:29:19Z" duration-ms="60451">
+    <groups>
+    </groups>
+    <test started-at="2018-12-29T15:28:19Z" name="Test - validate main page" finished-at="2018-12-29T15:28:55Z" duration-ms="36216">
+      <class name="Sanity.validateMainPage">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Sanity.validateMainPage@4988d8b8]" started-at="2018-12-29T15:28:19Z" name="initialize" finished-at="2018-12-29T15:28:23Z" duration-ms="4318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="verifyCatNumber(java.lang.String)[pri:0, instance:Sanity.validateMainPage@4988d8b8]" started-at="2018-12-29T15:28:23Z" name="verifyCatNumber" data-provider="getData" finished-at="2018-12-29T15:28:43Z" duration-ms="19598" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCatNumber -->
+        <test-method signature="verifyLegalNotices()[pri:0, instance:Sanity.validateMainPage@4988d8b8]" started-at="2018-12-29T15:28:43Z" name="verifyLegalNotices" finished-at="2018-12-29T15:28:55Z" duration-ms="12056" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLegalNotices -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Sanity.validateMainPage@4988d8b8]" started-at="2018-12-29T15:28:55Z" name="tearDown" finished-at="2018-12-29T15:28:55Z" duration-ms="220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Sanity.validateMainPage -->
+    </test> <!-- Test - validate main page -->
+    <test started-at="2018-12-29T15:28:55Z" name="Test - validate side main page" finished-at="2018-12-29T15:29:19Z" duration-ms="24178">
+      <class name="Sanity.validateSideMenuPage">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Sanity.validateSideMenuPage@49e5f737]" started-at="2018-12-29T15:28:55Z" name="initialize" finished-at="2018-12-29T15:28:59Z" duration-ms="3520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="basicTests(java.lang.String)[pri:0, instance:Sanity.validateSideMenuPage@49e5f737]" started-at="2018-12-29T15:28:59Z" name="basicTests" data-provider="getData" finished-at="2018-12-29T15:29:19Z" duration-ms="20388" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basicTests -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Sanity.validateSideMenuPage@49e5f737]" started-at="2018-12-29T15:29:19Z" name="tearDown" finished-at="2018-12-29T15:29:19Z" duration-ms="269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Sanity.validateSideMenuPage -->
+    </test> <!-- Test - validate side main page -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

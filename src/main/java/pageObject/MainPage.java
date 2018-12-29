@@ -15,6 +15,11 @@ public class MainPage {
     By mainLogo = By.className("header-logo");
     By categoryList = By.xpath("//*[contains(@class, \"categorylist__item\")]");
     By moreBtn = By.xpath("//*[@class = \"categorylist__item categorylist__item--sports\"]/a");
+    By legalNotices = By.className("legal-notice-menu__title");
+    By termsAndConditions = By.xpath("//li/a[text() = \"Terms and Conditions\"]");
+    By privacyPolicy = By.xpath("//li/a[text() = \"Privacy Policy\"]");
+    By cookiePolicy = By.xpath("//li/a[text() = \"Cookie Policy\"]");
+
 
 
     public WebElement getMainLogo() {
@@ -35,4 +40,8 @@ public class MainPage {
     public WebElement getMoreBtn () {
         return driver.findElement(moreBtn);
     }
+
+    public WebElement getLegalNotices () { return  driver.findElement(legalNotices); }
+    public WebElement getPrivacyPolicy () { return  driver.findElement(privacyPolicy); }
+    public WebElement getCookiePolicy () { return  driver.findElement(cookiePolicy); }
 }

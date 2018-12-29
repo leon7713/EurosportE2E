@@ -6,11 +6,12 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import pageObject.MainPage;
+import pageObject.SideMenuPage;
 import resources.base;
 
 import java.io.IOException;
 
-public class validateMainPage extends base {
+public class validateSideMenuPage extends base {
 
     @BeforeTest
     public void initialize() throws IOException {
@@ -18,26 +19,16 @@ public class validateMainPage extends base {
     }
 
     @Test (dataProvider = "getData")
-    public void verifyCatNumber(String catListNumb) throws InterruptedException {
+    public void basicTests(String sideMenuCatNumb) throws InterruptedException {
         driver.get(prop.getProperty("url"));
         MainPage mp = new MainPage(driver);
+        SideMenuPage smp = new SideMenuPage(driver);
 
-        mp.getMainLogo().isDisplayed();
-        int mpCategoryListNumber = mp.getCategoryListNumber();
-        Assert.assertTrue(catListNumb.equals(Integer.toString(mpCategoryListNumber)));
+        mp.getMoreBtn().click();
 
-        Thread.sleep(1000);
-    }
-
-    @Test
-    public void verifyLegalNotices () throws InterruptedException {
-        driver.get(prop.getProperty("url"));
-        MainPage mp = new MainPage(driver);
-
-        mp.scrolltoLegalNotice();
-        mp.getLegalNotices().isDisplayed();
-        mp.getPrivacyPolicy().isDisplayed();
-        Assert.assertTrue(mp.getCookiePolicy().isDisplayed());
+        smp.getEurosportLogo().isDisplayed();
+        int smpCatNumber = smp.getSideMenuCategories();
+        Assert.assertTrue(sideMenuCatNumb.equals(Integer.toString(smpCatNumber)));
 
         Thread.sleep(1000);
     }
@@ -52,9 +43,9 @@ public class validateMainPage extends base {
     public Object[][] getData() {
         //row stands for how many different data types test should run
         //column stands for how many values per each test
-    Object[][] data = new Object[1][1];
-    data[0][0] = "10";
+        Object[][] data = new Object[1][1];
+        data[0][0] = "12"; // one category is hidden, the "favorites" category
 
-    return data;
+        return data;
     }
 }

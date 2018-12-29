@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="Sanity.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Test - validate main page(failed)" verbose="0">
+    <classes>
+      <class name="Sanity.validateMainPage">
+        <methods>
+          <include name="verifyCatNumber"/>
+          <include name="verifyLegalNotices"/>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Sanity.validateMainPage -->
+    </classes>
+  </test> <!-- Test - validate main page(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

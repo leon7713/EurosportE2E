@@ -13,6 +13,26 @@
     <artifactId>EurosportE2E</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <profiles>
+        <profile>
+            <id>Sanity</id>
+                <build>
+                    <pluginManagement>
+                        <plugins>
+                            <plugin>
+                                <groupId>org.apache.maven.plugins</groupId>
+                                <artifactId>maven-surefire-plugin</artifactId>
+                                <version>3.0.0-M3</version>
+                                <configuration>
+                                    <suiteXmlFiles>testng.xml</suiteXmlFiles>
+                                </configuration>
+                            </plugin>
+                        </plugins>
+                    </pluginManagement>
+                </build>
+        </profile>
+    </profiles>
+
     <dependencies>
     <dependency>
         <groupId>org.apache.commons</groupId>
