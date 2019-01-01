@@ -4,15 +4,15 @@
     <list default="true" id="48cf84e9-ac89-4f4b-9bc2-81a63e93a1b6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageObject/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObject/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObject/SideMenuPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObject/SideMenuPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/resources/base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/myresources/base.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/resources/data.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/myresources/data.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Sanity/validateMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Sanity/validateMainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pageObject/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObject/MainPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Sanity/validateSideMenuPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Sanity/validateSideMenuPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pageObject/SideMenuPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObject/SideMenuPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/resources/base.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/resources/base.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/resources/base.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Sanity/validateMainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Sanity/validateMainPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Sanity/validateSideMenuPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Sanity/validateSideMenuPage.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,19 +25,34 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testng.xml">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Sanity/validateSideMenuPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
+            <state relative-caret-position="187">
+              <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Sanity/validateSideMenuPage.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Sanity/validateMainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+            <state relative-caret-position="170">
+              <caret line="16" column="74" selection-start-line="16" selection-start-column="74" selection-end-line="16" selection-end-column="74" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/SideMenuPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,20 +63,22 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="26" column="77" selection-start-line="26" selection-start-column="77" selection-end-line="26" selection-end-column="77" />
+            <state relative-caret-position="374">
+              <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/SideMenuPage.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/myresources/log4j2.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="68">
+              <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -85,11 +102,11 @@
         <option value="$PROJECT_DIR$/src/main/java/resources/data.properties" />
         <option value="$PROJECT_DIR$/src/test/java/Sanity/Listeners.java" />
         <option value="$PROJECT_DIR$/src/main/java/resources/base.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageObject/SideMenuPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Sanity/validateSideMenuPage.java" />
         <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/src/main/java/pageObject/MainPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObject/SideMenuPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/Sanity/validateMainPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Sanity/validateSideMenuPage.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
@@ -101,7 +118,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -115,8 +132,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -127,6 +142,11 @@
             <path>
               <item name="EurosportE2E" type="b2602c69:ProjectViewProjectNode" />
               <item name="EurosportE2E" type="462c0819:PsiDirectoryNode" />
+              <item name="Logs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EurosportE2E" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EurosportE2E" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -141,6 +161,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EurosportE2E" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EurosportE2E" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="myresources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="EurosportE2E" type="b2602c69:ProjectViewProjectNode" />
@@ -149,14 +177,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="pageObject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EurosportE2E" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EurosportE2E" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="EurosportE2E" type="b2602c69:ProjectViewProjectNode" />
@@ -183,14 +203,21 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546095006395" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546369210370" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.20689656" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Leonidus\projects\EurosportE2E\src\main\java\resources" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -265,17 +292,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="validateSideMenuPage.basicTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EurosportE2E" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Sanity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Sanity" />
+      <option name="MAIN_CLASS_NAME" value="Sanity.validateSideMenuPage" />
+      <option name="METHOD_NAME" value="basicTests" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="TestNG.validateMainPage" />
       <item itemvalue="TestNG.C:/Users/Leonidus/projects/EurosportE2E/testng.xml" />
       <item itemvalue="TestNG.validateSideMenuPage" />
       <item itemvalue="TestNG.validateMainPage.verifyLegalNotices" />
+      <item itemvalue="TestNG.validateSideMenuPage.basicTests" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/Users/Leonidus/projects/EurosportE2E/testng.xml" />
-        <item itemvalue="TestNG.validateMainPage.verifyLegalNotices" />
         <item itemvalue="TestNG.validateSideMenuPage" />
+        <item itemvalue="TestNG.validateSideMenuPage.basicTests" />
+        <item itemvalue="TestNG.validateMainPage.verifyLegalNotices" />
         <item itemvalue="TestNG.validateMainPage" />
       </list>
     </recent_temporary>
@@ -294,34 +341,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__Users_Leonidus_projects_EurosportE2E_testng_xml - 2018.12.29 at 15h 31m 21s.xml">
+    <history-entry file="C__Users_Leonidus_projects_EurosportE2E_testng_xml - 2019.01.01 at 19h 48m 08s.xml">
       <configuration name="C:/Users/Leonidus/projects/EurosportE2E/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Leonidus_projects_EurosportE2E_testng_xml - 2018.12.29 at 15h 37m 12s.xml">
+    <history-entry file="C__Users_Leonidus_projects_EurosportE2E_testng_xml - 2019.01.01 at 19h 50m 33s.xml">
       <configuration name="C:/Users/Leonidus/projects/EurosportE2E/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="validateSideMenuPage - 2018.12.29 at 15h 39m 58s.xml">
+    <history-entry file="C__Users_Leonidus_projects_EurosportE2E_testng_xml - 2019.01.01 at 20h 02m 41s.xml">
+      <configuration name="C:/Users/Leonidus/projects/EurosportE2E/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Leonidus_projects_EurosportE2E_testng_xml - 2019.01.01 at 20h 04m 25s.xml">
+      <configuration name="C:/Users/Leonidus/projects/EurosportE2E/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Leonidus_projects_EurosportE2E_testng_xml - 2019.01.01 at 20h 06m 08s.xml">
+      <configuration name="C:/Users/Leonidus/projects/EurosportE2E/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Leonidus_projects_EurosportE2E_testng_xml - 2019.01.01 at 20h 09m 56s.xml">
+      <configuration name="C:/Users/Leonidus/projects/EurosportE2E/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Leonidus_projects_EurosportE2E_testng_xml - 2019.01.01 at 20h 24m 36s.xml">
+      <configuration name="C:/Users/Leonidus/projects/EurosportE2E/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="validateSideMenuPage - 2019.01.01 at 20h 48m 57s.xml">
       <configuration name="validateSideMenuPage" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="validateSideMenuPage - 2018.12.29 at 15h 40m 50s.xml">
+    <history-entry file="validateSideMenuPage - 2019.01.01 at 20h 54m 36s.xml">
       <configuration name="validateSideMenuPage" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Leonidus_projects_EurosportE2E_testng_xml - 2018.12.29 at 15h 46m 02s.xml">
-      <configuration name="C:/Users/Leonidus/projects/EurosportE2E/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Leonidus_projects_EurosportE2E_testng_xml - 2018.12.29 at 15h 49m 11s.xml">
-      <configuration name="C:/Users/Leonidus/projects/EurosportE2E/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Leonidus_projects_EurosportE2E_testng_xml - 2018.12.29 at 16h 03m 08s.xml">
-      <configuration name="C:/Users/Leonidus/projects/EurosportE2E/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Leonidus_projects_EurosportE2E_testng_xml - 2018.12.29 at 16h 13m 23s.xml">
-      <configuration name="C:/Users/Leonidus/projects/EurosportE2E/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="validateMainPage_verifyLegalNotices - 2018.12.29 at 16h 14m 55s.xml">
-      <configuration name="validateMainPage.verifyLegalNotices" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Leonidus_projects_EurosportE2E_testng_xml - 2018.12.29 at 17h 23m 00s.xml">
+    <history-entry file="C__Users_Leonidus_projects_EurosportE2E_testng_xml - 2019.01.01 at 20h 56m 03s.xml">
       <configuration name="C:/Users/Leonidus/projects/EurosportE2E/testng.xml" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -338,7 +385,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2806354" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28971255" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -346,15 +393,15 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.400982" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.400982" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3295082" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3289689" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -371,20 +418,10 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/resources.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/pageObject.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/base.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/resources/data.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/myresources/data.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="14" selection-start-column="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/resources/base.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="51" column="44" selection-start-line="51" selection-start-column="44" selection-end-line="51" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -412,25 +449,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Sanity/validateMainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="39" column="62" selection-start-line="39" selection-start-column="62" selection-end-line="39" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Sanity/validateSideMenuPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        <state relative-caret-position="170">
+          <caret line="16" column="74" selection-start-line="16" selection-start-column="74" selection-end-line="16" selection-end-column="74" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -439,18 +459,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/SideMenuPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+        <state relative-caret-position="408">
+          <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/myresources/base.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-510">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/myresources/base.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#2254#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/myresources/log4j2.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Sanity/validateSideMenuPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Logs/prints.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="26" column="77" selection-start-line="26" selection-start-column="77" selection-end-line="26" selection-end-column="77" />
+        <state relative-caret-position="374">
+          <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
         </state>
       </provider>
     </entry>

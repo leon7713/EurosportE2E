@@ -1,20 +1,26 @@
 package Sanity;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import pageObject.MainPage;
-import resources.base;
+import myresources.base;
 
 import java.io.IOException;
 
 public class validateMainPage extends base {
 
+    public static Logger log = LogManager.getLogger(base.class.getName());
+
+
     @BeforeTest
     public void initialize() throws IOException {
         driver = initialiseDriver();
+        log.info("Driver is initialised");
     }
 
     @Test (dataProvider = "getData")

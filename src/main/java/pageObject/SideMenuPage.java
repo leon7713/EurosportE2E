@@ -13,6 +13,7 @@ public class SideMenuPage {
 
     By eurosportLogo = By.className("nav__logo");
     By sideMenuCategories = By.xpath("//*[contains(@class, \"modalnav__leftcol-item\")]");
+    By aboutUsCat = By.xpath("//div[@class = \"modalnav__rightcol-list\"]/ul[3]/li[@class = \"modalnav__rightcol-item\"]\n");
 
     public WebElement getEurosportLogo () {
         return driver.findElement(eurosportLogo);
@@ -21,5 +22,10 @@ public class SideMenuPage {
     public int getSideMenuCategories () {
         int sideMenuCatNumber = driver.findElements(sideMenuCategories).size();
         return sideMenuCatNumber;
+    }
+
+    public int getAboutUsCat () {
+        int aboutUsCatNumber = driver.findElements(aboutUsCat).size();
+        return aboutUsCatNumber;
     }
 }

@@ -1,4 +1,4 @@
-package resources;
+package myresources;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
@@ -7,7 +7,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
-import org.openqa.selenium.interactions.Actions;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -25,7 +24,7 @@ public class base {
     public WebDriver initialiseDriver() throws IOException {
 
         prop = new Properties();
-        FileInputStream fis = new FileInputStream("C:\\Users\\Leonidus\\projects\\EurosportE2E\\src\\main\\java\\resources\\data.properties");
+        FileInputStream fis = new FileInputStream("C:\\Users\\Leonidus\\projects\\EurosportE2E\\src\\main\\java\\myresources\\data.properties");
         prop.load(fis);
         String browserName = prop.getProperty("browser");
         System.out.println(browserName);
