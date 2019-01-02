@@ -1,3 +1,2 @@
-pageObject\SideMenuPage.class
-resources\base.class
 pageObject\MainPage.class
+pageObject\SideMenuPage.class
