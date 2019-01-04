@@ -33,11 +33,9 @@ public class validateSideMenuPage extends base {
 
         smp.getEurosportLogo().isDisplayed();
         log.info("Eurosport logo is displaying");
-        int smpCatNumber = smp.getSideMenuCategories();
-        Assert.assertTrue(sideMenuCatNumb.equals(Integer.toString(smpCatNumber)));
+        Assert.assertEquals(Integer.toString(smp.getSideMenuCategories()), sideMenuCatNumb);
 
-        int smpAboutUsCatNumb = smp.getAboutUsCat();
-        Assert.assertTrue(AboutUsCatNemb.equals(Integer.toString(smpAboutUsCatNumb)));
+        Assert.assertEquals(Integer.toString(smp.getAboutUsCat()), AboutUsCatNemb);
 
         Thread.sleep(1000);
     }

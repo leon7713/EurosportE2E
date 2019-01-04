@@ -20,12 +20,10 @@ public class SideMenuPage {
     }
 
     public int getSideMenuCategories () {
-        int sideMenuCatNumber = driver.findElements(sideMenuCategories).size();
-        return sideMenuCatNumber;
+        return driver.findElements(sideMenuCategories).size();
     }
 
     public int getAboutUsCat () {
-        int aboutUsCatNumber = driver.findElements(aboutUsCat).size();
-        return aboutUsCatNumber;
+        return driver.findElements(aboutUsCat).size();
     }
 }

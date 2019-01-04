@@ -19,6 +19,7 @@ public class MainPage {
     By termsAndConditions = By.xpath("//li/a[text() = \"Terms and Conditions\"]");
     By privacyPolicy = By.xpath("//li/a[text() = \"Privacy Policy\"]");
     By cookiePolicy = By.xpath("//li/a[text() = \"Cookie Policy\"]");
+    By footbalBtn = By.linkText("Football");
 
 
 
@@ -33,8 +34,7 @@ public class MainPage {
     }
 
     public int getCategoryListNumber () {
-        int categoryListNumber = driver.findElements(categoryList).size();
-        return categoryListNumber;
+        return driver.findElements(categoryList).size();
     }
 
     public WebElement getMoreBtn () {
@@ -44,4 +44,5 @@ public class MainPage {
     public WebElement getLegalNotices () { return  driver.findElement(legalNotices); }
     public WebElement getPrivacyPolicy () { return  driver.findElement(privacyPolicy); }
     public WebElement getCookiePolicy () { return  driver.findElement(cookiePolicy); }
+    public WebElement getFootballBtn () { return driver.findElement(footbalBtn); } // continue from here!!!
 }

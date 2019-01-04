@@ -29,8 +29,7 @@ public class validateMainPage extends base {
         MainPage mp = new MainPage(driver);
 
         mp.getMainLogo().isDisplayed();
-        int mpCategoryListNumber = mp.getCategoryListNumber();
-        Assert.assertTrue(catListNumb.equals(Integer.toString(mpCategoryListNumber)));
+        Assert.assertEquals(Integer.toString(mp.getCategoryListNumber()), catListNumb);
 
         Thread.sleep(1000);
     }
@@ -59,7 +58,7 @@ public class validateMainPage extends base {
         //row stands for how many different data types test should run
         //column stands for how many values per each test
     Object[][] data = new Object[1][1];
-    data[0][0] = "10";
+    data[0][0] = "10"; //main categories number
 
     return data;
     }
