@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-01-02T18:48:22Z" name="All Test Suite" finished-at="2019-01-02T18:49:38Z" duration-ms="75542">
+  <suite started-at="2019-01-05T12:27:43Z" name="All Test Suite" finished-at="2019-01-05T12:29:36Z" duration-ms="113210">
     <groups>
     </groups>
-    <test started-at="2019-01-02T18:48:22Z" name="Test - validate main page" finished-at="2019-01-02T18:49:10Z" duration-ms="47559">
+    <test started-at="2019-01-05T12:27:43Z" name="Test - validate main page" finished-at="2019-01-05T12:28:35Z" duration-ms="52089">
       <class name="Sanity.validateMainPage">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:Sanity.validateMainPage@1b2c4efb]" started-at="2019-01-02T18:48:22Z" name="initialize" finished-at="2019-01-02T18:48:27Z" duration-ms="4870" status="PASS">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Sanity.validateMainPage@1b2c4efb]" started-at="2019-01-05T12:27:43Z" name="initialize" finished-at="2019-01-05T12:27:49Z" duration-ms="5845" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method signature="verifyCatNumber(java.lang.String)[pri:0, instance:Sanity.validateMainPage@1b2c4efb]" started-at="2019-01-02T18:48:27Z" name="verifyCatNumber" data-provider="getData" finished-at="2019-01-02T18:48:55Z" duration-ms="27474" status="PASS">
+        <test-method signature="verifyCatNumber(java.lang.String)[pri:0, instance:Sanity.validateMainPage@1b2c4efb]" started-at="2019-01-05T12:27:49Z" name="verifyCatNumber" data-provider="getData" finished-at="2019-01-05T12:28:21Z" duration-ms="31815" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,23 +22,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCatNumber -->
-        <test-method signature="verifyLegalNotices()[pri:0, instance:Sanity.validateMainPage@1b2c4efb]" started-at="2019-01-02T18:48:55Z" name="verifyLegalNotices" finished-at="2019-01-02T18:49:08Z" duration-ms="13097" status="PASS">
+        <test-method signature="verifyLegalNotices()[pri:0, instance:Sanity.validateMainPage@1b2c4efb]" started-at="2019-01-05T12:28:21Z" name="verifyLegalNotices" finished-at="2019-01-05T12:28:33Z" duration-ms="12288" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLegalNotices -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Sanity.validateMainPage@1b2c4efb]" started-at="2019-01-02T18:49:08Z" name="tearDown" finished-at="2019-01-02T18:49:10Z" duration-ms="2087" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Sanity.validateMainPage@1b2c4efb]" started-at="2019-01-05T12:28:33Z" name="tearDown" finished-at="2019-01-05T12:28:35Z" duration-ms="2110" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Sanity.validateMainPage -->
     </test> <!-- Test - validate main page -->
-    <test started-at="2019-01-02T18:49:10Z" name="Test - validate side main page" finished-at="2019-01-02T18:49:38Z" duration-ms="27845">
+    <test started-at="2019-01-05T12:28:35Z" name="Test - validate side main page" finished-at="2019-01-05T12:29:01Z" duration-ms="25100">
       <class name="Sanity.validateSideMenuPage">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:Sanity.validateSideMenuPage@544820b7]" started-at="2019-01-02T18:49:10Z" name="initialize" finished-at="2019-01-02T18:49:14Z" duration-ms="3946" status="PASS">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Sanity.validateSideMenuPage@544820b7]" started-at="2019-01-05T12:28:35Z" name="initialize" finished-at="2019-01-05T12:28:39Z" duration-ms="3434" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method signature="basicTests(java.lang.String, java.lang.String)[pri:0, instance:Sanity.validateSideMenuPage@544820b7]" started-at="2019-01-02T18:49:14Z" name="basicTests" data-provider="getData" finished-at="2019-01-02T18:49:37Z" duration-ms="23492" status="PASS">
+        <test-method signature="basicTests(java.lang.String, java.lang.String)[pri:0, instance:Sanity.validateSideMenuPage@544820b7]" started-at="2019-01-05T12:28:39Z" name="basicTests" data-provider="getData" finished-at="2019-01-05T12:29:00Z" duration-ms="21443" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -54,11 +54,34 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basicTests -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Sanity.validateSideMenuPage@544820b7]" started-at="2019-01-02T18:49:37Z" name="tearDown" finished-at="2019-01-02T18:49:38Z" duration-ms="406" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Sanity.validateSideMenuPage@544820b7]" started-at="2019-01-05T12:29:00Z" name="tearDown" finished-at="2019-01-05T12:29:01Z" duration-ms="222" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Sanity.validateSideMenuPage -->
     </test> <!-- Test - validate side main page -->
+    <test started-at="2019-01-05T12:29:01Z" name="Test - validate Football page" finished-at="2019-01-05T12:29:36Z" duration-ms="35899">
+      <class name="Sanity.validateFootballPageTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Sanity.validateFootballPageTest@54a67a45]" started-at="2019-01-05T12:29:01Z" name="initialize" finished-at="2019-01-05T12:29:04Z" duration-ms="3416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="basicTests(java.lang.String)[pri:0, instance:Sanity.validateFootballPageTest@54a67a45]" started-at="2019-01-05T12:29:04Z" name="basicTests" data-provider="getData" finished-at="2019-01-05T12:29:34Z" duration-ms="30405" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[23]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basicTests -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Sanity.validateFootballPageTest@54a67a45]" started-at="2019-01-05T12:29:34Z" name="tearDown" finished-at="2019-01-05T12:29:36Z" duration-ms="2076" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Sanity.validateFootballPageTest -->
+    </test> <!-- Test - validate Football page -->
   </suite> <!-- All Test Suite -->
 </testng-results>

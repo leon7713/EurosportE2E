@@ -1,5 +1,6 @@
 package Sanity;
 
+import myresources.base;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
@@ -7,12 +8,12 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+import pageObject.FootballPage;
 import pageObject.MainPage;
-import myresources.base;
 
 import java.io.IOException;
 
-public class validateMainPage extends base {
+public class validateFootballPageTest extends base {
 
     public static Logger log = LogManager.getLogger(base.class.getName());
 
@@ -22,43 +23,35 @@ public class validateMainPage extends base {
         log.info("Driver is initialised");
     }
 
-    @Test (dataProvider = "getData")
-    public void verifyCatNumber(String catListNumb) throws InterruptedException {
+    @Test(dataProvider = "getData")
+    public void basicTests(String mainCatNumb) throws InterruptedException {
         driver.get(prop.getProperty("url"));
         MainPage mp = new MainPage(driver);
+        FootballPage fp = new FootballPage(driver);
 
-        mp.getMainLogo().isDisplayed();
-        Assert.assertEquals(Integer.toString(mp.getCategoryListNumber()), catListNumb);
+        mp.getFootballBtn().click();
+        Assert.assertTrue(fp.getFootballLogo().isDisplayed());
+        log.info("Football Logo is displaying");
+
+        fp.verifyMainCatVisibility(Integer.parseInt(mainCatNumb));
 
         Thread.sleep(1000);
     }
 
-    @Test
-    public void verifyLegalNotices () throws InterruptedException {
-        driver.get(prop.getProperty("url"));
-        MainPage mp = new MainPage(driver);
-
-        mp.scrolltoLegalNotice();
-        mp.getLegalNotices().isDisplayed();
-        mp.getPrivacyPolicy().isDisplayed();
-        Assert.assertTrue(mp.getCookiePolicy().isDisplayed());
-
-        Thread.sleep(1000);
-    }
 
     @AfterTest
     public void tearDown() {
         driver.close();
-        driver=null;
+        driver = null;
     }
 
     @DataProvider
     public Object[][] getData() {
         //row stands for how many different data types test should run
         //column stands for how many values per each test
-    Object[][] data = new Object[1][1];
-    data[0][0] = "10"; //main categories number
+        Object[][] data = new Object[1][1];
+        data[0][0] = "23"; //main categories number, visible and not!
 
-    return data;
+        return data;
     }
 }

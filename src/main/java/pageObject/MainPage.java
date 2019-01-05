@@ -44,5 +44,5 @@ public class MainPage {
     public WebElement getLegalNotices () { return  driver.findElement(legalNotices); }
     public WebElement getPrivacyPolicy () { return  driver.findElement(privacyPolicy); }
     public WebElement getCookiePolicy () { return  driver.findElement(cookiePolicy); }
-    public WebElement getFootballBtn () { return driver.findElement(footbalBtn); } // continue from here!!!
+    public WebElement getFootballBtn () { return driver.findElement(footbalBtn); }
 }

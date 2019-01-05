@@ -1,2 +1,4 @@
 pageObject\MainPage.class
+myresources\base.class
 pageObject\SideMenuPage.class
+pageObject\FootballPage.class

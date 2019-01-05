@@ -54,7 +54,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-All_Test_Suite" class="navigator-link ">
-                    <span class="test-stats">2 tests</span>
+                    <span class="test-stats">3 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,6 +103,11 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-All_Test_Suite" title="Sanity.validateSideMenuPage" class="method navigator-link" hash-for-method="basicTests(12, 8)">basicTests(12, 8)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="Sanity.validateFootballPageTest" class="method navigator-link" hash-for-method="basicTests(23)">basicTests(23)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -153,6 +158,22 @@
           <div class="suite-All_Test_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
+              <span class="class-name">Sanity.validateFootballPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="basicTests(23)">
+                  </a> <!-- basicTests(23) -->
+                  <span class="method-name">basicTests</span>
+                  <span class="parameters">(23)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-passed -->
+          <div class="suite-All_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">Sanity.validateSideMenuPage</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -194,6 +215,15 @@
       &lt;class name=&quot;Sanity.validateSideMenuPage&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test - validate side main page --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test - validate Football page&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Sanity.validateFootballPageTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;basicTests&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Sanity.validateFootballPageTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test - validate Football page --&gt;
 &lt;/suite&gt; &lt;!-- All Test Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -209,6 +239,9 @@
               </li>
               <li>
                 <span class="test-name">Test - validate side main page (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test - validate Football page (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -234,19 +267,23 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'verifyCatNumber')
 data.setCell(0, 2, 'Sanity.validateMainPage')
-data.setCell(0, 3, 27474);
+data.setCell(0, 3, 31815);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'basicTests')
-data.setCell(1, 2, 'Sanity.validateSideMenuPage')
-data.setCell(1, 3, 23492);
+data.setCell(1, 2, 'Sanity.validateFootballPageTest')
+data.setCell(1, 3, 30405);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verifyLegalNotices')
-data.setCell(2, 2, 'Sanity.validateMainPage')
-data.setCell(2, 3, 13097);
+data.setCell(2, 1, 'basicTests')
+data.setCell(2, 2, 'Sanity.validateSideMenuPage')
+data.setCell(2, 3, 21443);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyLegalNotices')
+data.setCell(3, 2, 'Sanity.validateMainPage')
+data.setCell(3, 3, 12288);
 window.suiteTableData['All_Test_Suite']= { tableData: data, tableDiv: 'times-div-All_Test_Suite'}
 return data;
 }
@@ -284,30 +321,45 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">verifyCatNumber(10)</span>
-                <span class="method-start">4897 ms</span>
+                <span class="method-start">5873 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyLegalNotices</span>
-                <span class="method-start">32372 ms</span>
+                <span class="method-start">37689 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">45470 ms</span>
+                <span class="method-start">49978 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Sanity.validateSideMenuPage</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">initialize</span>
-                <span class="method-start">47695 ms</span>
+                <span class="method-start">52190 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">basicTests(12, 8)</span>
-                <span class="method-start">51642 ms</span>
+                <span class="method-start">55625 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">75134 ms</span>
+                <span class="method-start">77068 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Sanity.validateFootballPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">77310 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">basicTests(23)</span>
+                <span class="method-start">80727 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">111132 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

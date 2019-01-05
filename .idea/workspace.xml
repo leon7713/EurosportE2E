@@ -4,9 +4,34 @@
     <list default="true" id="48cf84e9-ac89-4f4b-9bc2-81a63e93a1b6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pageObject/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObject/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageObject/SideMenuPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObject/SideMenuPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Sanity/validateMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Sanity/validateMainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Sanity/validateSideMenuPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Sanity/validateSideMenuPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/EurosportE2E.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/Test - validate main page.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/Test - validate main page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/Test - validate main page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/Test - validate main page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/Test - validate side main page.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/Test - validate side main page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/Test - validate side main page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/Test - validate side main page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-Sanity.validateMainPage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-Sanity.validateMainPage.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-Sanity.validateSideMenuPage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-Sanity.validateSideMenuPage.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/Test - validate main page.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/Test - validate main page.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/Test - validate side main page.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/Test - validate side main page.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Sanity/validateMainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Sanity/validateMainPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,22 +44,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Sanity/validateSideMenuPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Sanity/validateMainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="31" column="21" lean-forward="true" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+            <state relative-caret-position="289">
+              <caret line="62" column="5" lean-forward="true" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -43,16 +56,42 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/SideMenuPage.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/MainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="26" column="54" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="54" />
+            <state relative-caret-position="629">
+              <caret line="46" column="82" selection-start-line="46" selection-start-column="82" selection-end-line="46" selection-end-column="82" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#679#680#0" expanded="true" />
-                <element signature="e#748#749#0" expanded="true" />
-                <element signature="e#783#784#0" expanded="true" />
-                <element signature="e#844#845#0" expanded="true" />
+                <element signature="e#1275#1276#0" expanded="true" />
+                <element signature="e#1338#1339#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Sanity/validateFootballPageTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="505">
+              <caret line="56" column="1" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/FootballPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="157">
+              <caret line="23" column="107" selection-start-line="23" selection-start-column="107" selection-end-line="23" selection-end-column="107" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#141#142#0" expanded="true" />
+                <element signature="e#178#179#0" expanded="true" />
+                <element signature="e#356#357#0" expanded="true" />
+                <element signature="e#384#385#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -79,12 +118,14 @@
         <option value="$PROJECT_DIR$/src/main/java/resources/base.java" />
         <option value="$PROJECT_DIR$/src/main/java/myresources/log4j2.xml" />
         <option value="$PROJECT_DIR$/src/main/java/myresources/ExtentReporterNG.java" />
-        <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/pageObject/MainPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/pageObject/SideMenuPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/Sanity/validateSideMenuPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObject/MainPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/Sanity/validateMainPage.java" />
+        <option value="$PROJECT_DIR$/testng.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObject/FootballPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Sanity/validateFootballPageTest.java" />
       </list>
     </option>
   </component>
@@ -109,7 +150,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -141,14 +182,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="myresources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EurosportE2E" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EurosportE2E" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="pageObject" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -172,15 +205,26 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Sanity" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="EurosportE2E" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EurosportE2E" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EurosportE2E" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EurosportE2E" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="surefire-reports" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546631589061" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546691746117" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/E2EProject" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -207,11 +251,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/Leonidus/projects/EurosportE2E/testng.xml">
+  <component name="RunManager" selected="TestNG.validateFootballPageTest.basicTests">
     <configuration name="C:/Users/Leonidus/projects/EurosportE2E/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EurosportE2E" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="validateFootballPageTest.basicTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EurosportE2E" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Sanity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Sanity" />
+      <option name="MAIN_CLASS_NAME" value="Sanity.validateFootballPageTest" />
+      <option name="METHOD_NAME" value="basicTests" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -229,24 +291,6 @@
       <option name="PACKAGE_NAME" value="Sanity" />
       <option name="MAIN_CLASS_NAME" value="Sanity.validateMainPage" />
       <option name="METHOD_NAME" value="verifyCatNumber" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="validateMainPage.verifyLegalNotices" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="EurosportE2E" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Sanity.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Sanity" />
-      <option name="MAIN_CLASS_NAME" value="Sanity.validateMainPage" />
-      <option name="METHOD_NAME" value="verifyLegalNotices" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -291,17 +335,17 @@
     <list>
       <item itemvalue="TestNG.C:/Users/Leonidus/projects/EurosportE2E/testng.xml" />
       <item itemvalue="TestNG.validateSideMenuPage" />
-      <item itemvalue="TestNG.validateMainPage.verifyLegalNotices" />
       <item itemvalue="TestNG.validateSideMenuPage.basicTests" />
       <item itemvalue="TestNG.validateMainPage.verifyCatNumber" />
+      <item itemvalue="TestNG.validateFootballPageTest.basicTests" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.validateFootballPageTest.basicTests" />
         <item itemvalue="TestNG.C:/Users/Leonidus/projects/EurosportE2E/testng.xml" />
         <item itemvalue="TestNG.validateSideMenuPage.basicTests" />
         <item itemvalue="TestNG.validateMainPage.verifyCatNumber" />
         <item itemvalue="TestNG.validateSideMenuPage" />
-        <item itemvalue="TestNG.validateMainPage.verifyLegalNotices" />
       </list>
     </recent_temporary>
   </component>
@@ -319,35 +363,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="validateSideMenuPage - 2019.01.01 at 20h 54m 36s.xml">
-      <configuration name="validateSideMenuPage" configurationId="TestNG" />
+    <history-entry file="validateFootballPageTest_basicTests - 2019.01.05 at 12h 50m 32s.xml">
+      <configuration name="validateFootballPageTest.basicTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Leonidus_projects_EurosportE2E_testng_xml - 2019.01.01 at 20h 56m 03s.xml">
-      <configuration name="C:/Users/Leonidus/projects/EurosportE2E/testng.xml" configurationId="TestNG" />
+    <history-entry file="validateFootballPageTest_basicTests - 2019.01.05 at 12h 52m 21s.xml">
+      <configuration name="validateFootballPageTest.basicTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Leonidus_projects_EurosportE2E_testng_xml - 2019.01.02 at 20h 45m 10s.xml">
-      <configuration name="C:/Users/Leonidus/projects/EurosportE2E/testng.xml" configurationId="TestNG" />
+    <history-entry file="validateFootballPageTest_basicTests - 2019.01.05 at 13h 57m 57s.xml">
+      <configuration name="validateFootballPageTest.basicTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Leonidus_projects_EurosportE2E_testng_xml - 2019.01.04 at 21h 13m 51s.xml">
-      <configuration name="C:/Users/Leonidus/projects/EurosportE2E/testng.xml" configurationId="TestNG" />
+    <history-entry file="validateFootballPageTest_basicTests - 2019.01.05 at 13h 59m 14s.xml">
+      <configuration name="validateFootballPageTest.basicTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="validateMainPage_verifyCatNumber - 2019.01.04 at 21h 36m 51s.xml">
-      <configuration name="validateMainPage.verifyCatNumber" configurationId="TestNG" />
+    <history-entry file="validateFootballPageTest_basicTests - 2019.01.05 at 14h 00m 40s.xml">
+      <configuration name="validateFootballPageTest.basicTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="validateMainPage_verifyCatNumber - 2019.01.04 at 21h 39m 39s.xml">
-      <configuration name="validateMainPage.verifyCatNumber" configurationId="TestNG" />
+    <history-entry file="validateFootballPageTest_basicTests - 2019.01.05 at 14h 01m 43s.xml">
+      <configuration name="validateFootballPageTest.basicTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="validateSideMenuPage_basicTests - 2019.01.04 at 21h 46m 13s.xml">
-      <configuration name="validateSideMenuPage.basicTests" configurationId="TestNG" />
+    <history-entry file="validateFootballPageTest_basicTests - 2019.01.05 at 14h 04m 53s.xml">
+      <configuration name="validateFootballPageTest.basicTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Leonidus_projects_EurosportE2E_testng_xml - 2019.01.04 at 21h 47m 36s.xml">
-      <configuration name="C:/Users/Leonidus/projects/EurosportE2E/testng.xml" configurationId="TestNG" />
+    <history-entry file="validateFootballPageTest_basicTests - 2019.01.05 at 14h 07m 55s.xml">
+      <configuration name="validateFootballPageTest.basicTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="validateSideMenuPage_basicTests - 2019.01.04 at 21h 51m 03s.xml">
-      <configuration name="validateSideMenuPage.basicTests" configurationId="TestNG" />
+    <history-entry file="validateFootballPageTest_basicTests - 2019.01.05 at 14h 08m 39s.xml">
+      <configuration name="validateFootballPageTest.basicTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Leonidus_projects_EurosportE2E_testng_xml - 2019.01.04 at 21h 53m 04s.xml">
-      <configuration name="C:/Users/Leonidus/projects/EurosportE2E/testng.xml" configurationId="TestNG" />
+    <history-entry file="validateFootballPageTest_basicTests - 2019.01.05 at 14h 17m 34s.xml">
+      <configuration name="validateFootballPageTest.basicTests" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -361,9 +405,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2987897" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30332828" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -372,7 +415,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.400982" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.400982" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -415,16 +458,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/myresources/base.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-510">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/classes/myresources/base.class">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -455,27 +488,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/MainPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1275#1276#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/SideMenuPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
+        <state relative-caret-position="374">
           <caret line="26" column="54" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -497,12 +512,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Sanity/validateMainPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/myresources/base.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="31" column="21" lean-forward="true" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+        <state relative-caret-position="119">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="48" lean-forward="true" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/MainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="46" column="82" selection-start-line="46" selection-start-column="82" selection-end-line="46" selection-end-column="82" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1275#1276#0" expanded="true" />
+            <element signature="e#1338#1339#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Sanity/validateMainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="62" column="5" lean-forward="true" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Sanity/validateFootballPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="56" column="1" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/surefire-reports/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/FootballPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="23" column="107" selection-start-line="23" selection-start-column="107" selection-end-line="23" selection-end-column="107" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#141#142#0" expanded="true" />
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
           </folding>
         </state>
       </provider>

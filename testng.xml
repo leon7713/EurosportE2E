@@ -22,4 +22,15 @@
             <class name="Sanity.validateSideMenuPage"/>
         </classes>
     </test>
+
+    <test verbose="2" preserve-order="true" name="Test - validate Football page">
+        <classes>
+            <class name="Sanity.validateFootballPageTest">
+                <methods>
+                    <include name="basicTests"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
 </suite>
