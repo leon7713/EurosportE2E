@@ -12,7 +12,6 @@ public class FootballPage {
     }
 
     By footballLogo = By.linkText("Football");
-    //By mainCategories = By.xpath("//*[@class = \"categorylist\"]/li[]");
 
     public WebElement getFootballLogo() {
         return driver.findElement(footballLogo);
@@ -20,8 +19,8 @@ public class FootballPage {
 
     public boolean verifyMainCatVisibility(int x) {
         boolean result = true;
-        for (int i = 0; i < x; i++) {
-            if (!driver.findElement(By.xpath("//*[@class = \"categorylist\"]/li[" + x + "]")).isDisplayed()) {
+        for (int i = 1; i <= x; i++) {
+            if (!driver.findElement(By.xpath("//*[@class = \"categorylist\"]/li[" + i + "]")).isDisplayed()) {
                 result = false;
             }
         }

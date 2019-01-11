@@ -3,6 +3,7 @@ package Sanity;
 import myresources.base;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -33,7 +34,7 @@ public class validateFootballPageTest extends base {
         Assert.assertTrue(fp.getFootballLogo().isDisplayed());
         log.info("Football Logo is displaying");
 
-        fp.verifyMainCatVisibility(Integer.parseInt(mainCatNumb));
+        Assert.assertTrue(fp.verifyMainCatVisibility(Integer.parseInt(mainCatNumb)));
 
         Thread.sleep(1000);
     }
@@ -50,7 +51,7 @@ public class validateFootballPageTest extends base {
         //row stands for how many different data types test should run
         //column stands for how many values per each test
         Object[][] data = new Object[1][1];
-        data[0][0] = "23"; //main categories number, visible and not!
+        data[0][0] = "9"; //main categories number, only visible!
 
         return data;
     }
