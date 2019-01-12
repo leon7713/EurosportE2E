@@ -33,4 +33,14 @@
         </classes>
     </test>
 
+    <test verbose="2" preserve-order="true" name="Test - validate Premier League Football page">
+        <classes>
+            <class name="Sanity.validatePremierLeaguePage">
+                <methods>
+                    <include name="randomTests"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
 </suite>

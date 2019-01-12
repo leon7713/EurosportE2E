@@ -3,17 +3,18 @@ package Sanity;
 import myresources.base;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import pageObject.FootballPage;
 import pageObject.MainPage;
+import pageObject.PremierLeaguePage;
 
 import java.io.IOException;
+import java.util.Random;
 
-public class validateFootballPageTest extends base {
+public class validatePremierLeaguePage extends base {
 
     public static Logger log = LogManager.getLogger(base.class.getName());
 
@@ -23,21 +24,22 @@ public class validateFootballPageTest extends base {
         log.info("Driver is initialised");
     }
 
-    @Test(dataProvider = "getData")
-    public void basicTests(String mainCatNumb) throws InterruptedException {
+    @Test (dataProvider = "getData")
+    public void randomTests(String mainCatNumb) throws InterruptedException {
         driver.get(prop.getProperty("url"));
         MainPage mp = new MainPage(driver);
         FootballPage fp = new FootballPage(driver);
+        PremierLeaguePage plp = new PremierLeaguePage(driver);
 
         mp.getFootballBtn().click();
-        Assert.assertTrue(fp.getFootballLogo().isDisplayed());
-        log.info("Football Logo is displaying");
+        fp.getPremierLeagueBtn().click();
 
-        Assert.assertTrue(fp.verifyMainCatVisibility(Integer.parseInt(mainCatNumb)));
+        plp.getPremierLeagueLogo().isDisplayed();
+        plp.verifyCatNumb(Integer.parseInt(mainCatNumb));
+        plp.getRandomCategory().click();
 
         Thread.sleep(1000);
     }
-
 
     @AfterTest
     public void tearDown() {
@@ -50,7 +52,7 @@ public class validateFootballPageTest extends base {
         //row stands for how many different data types test should run
         //column stands for how many values per each test
         Object[][] data = new Object[1][1];
-        data[0][0] = "9"; //main categories number, only visible!
+        data[0][0] = "5"; //main categories number
 
         return data;
     }

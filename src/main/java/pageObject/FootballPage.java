@@ -12,10 +12,12 @@ public class FootballPage {
     }
 
     By footballLogo = By.linkText("Football");
+    By premierLeagueBtn = By.xpath("//li[@class = \"categorylist__item\"]/*[contains(text(), \"Premier League\")]");
 
     public WebElement getFootballLogo() {
         return driver.findElement(footballLogo);
     }
+    public WebElement getPremierLeagueBtn() { return driver.findElement(premierLeagueBtn); }
 
     public boolean verifyMainCatVisibility(int x) {
         boolean result = true;
