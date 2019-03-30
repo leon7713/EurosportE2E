@@ -24,7 +24,7 @@ public class validateSideMenuPage extends base {
     }
 
     @Test (dataProvider = "getData")
-    public void basicTests(String sideMenuCatNumb, String AboutUsCatNemb) throws InterruptedException {
+    public void basicTests(String sideMenuCatNumb, String AboutUsCatNumb) throws InterruptedException {
         driver.get(prop.getProperty("url"));
         MainPage mp = new MainPage(driver);
         SideMenuPage smp = new SideMenuPage(driver);
@@ -35,7 +35,7 @@ public class validateSideMenuPage extends base {
         log.info("Eurosport logo is displaying");
         Assert.assertEquals(Integer.toString(smp.getSideMenuCategories()), sideMenuCatNumb);
 
-        Assert.assertEquals(Integer.toString(smp.getAboutUsCat()), AboutUsCatNemb);
+        Assert.assertEquals(Integer.toString(smp.getAboutUsCat()), AboutUsCatNumb);
 
         Thread.sleep(1000);
     }
@@ -51,8 +51,8 @@ public class validateSideMenuPage extends base {
         //row stands for how many different data types test should run
         //column stands for how many values per each test
         Object[][] data = new Object[1][2];
-        data[0][0] = "12"; // side menu categories number, one category is hidden, the "favorites" category
-        data[0][1] = "8"; // about Us categories number
+        data[0][0] = "9"; // side menu categories number, one category is hidden, the "favorites" category
+        data[0][1] = "6"; // about Us categories number
 
         return data;
     }
