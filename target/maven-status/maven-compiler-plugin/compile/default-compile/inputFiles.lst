@@ -1,5 +1,7 @@
-C:\Users\Leonidus\projects\EurosportE2E\src\main\java\myresources\base.java
-C:\Users\Leonidus\projects\EurosportE2E\src\main\java\pageObject\FootballPage.java
-C:\Users\Leonidus\projects\EurosportE2E\src\main\java\pageObject\SideMenuPage.java
-C:\Users\Leonidus\projects\EurosportE2E\src\main\java\pageObject\PremierLeaguePage.java
-C:\Users\Leonidus\projects\EurosportE2E\src\main\java\pageObject\MainPage.java
+C:\Users\Leonidus\projects\EurosportE2E\src\main\java\pages\SideMenuPage.java
+C:\Users\Leonidus\projects\EurosportE2E\src\main\java\pages\PremierLeaguePage.java
+C:\Users\Leonidus\projects\EurosportE2E\src\main\java\listeners\Listeners.java
+C:\Users\Leonidus\projects\EurosportE2E\src\main\java\base\Page.java
+C:\Users\Leonidus\projects\EurosportE2E\src\main\java\pages\MainPage.java
+C:\Users\Leonidus\projects\EurosportE2E\src\main\java\pages\FootballPage.java
+C:\Users\Leonidus\projects\EurosportE2E\src\main\java\utilities\Utilities.java

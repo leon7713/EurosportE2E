@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-All_Test_Suite" class="navigator-link">
-              <span class="suite-name border-failed">All Test Suite</span>
+              <span class="suite-name border-passed">All Test Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-All_Test_Suite" class="navigator-link ">
-                    <span>C:\Users\Leonidus\projects\EurosportE2E\testng.xml</span>
+                    <span>C:\Users\Leonidus\projects\EurosportE2E\src\test\resources\runner\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,21 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods, 1 failed,   4 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-All_Test_Suite" class="hide-methods failed suite-All_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-All_Test_Suite -->
-                      <a href="#" panel-name="suite-All_Test_Suite" class="show-methods failed suite-All_Test_Suite"> (show)</a> <!-- show-methods failed suite-All_Test_Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-All_Test_Suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-All_Test_Suite" title="Sanity.validateSideMenuPage" class="method navigator-link" hash-for-method="basicTests(12, 8)">basicTests(12, 8)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-All_Test_Suite -->
+                    <span class="method-stats">5 methods,   5 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -116,22 +102,27 @@
                     <div class="method-list-content passed suite-All_Test_Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-All_Test_Suite" title="Sanity.validateFootballPageTest" class="method navigator-link" hash-for-method="basicTests(9)">basicTests(9)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-All_Test_Suite" title="testcases.validateSideMenuPage" class="method navigator-link" hash-for-method="basicTests(9, 6)">basicTests(9, 6)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-All_Test_Suite" title="Sanity.validatePremierLeaguePage" class="method navigator-link" hash-for-method="randomTests(5)">randomTests(5)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-All_Test_Suite" title="testcases.validateFootballPageTest" class="method navigator-link" hash-for-method="basicTests(9)">basicTests(9)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-All_Test_Suite" title="Sanity.validateMainPage" class="method navigator-link" hash-for-method="verifyCatNumber(10)">verifyCatNumber(10)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-All_Test_Suite" title="testcases.validatePremierLeaguePage" class="method navigator-link" hash-for-method="randomTests(5)">randomTests(5)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-All_Test_Suite" title="Sanity.validateMainPage" class="method navigator-link" hash-for-method="verifyLegalNotices">verifyLegalNotices</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-All_Test_Suite" title="testcases.validateMainPage" class="method navigator-link" hash-for-method="verifyCatNumber(10)">verifyCatNumber(10)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="testcases.validateMainPage" class="method navigator-link" hash-for-method="verifyLegalNotices">verifyLegalNotices</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-All_Test_Suite -->
@@ -146,65 +137,26 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-All_Test_Suite" class="panel All_Test_Suite">
-          <div class="suite-All_Test_Suite-class-failed">
+          <div class="suite-All_Test_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">Sanity.validateSideMenuPage</span>
+              <img src="passed.png"/>
+              <span class="class-name">testcases.validateSideMenuPage</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="basicTests(12, 8)">
-                  </a> <!-- basicTests(12, 8) -->
+                  <a name="basicTests(9, 6)">
+                  </a> <!-- basicTests(9, 6) -->
                   <span class="method-name">basicTests</span>
-                  <span class="parameters">(12, 8)</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [12] but found [9]
-	at org.testng.Assert.fail(Assert.java:96)
-	at org.testng.Assert.failNotEquals(Assert.java:776)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-	at org.testng.Assert.assertEquals(Assert.java:118)
-	at org.testng.Assert.assertEquals(Assert.java:453)
-	at org.testng.Assert.assertEquals(Assert.java:463)
-	at Sanity.validateSideMenuPage.basicTests(validateSideMenuPage.java:36)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
-
-</div> <!-- stack-trace -->
+                  <span class="parameters">(9, 6)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-All_Test_Suite-class-failed -->
+          </div> <!-- suite-All_Test_Suite-class-passed -->
           <div class="suite-All_Test_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">Sanity.validatePremierLeaguePage</span>
+              <span class="class-name">testcases.validatePremierLeaguePage</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -220,7 +172,23 @@
           <div class="suite-All_Test_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">Sanity.validateMainPage</span>
+              <span class="class-name">testcases.validateFootballPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="basicTests(9)">
+                  </a> <!-- basicTests(9) -->
+                  <span class="method-name">basicTests</span>
+                  <span class="parameters">(9)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-passed -->
+          <div class="suite-All_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.validateMainPage</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -240,26 +208,10 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-All_Test_Suite-class-passed -->
-          <div class="suite-All_Test_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">Sanity.validateFootballPageTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="basicTests(9)">
-                  </a> <!-- basicTests(9) -->
-                  <span class="method-name">basicTests</span>
-                  <span class="parameters">(9)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-All_Test_Suite-class-passed -->
         </div> <!-- panel All_Test_Suite -->
         <div panel-name="test-xml-All_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Leonidus\projects\EurosportE2E\testng.xml</span>
+            <span class="header-content">C:\Users\Leonidus\projects\EurosportE2E\src\test\resources\runner\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -267,39 +219,39 @@
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;All Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
   &lt;listeners&gt;
-    &lt;listener class-name=&quot;Sanity.Listeners&quot;/&gt;
+    &lt;listener class-name=&quot;listeners.Listeners&quot;/&gt;
   &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test - validate main page&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;Sanity.validateMainPage&quot;&gt;
+      &lt;class name=&quot;testcases.validateMainPage&quot;&gt;
         &lt;methods&gt;
           &lt;include name=&quot;verifyCatNumber&quot;/&gt;
           &lt;include name=&quot;verifyLegalNotices&quot;/&gt;
         &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- Sanity.validateMainPage --&gt;
+      &lt;/class&gt; &lt;!-- testcases.validateMainPage --&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test - validate main page --&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test - validate side main page&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;Sanity.validateSideMenuPage&quot;/&gt;
+      &lt;class name=&quot;testcases.validateSideMenuPage&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test - validate side main page --&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test - validate Football page&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;Sanity.validateFootballPageTest&quot;&gt;
+      &lt;class name=&quot;testcases.validateFootballPageTest&quot;&gt;
         &lt;methods&gt;
           &lt;include name=&quot;basicTests&quot;/&gt;
         &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- Sanity.validateFootballPageTest --&gt;
+      &lt;/class&gt; &lt;!-- testcases.validateFootballPageTest --&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test - validate Football page --&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test - validate Premier League Football page&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;Sanity.validatePremierLeaguePage&quot;&gt;
+      &lt;class name=&quot;testcases.validatePremierLeaguePage&quot;&gt;
         &lt;methods&gt;
           &lt;include name=&quot;randomTests&quot;/&gt;
         &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- Sanity.validatePremierLeaguePage --&gt;
+      &lt;/class&gt; &lt;!-- testcases.validatePremierLeaguePage --&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test - validate Premier League Football page --&gt;
 &lt;/suite&gt; &lt;!-- All Test Suite --&gt;
@@ -350,30 +302,30 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'randomTests')
-data.setCell(0, 2, 'Sanity.validatePremierLeaguePage')
-data.setCell(0, 3, 20665);
+data.setCell(0, 1, 'basicTests')
+data.setCell(0, 2, 'testcases.validateFootballPageTest')
+data.setCell(0, 3, 24640);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'basicTests')
-data.setCell(1, 2, 'Sanity.validateFootballPageTest')
-data.setCell(1, 3, 16679);
+data.setCell(1, 1, 'randomTests')
+data.setCell(1, 2, 'testcases.validatePremierLeaguePage')
+data.setCell(1, 3, 16625);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verifyCatNumber')
-data.setCell(2, 2, 'Sanity.validateMainPage')
-data.setCell(2, 3, 14736);
+data.setCell(2, 1, 'basicTests')
+data.setCell(2, 2, 'testcases.validateSideMenuPage')
+data.setCell(2, 3, 12903);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'verifyLegalNotices')
-data.setCell(3, 2, 'Sanity.validateMainPage')
-data.setCell(3, 3, 8440);
+data.setCell(3, 2, 'testcases.validateMainPage')
+data.setCell(3, 3, 1505);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'basicTests')
-data.setCell(4, 2, 'Sanity.validateSideMenuPage')
-data.setCell(4, 3, 7734);
+data.setCell(4, 1, 'verifyCatNumber')
+data.setCell(4, 2, 'testcases.validateMainPage')
+data.setCell(4, 3, 1098);
 window.suiteTableData['All_Test_Suite']= { tableData: data, tableDiv: 'times-div-All_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 56 seconds</span>
               <div id="times-div-All_Test_Suite">
               </div> <!-- times-div-All_Test_Suite -->
             </div> <!-- times-div -->
@@ -399,70 +351,44 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">Sanity.validateMainPage</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">initialize</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-test before -->
+              <div class="chronological-class-name">testcases.validateMainPage</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">verifyCatNumber(10)</span>
-                <span class="method-start">5734 ms</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyLegalNotices</span>
-                <span class="method-start">20470 ms</span>
+                <span class="method-start">1103 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">28911 ms</span>
+                <span class="method-start">2610 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">Sanity.validateSideMenuPage</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">initialize</span>
-                <span class="method-start">31195 ms</span>
-              </div> <!-- configuration-test before -->
+              <div class="chronological-class-name">testcases.validateSideMenuPage</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">basicTests(12, 8)</span>
-                <span class="method-start">35329 ms</span>
+                <span class="method-name">basicTests(9, 6)</span>
+                <span class="method-start">3146 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">43073 ms</span>
+                <span class="method-start">16049 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">Sanity.validateFootballPageTest</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">initialize</span>
-                <span class="method-start">43409 ms</span>
-              </div> <!-- configuration-test before -->
+              <div class="chronological-class-name">testcases.validateFootballPageTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">basicTests(9)</span>
-                <span class="method-start">47366 ms</span>
+                <span class="method-start">18913 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-test after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">64045 ms</span>
-              </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">Sanity.validatePremierLeaguePage</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">initialize</span>
-                <span class="method-start">66219 ms</span>
-              </div> <!-- configuration-test before -->
+              <div class="chronological-class-name">testcases.validatePremierLeaguePage</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">randomTests(5)</span>
-                <span class="method-start">69915 ms</span>
+                <span class="method-start">43637 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-test after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">90580 ms</span>
-              </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
