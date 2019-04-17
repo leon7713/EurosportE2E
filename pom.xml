@@ -14,31 +14,30 @@
     <artifactId>EurosportE2E</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <!--<profiles>
-        <profile>
-            <id>testcases</id>-->
-                <build>
-                    <resources>
-                    <resource>
-                        <directory>src/main/java/base</directory>
-                        <filtering>true</filtering>
-                    </resource>
-                    </resources>
-                    <pluginManagement>
-                        <plugins>
-                            <plugin>
-                                <groupId>org.apache.maven.plugins</groupId>
-                                <artifactId>maven-surefire-plugin</artifactId>
-                                <version>3.0.0-M3</version>
-                                <configuration>
-                                    <suiteXmlFiles>src\test\resources\runner\testng.xml</suiteXmlFiles>
-                                </configuration>
-                            </plugin>
-                        </plugins>
-                    </pluginManagement>
-                </build>
-        <!--</profile>
-    </profiles>-->
+
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-surefire-plugin</artifactId>
+                    <version>3.0.0-M3</version>
+                    <configuration>
+                        <suiteXmlFiles>src\test\resources\runner\testng.xml</suiteXmlFiles>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+        <testResources>
+            <testResource>
+                <directory>src\test\resources\properties</directory>
+                <includes>
+                    <include>log4j.properties</include>
+                </includes>
+            </testResource>
+        </testResources>
+    </build>
+
 
     <dependencies>
         <dependency>
@@ -72,6 +71,12 @@
             <artifactId>testng</artifactId>
             <version>7.0.0-beta3</version>
             <scope>compile</scope>
+        </dependency>
+        <!-- http://mvnrepository.com/artifact/dom4j/dom4j -->
+        <dependency>
+            <groupId>dom4j</groupId>
+            <artifactId>dom4j</artifactId>
+            <version>1.1</version>
         </dependency>
         <dependency>
             <groupId>log4j</groupId>

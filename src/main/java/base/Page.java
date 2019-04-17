@@ -14,15 +14,12 @@ import utilities.Utilities;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.NoSuchElementException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
-
-
 
 public class Page {
 
@@ -34,59 +31,54 @@ public class Page {
     public static WebDriverWait wait;
     public static String browser;
 
-    public Page() throws IOException {
+    public static void initConfiguration() throws IOException {
 
-        if (driver == null) {
+        fis = new FileInputStream(System.getProperty("user.dir") + "\\src\\test\\resources\\properties\\config.properties");
+        config.load(fis);
+        log.debug("config file loaded !!!");
+        fis = new FileInputStream(System.getProperty("user.dir") + "\\src\\test\\resources\\properties\\or.properties");
+        OR.load(fis);
+        log.debug("OR file loaded !!!");
 
-            fis = new FileInputStream(System.getProperty("user.dir") + "\\src\\test\\resources\\properties\\config.properties");
-            config.load(fis);
-            log.debug("config file loaded !!!");
-            fis = new FileInputStream(System.getProperty("user.dir") + "\\src\\test\\resources\\properties\\or.properties");
-            OR.load(fis);
-            log.debug("OR file loaded !!!");
+        //Jenkins Browser filter configuration
+//           if (System.getenv("browser") != null && !System.getenv("browser").isEmpty()) {
+//               browser = System.getenv("browser");
+//           }
+//           else {
+//               browser = System.getProperty("browser");
+//           }
+        //config.setProperty("browser", browser);
 
-            //Jenkins Browser filter configuration
-            if (System.getenv("browser") != null && !System.getenv("browser").isEmpty()) {
-                browser = System.getenv("browser");
-            }
-            else {
-                browser = System.getProperty("browser");
-            }
-            //config.setProperty("browser", browser);
-
-            if (config.getProperty("browser").equals("firefox")) {
-                //execute in Firefox driver
-                System.setProperty("webdriver.gecko.driver", "C:\\Users\\Leonidus\\projects\\PageObjectModelBasics\\src\\test\\resources\\com.w2a.executables\\geckodriver.exe");
-                driver = new FirefoxDriver();
-            }
-            else if (config.getProperty("browser").equals("chrome")) {
-                //execute in chrome driver
-                System.setProperty("webdriver.chrome.driver", "C:\\Users\\Leonidus\\projects\\PageObjectModelBasics\\src\\test\\resources\\com.w2a.executables\\chromedriver.exe");
-                log.debug("chrome launched !!!");
-                Map<String, Object> prefs = new HashMap<String, Object>();
-                prefs.put("profile.default_content_setting_values.notifications", 2);
-                prefs.put("credentials_enable_service", false);
-                prefs.put("profile.password_manager_enabled", false);
-                ChromeOptions options = new ChromeOptions();
-                options.setExperimentalOption("prefs", prefs);
-                options.addArguments("--disable-extensions");
-                options.addArguments("--disable-infobars");
-                driver = new ChromeDriver(options);
-            }
-            else if (config.getProperty("browser").equals("IE")) {
-                //execute in IE driver
-                System.setProperty("webdriver.IE.driver", "C:\\Users\\Leonidus\\projects\\PageObjectModelBasics\\src\\test\\resources\\com.w2a.executablesIEDriverServer.exe");
-                driver = new InternetExplorerDriver();
-            }
-
-            //System.setProperty("webdriver.chrome.driver", "C:\\Users\\Leonidus\\projects\\PageObjectModelBasics\\src\\test\\resources\\com.w2a.executables\\chromedriver.exe");
-
-            driver.get(config.getProperty("testsiteurl"));
-            log.debug("navigated to: " + config.getProperty("testsiteurl"));
-            driver.manage().window().maximize();
-            driver.manage().timeouts().implicitlyWait(Integer.parseInt(config.getProperty("implicit.wait")), TimeUnit.SECONDS);
-            wait = new WebDriverWait(driver, 5);
+        if (config.getProperty("browser").equals("firefox")) {
+            //execute in Firefox driver
+            System.setProperty("webdriver.gecko.driver", "C:\\Users\\Leonidus\\projects\\PageObjectModelBasics\\src\\test\\resources\\com.w2a.executables\\geckodriver.exe");
+            driver = new FirefoxDriver();
         }
+        else if (config.getProperty("browser").equals("chrome")) {
+            //execute in chrome driver
+            System.setProperty("webdriver.chrome.driver", "C:\\Users\\Leonidus\\projects\\PageObjectModelBasics\\src\\test\\resources\\com.w2a.executables\\chromedriver.exe");
+            log.debug("chrome launched !!!");
+            Map<String, Object> prefs = new HashMap<String, Object>();
+            prefs.put("profile.default_content_setting_values.notifications", 2);
+            prefs.put ("credentials_enable_service", false);
+            prefs.put ("profile.password_manager_enabled", false);
+            ChromeOptions options = new ChromeOptions ();
+            options.setExperimentalOption ("prefs", prefs);
+            options.addArguments ("--disable-extensions");
+            options.addArguments ("--disable-infobars");
+            driver = new ChromeDriver (options);
+            }
+        else if (config.getProperty("browser").equals("IE")) {
+            //execute in IE driver
+            System.setProperty("webdriver.IE.driver", "C:\\Users\\Leonidus\\projects\\PageObjectModelBasics\\src\\test\\resources\\executablesIEDriverServer.exe");
+            driver = new InternetExplorerDriver();
+        }
+
+        driver.get(config.getProperty("testsiteurl"));
+        log.debug("navigated to: " + config.getProperty("testsiteurl"));
+        driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(Integer.parseInt(config.getProperty("implicit.wait")), TimeUnit.SECONDS);
+        wait = new WebDriverWait(driver, 5);
     }
 
     public void getScreenshot(String result) throws IOException {
@@ -94,7 +86,7 @@ public class Page {
         FileUtils.copyFile(src, new File("C://test//" + result + "screenshot.png"));
     }
 
-    public static void quit() {
+    public static void quitBrowser() {
         driver.quit();
     }
 

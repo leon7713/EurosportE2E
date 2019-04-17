@@ -21,7 +21,6 @@ public class MainPage extends Page {
     By footbalBtn = By.linkText("Football");
 
 
-
     public WebElement getMainLogo() {
         return driver.findElement(mainLogo);
     }
