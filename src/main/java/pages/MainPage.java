@@ -5,11 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 
-import java.io.IOException;
-
 public class MainPage extends Page {
-
-    public MainPage()throws IOException {}
 
     By mainLogo = By.className("header-logo");
     By categoryList = By.xpath("//*[contains(@class, \"categorylist__item\")]");

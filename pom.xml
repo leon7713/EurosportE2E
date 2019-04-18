@@ -28,14 +28,14 @@
                 </plugin>
             </plugins>
         </pluginManagement>
-        <testResources>
-            <testResource>
+        <resources>
+            <resource>
                 <directory>src\test\resources\properties</directory>
-                <includes>
-                    <include>log4j.properties</include>
-                </includes>
-            </testResource>
-        </testResources>
+<!--                <includes>-->
+<!--                    <include>log4j.properties</include>-->
+<!--                </includes>-->
+            </resource>
+        </resources>
     </build>
 
 

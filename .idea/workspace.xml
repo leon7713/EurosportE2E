@@ -3,32 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="48cf84e9-ac89-4f4b-9bc2-81a63e93a1b6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/prints.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/prints.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/base/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/Page.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/validateFootballPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/validateFootballPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/validateMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/validateMainPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/validatePremierLeaguePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/validatePremierLeaguePageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/validateSideMenuPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/validateSideMenuPageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/logs/Application.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/logs/Application.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/logs/Selenium.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/logs/Selenium.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/properties/OR.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/properties/OR.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/runner/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/runner/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Page.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/base/Page.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/base/Page.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/MainPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/executables/IEDriverServer.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/executables/chromedriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/executables/geckodriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Selenium.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/properties/Config.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/properties/OR.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/runner/testng.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testcases/validateFootballPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testcases/validateFootballPageTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testcases/validateMainPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testcases/validatePremierLeaguePage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testcases/validateSideMenuPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/log4j.properties" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -46,77 +26,36 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/base/Page.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
+            <state relative-caret-position="170">
               <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#4173#4174#0" expanded="true" />
-                <element signature="e#4202#4203#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="80" column="20" lean-forward="true" selection-start-line="80" selection-start-column="20" selection-end-line="80" selection-end-column="20" />
+            <state relative-caret-position="612">
+              <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/testcases/validateFootballPageTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1144#1145#0" expanded="true" />
-                <element signature="e#1178#1179#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/testcases/validatePremierLeaguePageTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1272#1273#0" expanded="true" />
-                <element signature="e#1306#1307#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/testcases/validateSideMenuPageTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="37">
-              <caret line="40" column="3" selection-start-line="40" selection-start-column="3" selection-end-line="43" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1257#1258#0" expanded="true" />
-                <element signature="e#1291#1292#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/src/test/resources/properties/log4j2.xml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/testcases/validateMainPageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
+            <state relative-caret-position="238">
               <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1428#1429#0" expanded="true" />
-                <element signature="e#1462#1463#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -149,11 +88,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/pages/MainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+            <state relative-caret-position="68">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#859#860#0" expanded="true" />
@@ -210,13 +149,13 @@
         <option value="$PROJECT_DIR$/src/test/java/testcases/validateSideMenuPage.java" />
         <option value="$PROJECT_DIR$/src/test/resources/runner/testng.xml" />
         <option value="$PROJECT_DIR$/src/test/java/testcases/BaseTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pages/MainPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/testcases/validateMainPageTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/testcases/validateSideMenuPageTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/base/Page.java" />
         <option value="$PROJECT_DIR$/src/test/java/testcases/validateFootballPageTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/testcases/validatePremierLeaguePageTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/MainPage.java" />
       </list>
     </option>
   </component>
@@ -241,6 +180,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -257,6 +197,27 @@
               <item name="EurosportE2E" type="b2602c69:ProjectViewProjectNode" />
               <item name="EurosportE2E" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EurosportE2E" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EurosportE2E" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EurosportE2E" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EurosportE2E" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EurosportE2E" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EurosportE2E" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -265,6 +226,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EurosportE2E" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EurosportE2E" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="EurosportE2E" type="b2602c69:ProjectViewProjectNode" />
@@ -278,7 +247,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -293,19 +261,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Leonidus\projects\EurosportE2E\src\test\resources\runner" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="utilities" />
+      <recent name="myresources" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Leonidus\projects\EurosportE2E\src\test\resources\properties" />
       <recent name="C:\Users\Leonidus\projects\EurosportE2E\src\main\java" />
       <recent name="C:\Users\Leonidus\projects\EurosportE2E\src\test\resources" />
       <recent name="C:\Users\Leonidus\projects\EurosportE2E\src\test\resources\executables" />
       <recent name="C:\Users\Leonidus\projects\EurosportE2E\src\main\java\resources" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="utilities" />
-      <recent name="myresources" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Leonidus\projects\EurosportE2E\src\test\resources\runner" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -430,24 +398,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="validateMainPageTest - 2019.04.17 at 14h 52m 03s.xml">
-      <configuration name="validateMainPageTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="validateMainPageTest - 2019.04.17 at 14h 53m 19s.xml">
-      <configuration name="validateMainPageTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Leonidus_projects_EurosportE2E_src_test_resources_runner_testng_xml - 2019.04.17 at 14h 55m 28s.xml">
-      <configuration name="C:/Users/Leonidus/projects/EurosportE2E/src/test/resources/runner/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Leonidus_projects_EurosportE2E_src_test_resources_runner_testng_xml - 2019.04.17 at 14h 56m 22s.xml">
-      <configuration name="C:/Users/Leonidus/projects/EurosportE2E/src/test/resources/runner/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="validateSideMenuPageTest - 2019.04.17 at 14h 57m 35s.xml">
-      <configuration name="validateSideMenuPageTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="validateSideMenuPageTest - 2019.04.17 at 15h 11m 07s.xml">
-      <configuration name="validateSideMenuPageTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="C__Users_Leonidus_projects_EurosportE2E_src_test_resources_runner_testng_xml - 2019.04.17 at 15h 11m 52s.xml">
       <configuration name="C:/Users/Leonidus/projects/EurosportE2E/src/test/resources/runner/testng.xml" configurationId="TestNG" />
     </history-entry>
@@ -458,6 +408,24 @@
       <configuration name="C:/Users/Leonidus/projects/EurosportE2E/src/test/resources/runner/testng.xml" configurationId="TestNG" />
     </history-entry>
     <history-entry file="C__Users_Leonidus_projects_EurosportE2E_src_test_resources_runner_testng_xml - 2019.04.17 at 15h 19m 37s.xml">
+      <configuration name="C:/Users/Leonidus/projects/EurosportE2E/src/test/resources/runner/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Leonidus_projects_EurosportE2E_src_test_resources_runner_testng_xml - 2019.04.17 at 18h 08m 55s.xml">
+      <configuration name="C:/Users/Leonidus/projects/EurosportE2E/src/test/resources/runner/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Leonidus_projects_EurosportE2E_src_test_resources_runner_testng_xml - 2019.04.18 at 17h 04m 19s.xml">
+      <configuration name="C:/Users/Leonidus/projects/EurosportE2E/src/test/resources/runner/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Leonidus_projects_EurosportE2E_src_test_resources_runner_testng_xml - 2019.04.18 at 17h 42m 02s.xml">
+      <configuration name="C:/Users/Leonidus/projects/EurosportE2E/src/test/resources/runner/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Leonidus_projects_EurosportE2E_src_test_resources_runner_testng_xml - 2019.04.18 at 17h 43m 29s.xml">
+      <configuration name="C:/Users/Leonidus/projects/EurosportE2E/src/test/resources/runner/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Leonidus_projects_EurosportE2E_src_test_resources_runner_testng_xml - 2019.04.18 at 17h 46m 12s.xml">
+      <configuration name="C:/Users/Leonidus/projects/EurosportE2E/src/test/resources/runner/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Leonidus_projects_EurosportE2E_src_test_resources_runner_testng_xml - 2019.04.18 at 18h 32m 03s.xml">
       <configuration name="C:/Users/Leonidus/projects/EurosportE2E/src/test/resources/runner/testng.xml" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -474,7 +442,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2526475" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2602118" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -483,7 +451,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.41571194" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.41571194" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -659,64 +627,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/MainPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#859#860#0" expanded="true" />
-            <element signature="e#910#911#0" expanded="true" />
-            <element signature="e#1331#1332#0" expanded="true" />
-            <element signature="e#1381#1382#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testcases/validateFootballPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
+        <state relative-caret-position="238">
           <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1144#1145#0" expanded="true" />
-            <element signature="e#1178#1179#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testcases/validateSideMenuPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="40" column="3" selection-start-line="40" selection-start-column="3" selection-end-line="43" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1257#1258#0" expanded="true" />
-            <element signature="e#1291#1292#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testcases/validatePremierLeaguePageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
+        <state relative-caret-position="544">
           <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1272#1273#0" expanded="true" />
-            <element signature="e#1306#1307#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testcases/validateMainPageTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/testcases/validateSideMenuPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+        <state relative-caret-position="493">
+          <caret line="40" column="3" selection-start-line="40" selection-start-column="3" selection-end-line="43" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1428#1429#0" expanded="true" />
-            <element signature="e#1462#1463#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -726,6 +662,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/logs/Application.log">
       <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/base/Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testcases/validateMainPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/properties/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/properties/Config.properties">
       <provider selected="true" editor-type-id="text-editor">
@@ -741,29 +711,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/properties/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/properties/log4j2.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/base/Page.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+        <state relative-caret-position="68">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4173#4174#0" expanded="true" />
-            <element signature="e#4202#4203#0" expanded="true" />
+            <element signature="e#859#860#0" expanded="true" />
+            <element signature="e#910#911#0" expanded="true" />
+            <element signature="e#1331#1332#0" expanded="true" />
+            <element signature="e#1381#1382#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="80" column="20" lean-forward="true" selection-start-line="80" selection-start-column="20" selection-end-line="80" selection-end-column="20" />
         </state>
       </provider>
     </entry>

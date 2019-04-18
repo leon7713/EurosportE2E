@@ -1,4 +1,4 @@
-16:55:21.196 [main] INFO  base.Page - Eurosport logo is displaying
-16:55:26.261 [main] INFO  base.Page - Driver is initialised
-16:55:50.268 [main] INFO  base.Page - Football Logo is displaying
-16:55:57.217 [main] INFO  base.Page - Driver is initialised
+18:30:53.380 [main] INFO  base.Page - Test - validate main page - is successful
+18:31:09.898 [main] INFO  base.Page - Eurosport logo is displaying
+18:31:30.535 [main] INFO  base.Page - Football Logo is displaying
+18:32:01.244 [main] INFO  base.Page - test - random tests - is done successfully
