@@ -102,6 +102,12 @@ public class Page {
         else if (locator.endsWith("_ID")) {
             driver.findElement(By.id(OR.getProperty(locator))).click();
         }
+        else if (locator.endsWith("_CN")) {
+            driver.findElement(By.className (OR.getProperty (locator))).click ();
+        }
+        else if (locator.endsWith("_LT")) {
+            driver.findElement(By.linkText(OR.getProperty(locator))).click();
+        }
         //test.log(LogStatus.INFO, "Clicking on: " + locator);
         log.debug("Clicking on element: " + locator);
     }
@@ -141,21 +147,44 @@ public class Page {
 
     }
 
-    public boolean isElementPresent(By by) {
+    public static void isElementDisplayed(String locator) {
 
-        try {
-            driver.findElement(by);
-            return true;
-        } catch (NoSuchElementException e) {
-            return false;
+        if (locator.endsWith("_CSS")) {
+            driver.findElement(By.cssSelector(OR.getProperty(locator))).isDisplayed();
         }
+        else if (locator.endsWith("_XPATH")) {
+            driver.findElement(By.xpath(OR.getProperty(locator))).isDisplayed();
+        }
+        else if (locator.endsWith("_ID")) {
+            driver.findElement(By.id(OR.getProperty(locator))).isDisplayed();
+        }
+        else if (locator.endsWith("_CN")) {
+            driver.findElement(By.className (OR.getProperty(locator))).isDisplayed();
+        }
+        else if (locator.endsWith("_LT")) {
+            driver.findElement(By.linkText(OR.getProperty(locator))).isDisplayed();
+        }
+        log.info("The element is displayed: " + locator);
     }
 
-    public static void verifyEquals(String expected, String actual) throws IOException {
-        try{
-            Assert.assertEquals(expected, actual);
-        } catch (Throwable t) {
-            Utilities.captureScreenshot("verifyEquals failed! ");
+    public static void verifyEquals(String expected, String locator) {
+        int elementsNumber = 0;
+        if (locator.endsWith("_CSS")) {
+            elementsNumber = driver.findElements(By.cssSelector(OR.getProperty(locator))).size();
         }
+        else if (locator.endsWith("_XPATH")) {
+            elementsNumber = driver.findElements(By.xpath(OR.getProperty(locator))).size();
+        }
+        else if (locator.endsWith("_ID")) {
+            elementsNumber = driver.findElements(By.id(OR.getProperty(locator))).size();
+        }
+        else if (locator.endsWith("_CN")) {
+            elementsNumber = driver.findElements(By.className (OR.getProperty (locator))).size();
+        }
+        else if (locator.endsWith("_LT")) {
+            elementsNumber = driver.findElements(By.linkText(OR.getProperty(locator))).size();
+        }
+        Assert.assertEquals(Integer.parseInt(expected), elementsNumber);
+        log.info("Elements are equal");
     }
 }

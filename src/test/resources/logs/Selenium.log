@@ -1,16 +1,21 @@
-18:30:40,430 DEBUG devpinoyLogger:38 - config file loaded !!!
-18:30:40,436 DEBUG devpinoyLogger:41 - OR file loaded !!!
-18:30:40,439 DEBUG devpinoyLogger:60 - chrome launched !!!
-18:30:52,036 DEBUG devpinoyLogger:78 - navigated to: https://www.eurosport.com/
-18:30:57,617 DEBUG devpinoyLogger:38 - config file loaded !!!
-18:30:57,635 DEBUG devpinoyLogger:41 - OR file loaded !!!
-18:30:57,657 DEBUG devpinoyLogger:60 - chrome launched !!!
-18:31:08,497 DEBUG devpinoyLogger:78 - navigated to: https://www.eurosport.com/
-18:31:11,757 DEBUG devpinoyLogger:38 - config file loaded !!!
-18:31:11,760 DEBUG devpinoyLogger:41 - OR file loaded !!!
-18:31:11,760 DEBUG devpinoyLogger:60 - chrome launched !!!
-18:31:23,048 DEBUG devpinoyLogger:78 - navigated to: https://www.eurosport.com/
-18:31:32,751 DEBUG devpinoyLogger:38 - config file loaded !!!
-18:31:32,752 DEBUG devpinoyLogger:41 - OR file loaded !!!
-18:31:32,752 DEBUG devpinoyLogger:60 - chrome launched !!!
-18:31:41,833 DEBUG devpinoyLogger:78 - navigated to: https://www.eurosport.com/
+14:53:19,848 DEBUG devpinoyLogger:38 - config file loaded !!!
+14:53:19,853 DEBUG devpinoyLogger:41 - OR file loaded !!!
+14:53:19,854 DEBUG devpinoyLogger:60 - chrome launched !!!
+14:53:30,676 DEBUG devpinoyLogger:78 - navigated to: https://www.eurosport.com/
+14:53:32,075  INFO devpinoyLogger:167 - The element is displayed: mainLogo_CN
+14:53:32,122  INFO devpinoyLogger:188 - Elements are equal
+14:53:33,293  INFO devpinoyLogger:167 - The element is displayed: legalNotices_CN
+14:53:33,354  INFO devpinoyLogger:167 - The element is displayed: privacyPolicy_XPATH
+14:53:33,408  INFO devpinoyLogger:167 - The element is displayed: cookiePolicy_XPATH
+14:53:35,218 DEBUG devpinoyLogger:38 - config file loaded !!!
+14:53:35,220 DEBUG devpinoyLogger:41 - OR file loaded !!!
+14:53:35,221 DEBUG devpinoyLogger:60 - chrome launched !!!
+14:53:45,310 DEBUG devpinoyLogger:78 - navigated to: https://www.eurosport.com/
+14:53:48,737 DEBUG devpinoyLogger:38 - config file loaded !!!
+14:53:48,739 DEBUG devpinoyLogger:41 - OR file loaded !!!
+14:53:48,739 DEBUG devpinoyLogger:60 - chrome launched !!!
+14:54:01,038 DEBUG devpinoyLogger:78 - navigated to: https://www.eurosport.com/
+14:54:09,079 DEBUG devpinoyLogger:38 - config file loaded !!!
+14:54:09,080 DEBUG devpinoyLogger:41 - OR file loaded !!!
+14:54:09,080 DEBUG devpinoyLogger:60 - chrome launched !!!
+14:54:18,843 DEBUG devpinoyLogger:78 - navigated to: https://www.eurosport.com/

@@ -1,16 +1,7 @@
-17:45:03,515 DEBUG devpinoyLogger:38 - config file loaded !!!
-17:45:03,520 DEBUG devpinoyLogger:41 - OR file loaded !!!
-17:45:03,521 DEBUG devpinoyLogger:60 - chrome launched !!!
-17:45:13,486 DEBUG devpinoyLogger:78 - navigated to: https://www.eurosport.com/
-17:45:18,568 DEBUG devpinoyLogger:38 - config file loaded !!!
-17:45:18,569 DEBUG devpinoyLogger:41 - OR file loaded !!!
-17:45:18,570 DEBUG devpinoyLogger:60 - chrome launched !!!
-17:45:27,913 DEBUG devpinoyLogger:78 - navigated to: https://www.eurosport.com/
-17:45:31,537 DEBUG devpinoyLogger:38 - config file loaded !!!
-17:45:31,538 DEBUG devpinoyLogger:41 - OR file loaded !!!
-17:45:31,539 DEBUG devpinoyLogger:60 - chrome launched !!!
-17:45:41,349 DEBUG devpinoyLogger:78 - navigated to: https://www.eurosport.com/
-17:45:47,442 DEBUG devpinoyLogger:38 - config file loaded !!!
-17:45:47,443 DEBUG devpinoyLogger:41 - OR file loaded !!!
-17:45:47,444 DEBUG devpinoyLogger:60 - chrome launched !!!
-17:45:56,656 DEBUG devpinoyLogger:78 - navigated to: https://www.eurosport.com/
+14:51:52,419 DEBUG devpinoyLogger:38 - config file loaded !!!
+14:51:52,427 DEBUG devpinoyLogger:41 - OR file loaded !!!
+14:51:52,429 DEBUG devpinoyLogger:60 - chrome launched !!!
+14:52:03,418 DEBUG devpinoyLogger:78 - navigated to: https://www.eurosport.com/
+14:52:04,856  INFO devpinoyLogger:167 - The element is displayed: legalNotices_CN
+14:52:04,923  INFO devpinoyLogger:167 - The element is displayed: privacyPolicy_XPATH
+14:52:04,970  INFO devpinoyLogger:167 - The element is displayed: cookiePolicy_XPATH

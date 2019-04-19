@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 
 public class MainPage extends Page {
 
-    By mainLogo = By.className("header-logo");
+    //By mainLogo = By.className("header-logo");
     By categoryList = By.xpath("//*[contains(@class, \"categorylist__item\")]");
     By moreBtn = By.xpath("//*[@class = \"categorylist__item categorylist__item--sports\"]/a");
     By legalNotices = By.className("legal-notice-menu__title");
@@ -17,26 +17,37 @@ public class MainPage extends Page {
     By footbalBtn = By.linkText("Football");
 
 
-    public WebElement getMainLogo() {
-        return driver.findElement(mainLogo);
+    public void getMainLogo() {
+        isElementDisplayed("mainLogo_CN");
     }
 
     public void scrolltoLegalNotice () {
-        WebElement legalNotice = driver.findElement(By.className("legal-notice-menu__title"));
+        WebElement legalNotice = driver.findElement(By.className(OR.getProperty("legalNotice_CN")));
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("arguments[0].scrollIntoView();",legalNotice);
     }
 
-    public int getCategoryListNumber () {
-        return driver.findElements(categoryList).size();
+    public void verifyCategoryListNumber () {
+        verifyEquals(OR.getProperty("mainCatNumber"), "categoryList_XPATH");
     }
 
     public WebElement getMoreBtn () {
         return driver.findElement(moreBtn);
     }
 
-    public WebElement getLegalNotices () { return  driver.findElement(legalNotices); }
-    public WebElement getPrivacyPolicy () { return  driver.findElement(privacyPolicy); }
-    public WebElement getCookiePolicy () { return  driver.findElement(cookiePolicy); }
-    public WebElement getFootballBtn () { return driver.findElement(footbalBtn); }
+    public void getLegalNotices () {
+        isElementDisplayed("legalNotices_CN");
+    }
+
+    public void getPrivacyPolicy () {
+        isElementDisplayed("privacyPolicy_XPATH");
+    }
+
+    public void getCookiePolicy () {
+        isElementDisplayed("cookiePolicy_XPATH");
+    }
+
+    public WebElement getFootballBtn () {
+        return driver.findElement(footbalBtn);
+    }
 }
