@@ -1,7 +1,30 @@
-19/04/2019 14:51:52 devpinoyLogger config file loaded !!!
-19/04/2019 14:51:52 devpinoyLogger OR file loaded !!!
-19/04/2019 14:51:52 devpinoyLogger chrome launched !!!
-19/04/2019 14:52:03 devpinoyLogger navigated to: https://www.eurosport.com/
-19/04/2019 14:52:04 devpinoyLogger The element is displayed: legalNotices_CN
-19/04/2019 14:52:04 devpinoyLogger The element is displayed: privacyPolicy_XPATH
-19/04/2019 14:52:04 devpinoyLogger The element is displayed: cookiePolicy_XPATH
+20/04/2019 13:58:11 devpinoyLogger config file loaded !!!
+20/04/2019 13:58:11 devpinoyLogger OR file loaded !!!
+20/04/2019 13:58:11 devpinoyLogger chrome launched !!!
+20/04/2019 13:58:22 devpinoyLogger navigated to: https://www.eurosport.com/
+20/04/2019 13:58:23 devpinoyLogger The element is displayed: mainLogo_CN
+20/04/2019 13:58:23 devpinoyLogger Elements are equal
+20/04/2019 13:58:24 devpinoyLogger The element is displayed: legalNotices_CN
+20/04/2019 13:58:24 devpinoyLogger The element is displayed: privacyPolicy_XPATH
+20/04/2019 13:58:24 devpinoyLogger The element is displayed: cookiePolicy_XPATH
+20/04/2019 13:58:26 devpinoyLogger config file loaded !!!
+20/04/2019 13:58:26 devpinoyLogger OR file loaded !!!
+20/04/2019 13:58:26 devpinoyLogger chrome launched !!!
+20/04/2019 13:58:36 devpinoyLogger navigated to: https://www.eurosport.com/
+20/04/2019 13:58:37 devpinoyLogger Clicking on element: moreBtn_XPATH
+20/04/2019 13:58:37 devpinoyLogger The element is displayed: eurosportLogo_CN
+20/04/2019 13:58:38 devpinoyLogger Elements are equal
+20/04/2019 13:58:38 devpinoyLogger Elements are equal
+20/04/2019 13:58:39 devpinoyLogger config file loaded !!!
+20/04/2019 13:58:39 devpinoyLogger OR file loaded !!!
+20/04/2019 13:58:39 devpinoyLogger chrome launched !!!
+20/04/2019 13:58:49 devpinoyLogger navigated to: https://www.eurosport.com/
+20/04/2019 13:58:54 devpinoyLogger Clicking on element: footbalBtn_LT
+20/04/2019 13:58:54 devpinoyLogger The element is displayed: footballLogo_LT
+20/04/2019 13:58:56 devpinoyLogger config file loaded !!!
+20/04/2019 13:58:56 devpinoyLogger OR file loaded !!!
+20/04/2019 13:58:56 devpinoyLogger chrome launched !!!
+20/04/2019 13:59:06 devpinoyLogger navigated to: https://www.eurosport.com/
+20/04/2019 13:59:12 devpinoyLogger Clicking on element: footbalBtn_LT
+20/04/2019 13:59:15 devpinoyLogger Clicking on element: premierLeagueBtn_XPATH
+20/04/2019 13:59:15 devpinoyLogger The element is displayed: premierLeagueLogo_XPATH

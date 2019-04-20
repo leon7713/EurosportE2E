@@ -2,31 +2,28 @@ package pages;
 
 import base.Page;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-
-import java.io.IOException;
+import org.testng.Assert;
 
 public class FootballPage extends Page {
 
-    public FootballPage() throws IOException {}
-
-
-    By footballLogo = By.linkText("Football");
-    By premierLeagueBtn = By.xpath("//li[@class = \"categorylist__item\"]/*[contains(text(), \"Premier League\")]");
-
-    public WebElement getFootballLogo() {
-        return driver.findElement(footballLogo);
+    public void getFootballLogo() {
+        isElementDisplayed("footballLogo_LT");
     }
-    public WebElement getPremierLeagueBtn() { return driver.findElement(premierLeagueBtn); }
 
-    public boolean verifyMainCatVisibility(int x) {
+    public PremierLeaguePage getPremierLeagueBtn() {
+        click("premierLeagueBtn_XPATH");
+        return new PremierLeaguePage();
+    }
+
+    public void verifyMainCatVisibility() {
         boolean result = true;
-        for (int i = 1; i <= x; i++) {
+        int catNumb = Integer.parseInt(OR.getProperty("footballPageMainCatNumb"));
+
+        for (int i = 1; i <= catNumb; i++) {
             if (!driver.findElement(By.xpath("//*[@class = \"categorylist\"]/li[" + i + "]")).isDisplayed()) {
                 result = false;
             }
         }
-        return result;
+        Assert.assertTrue(result);
     }
 }

@@ -25,21 +25,13 @@
 
     <test verbose="2" preserve-order="true" name="Test - validate Football page">
         <classes>
-            <class name="testcases.validateFootballPageTest">
-                <methods>
-                    <include name="basicTests"/>
-                </methods>
-            </class>
+            <class name="testcases.validateFootballPageTest"/>
         </classes>
     </test>
 
     <test verbose="2" preserve-order="true" name="Test - validate Premier League Football page">
         <classes>
-            <class name="testcases.validatePremierLeaguePageTest">
-                <methods>
-                    <include name="randomTests"/>
-                </methods>
-            </class>
+            <class name="testcases.validatePremierLeaguePageTest"/>
         </classes>
     </test>
 

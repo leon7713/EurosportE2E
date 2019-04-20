@@ -1,21 +1,30 @@
-19/04/2019 14:53:19 devpinoyLogger config file loaded !!!
-19/04/2019 14:53:19 devpinoyLogger OR file loaded !!!
-19/04/2019 14:53:19 devpinoyLogger chrome launched !!!
-19/04/2019 14:53:30 devpinoyLogger navigated to: https://www.eurosport.com/
-19/04/2019 14:53:32 devpinoyLogger The element is displayed: mainLogo_CN
-19/04/2019 14:53:32 devpinoyLogger Elements are equal
-19/04/2019 14:53:33 devpinoyLogger The element is displayed: legalNotices_CN
-19/04/2019 14:53:33 devpinoyLogger The element is displayed: privacyPolicy_XPATH
-19/04/2019 14:53:33 devpinoyLogger The element is displayed: cookiePolicy_XPATH
-19/04/2019 14:53:35 devpinoyLogger config file loaded !!!
-19/04/2019 14:53:35 devpinoyLogger OR file loaded !!!
-19/04/2019 14:53:35 devpinoyLogger chrome launched !!!
-19/04/2019 14:53:45 devpinoyLogger navigated to: https://www.eurosport.com/
-19/04/2019 14:53:48 devpinoyLogger config file loaded !!!
-19/04/2019 14:53:48 devpinoyLogger OR file loaded !!!
-19/04/2019 14:53:48 devpinoyLogger chrome launched !!!
-19/04/2019 14:54:01 devpinoyLogger navigated to: https://www.eurosport.com/
-19/04/2019 14:54:09 devpinoyLogger config file loaded !!!
-19/04/2019 14:54:09 devpinoyLogger OR file loaded !!!
-19/04/2019 14:54:09 devpinoyLogger chrome launched !!!
-19/04/2019 14:54:18 devpinoyLogger navigated to: https://www.eurosport.com/
+20/04/2019 14:03:08 devpinoyLogger config file loaded !!!
+20/04/2019 14:03:08 devpinoyLogger OR file loaded !!!
+20/04/2019 14:03:08 devpinoyLogger chrome launched !!!
+20/04/2019 14:03:23 devpinoyLogger navigated to: https://www.eurosport.com/
+20/04/2019 14:03:24 devpinoyLogger The element is displayed: mainLogo_CN
+20/04/2019 14:03:24 devpinoyLogger Elements are equal
+20/04/2019 14:03:26 devpinoyLogger The element is displayed: legalNotices_CN
+20/04/2019 14:03:26 devpinoyLogger The element is displayed: privacyPolicy_XPATH
+20/04/2019 14:03:26 devpinoyLogger The element is displayed: cookiePolicy_XPATH
+20/04/2019 14:03:28 devpinoyLogger config file loaded !!!
+20/04/2019 14:03:28 devpinoyLogger OR file loaded !!!
+20/04/2019 14:03:28 devpinoyLogger chrome launched !!!
+20/04/2019 14:03:37 devpinoyLogger navigated to: https://www.eurosport.com/
+20/04/2019 14:03:39 devpinoyLogger Clicking on element: moreBtn_XPATH
+20/04/2019 14:03:39 devpinoyLogger The element is displayed: eurosportLogo_CN
+20/04/2019 14:03:39 devpinoyLogger Elements are equal
+20/04/2019 14:03:39 devpinoyLogger Elements are equal
+20/04/2019 14:03:41 devpinoyLogger config file loaded !!!
+20/04/2019 14:03:41 devpinoyLogger OR file loaded !!!
+20/04/2019 14:03:41 devpinoyLogger chrome launched !!!
+20/04/2019 14:03:52 devpinoyLogger navigated to: https://www.eurosport.com/
+20/04/2019 14:03:59 devpinoyLogger Clicking on element: footbalBtn_LT
+20/04/2019 14:03:59 devpinoyLogger The element is displayed: footballLogo_LT
+20/04/2019 14:04:01 devpinoyLogger config file loaded !!!
+20/04/2019 14:04:01 devpinoyLogger OR file loaded !!!
+20/04/2019 14:04:01 devpinoyLogger chrome launched !!!
+20/04/2019 14:04:11 devpinoyLogger navigated to: https://www.eurosport.com/
+20/04/2019 14:04:16 devpinoyLogger Clicking on element: footbalBtn_LT
+20/04/2019 14:04:18 devpinoyLogger Clicking on element: premierLeagueBtn_XPATH
+20/04/2019 14:04:19 devpinoyLogger The element is displayed: premierLeagueLogo_XPATH

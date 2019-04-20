@@ -5,7 +5,6 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
-import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import pages.FootballPage;
 import pages.MainPage;
@@ -13,8 +12,7 @@ import pages.PremierLeaguePage;
 
 import java.io.IOException;
 
-public class validatePremierLeaguePageTest {
-
+public class validatePremierLeaguePageTest extends Page{
 
     public static Logger log = LogManager.getLogger(Page.class.getName());
 
@@ -24,17 +22,15 @@ public class validatePremierLeaguePageTest {
     }
 
     @Test (dataProvider = "getData")
-    public void randomTests(String mainCatNumb) throws InterruptedException, IOException {
+    public void PremierLeagueTests(String mainCatNumb) throws InterruptedException, IOException {
         MainPage mp = new MainPage();
-        FootballPage fp = new FootballPage();
-        PremierLeaguePage plp = new PremierLeaguePage();
 
-        mp.getFootballBtn().click();
-        fp.getPremierLeagueBtn().click();
+        FootballPage fp = mp.getFootballBtn();
+        PremierLeaguePage plp = fp.getPremierLeagueBtn();
 
-        plp.getPremierLeagueLogo().isDisplayed();
-        plp.verifyCatNumb(Integer.parseInt(mainCatNumb));
-        plp.getRandomCategory().click();
+        plp.getPremierLeagueLogo();
+        plp.verifyCatNumb(mainCatNumb);
+        plp.getRandomCategory();
         log.info("test - random tests - is done successfully");
 
         Thread.sleep(1000);
@@ -45,13 +41,4 @@ public class validatePremierLeaguePageTest {
         Page.quitBrowser();
     }
 
-    @DataProvider
-    public Object[][] getData() {
-        //row stands for how many different data types test should run
-        //column stands for how many values per each test
-        Object[][] data = new Object[1][1];
-        data[0][0] = "5"; //main categories number
-
-        return data;
-    }
 }

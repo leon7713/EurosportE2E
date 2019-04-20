@@ -1,0 +1,5 @@
+testcases\validateFootballPageTest.class
+testcases\validateSideMenuPageTest.class
+testcases\BaseTest.class
+testcases\validateMainPageTest.class
+testcases\validatePremierLeaguePageTest.class

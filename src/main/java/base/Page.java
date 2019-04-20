@@ -10,6 +10,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.apache.log4j.Logger;
 import org.testng.Assert;
+import org.testng.annotations.DataProvider;
 import utilities.Utilities;
 
 import java.io.File;
@@ -184,7 +185,17 @@ public class Page {
         else if (locator.endsWith("_LT")) {
             elementsNumber = driver.findElements(By.linkText(OR.getProperty(locator))).size();
         }
-        Assert.assertEquals(Integer.parseInt(expected), elementsNumber);
+        Assert.assertEquals(Integer.parseInt(OR.getProperty(expected)), elementsNumber);
         log.info("Elements are equal");
+    }
+
+    @DataProvider
+    public Object[][] getData() {
+        //row stands for how many different data types test should run
+        //column stands for how many values per each test
+        Object[][] data = new Object[1][1];
+        data[0][0] = "5"; //main categories number
+
+        return data;
     }
 }
