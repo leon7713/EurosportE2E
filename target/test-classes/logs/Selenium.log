@@ -1,30 +1,7 @@
-13:58:11,630 DEBUG devpinoyLogger:39 - config file loaded !!!
-13:58:11,635 DEBUG devpinoyLogger:42 - OR file loaded !!!
-13:58:11,636 DEBUG devpinoyLogger:61 - chrome launched !!!
-13:58:22,064 DEBUG devpinoyLogger:79 - navigated to: https://www.eurosport.com/
-13:58:23,424  INFO devpinoyLogger:168 - The element is displayed: mainLogo_CN
-13:58:23,501  INFO devpinoyLogger:189 - Elements are equal
-13:58:24,677  INFO devpinoyLogger:168 - The element is displayed: legalNotices_CN
-13:58:24,733  INFO devpinoyLogger:168 - The element is displayed: privacyPolicy_XPATH
-13:58:24,788  INFO devpinoyLogger:168 - The element is displayed: cookiePolicy_XPATH
-13:58:26,606 DEBUG devpinoyLogger:39 - config file loaded !!!
-13:58:26,606 DEBUG devpinoyLogger:42 - OR file loaded !!!
-13:58:26,607 DEBUG devpinoyLogger:61 - chrome launched !!!
-13:58:36,421 DEBUG devpinoyLogger:79 - navigated to: https://www.eurosport.com/
-13:58:37,882 DEBUG devpinoyLogger:113 - Clicking on element: moreBtn_XPATH
-13:58:37,980  INFO devpinoyLogger:168 - The element is displayed: eurosportLogo_CN
-13:58:38,044  INFO devpinoyLogger:189 - Elements are equal
-13:58:38,147  INFO devpinoyLogger:189 - Elements are equal
-13:58:39,965 DEBUG devpinoyLogger:39 - config file loaded !!!
-13:58:39,969 DEBUG devpinoyLogger:42 - OR file loaded !!!
-13:58:39,969 DEBUG devpinoyLogger:61 - chrome launched !!!
-13:58:49,601 DEBUG devpinoyLogger:79 - navigated to: https://www.eurosport.com/
-13:58:54,005 DEBUG devpinoyLogger:113 - Clicking on element: footbalBtn_LT
-13:58:54,095  INFO devpinoyLogger:168 - The element is displayed: footballLogo_LT
-13:58:56,272 DEBUG devpinoyLogger:39 - config file loaded !!!
-13:58:56,273 DEBUG devpinoyLogger:42 - OR file loaded !!!
-13:58:56,274 DEBUG devpinoyLogger:61 - chrome launched !!!
-13:59:06,251 DEBUG devpinoyLogger:79 - navigated to: https://www.eurosport.com/
-13:59:12,463 DEBUG devpinoyLogger:113 - Clicking on element: footbalBtn_LT
-13:59:15,899 DEBUG devpinoyLogger:113 - Clicking on element: premierLeagueBtn_XPATH
-13:59:15,942  INFO devpinoyLogger:168 - The element is displayed: premierLeagueLogo_XPATH
+18:04:59,365 DEBUG devpinoyLogger:35 - config file loaded !!!
+18:04:59,365 DEBUG devpinoyLogger:38 - OR file loaded !!!
+18:04:59,365 DEBUG devpinoyLogger:57 - chrome launched !!!
+18:05:09,891 DEBUG devpinoyLogger:75 - navigated to: https://www.eurosport.com/
+18:05:11,286 DEBUG devpinoyLogger:104 - Clicking on element: hamburger_CSS
+18:05:16,989 DEBUG devpinoyLogger:104 - Clicking on element: termsAndConditions_XPATH
+18:05:19,065  INFO devpinoyLogger:159 - The element is displayed: legalNotice_CSS

@@ -1,6 +1,7 @@
 package pages;
 
 import base.Page;
+import base.SideMenuPage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
@@ -45,5 +46,10 @@ public class MainPage extends Page {
     public FootballPage getFootballBtn() throws IOException {
         click("footbalBtn_LT");
         return new FootballPage();
+    }
+
+    public SideMenuPage clickOnHamburgerBtn() {
+        click("hamburger_CSS");
+        return new SideMenuPage();
     }
 }

@@ -11,7 +11,7 @@ import java.util.Date;
 
 public class Utilities extends Page {
 
-    public Utilities() throws IOException {
+    public Utilities() {
     }
 
     public static void captureScreenshot(String result) throws IOException {
@@ -19,7 +19,7 @@ public class Utilities extends Page {
         Date d = new Date();
         File src = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
         String myDate = d.toString().replace(":","_").replace(" ","_") + ".jpg";
-        FileUtils.copyFile(src, new File("C:\\test\\" + result + myDate));
+        FileUtils.copyFile(src, new File("C:\\test\\" + result + " " + myDate));
 
     }
 }

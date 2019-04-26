@@ -1,17 +1,20 @@
 package testcases;
 
+import base.Page;
 import base.SideMenuPage;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import pages.MainPage;
-import base.Page;
+import pages.conditionsAndPolicyPages.TermsAndConditionsPage;
 
 import java.io.IOException;
 
-public class validateMainPageTest {
+public class validateTermsAndConditionsPageTest {
 
     public static Logger log = LogManager.getLogger(Page.class.getName());
 
@@ -21,24 +24,12 @@ public class validateMainPageTest {
     }
 
     @Test
-    public void verifyCatNumber() throws InterruptedException {
+    public void validateTermsAndCondPageTest() throws InterruptedException {
         MainPage mp = new MainPage();
-
-        mp.getMainLogo();
-        mp.verifyCategoryListNumber();
-        log.info("Test - validate main page - is successful");
-
-        Thread.sleep(5000);
-    }
-
-    @Test
-    public void verifyLegalNotices () throws InterruptedException {
-        MainPage mp = new MainPage();
-
-        mp.scrolltoLegalNotice();
-        mp.getLegalNotices();
-        mp.getPrivacyPolicy();
-        mp.getCookiePolicy();
+        SideMenuPage smp = mp.clickOnHamburgerBtn();
+        Thread.sleep(1000);
+        TermsAndConditionsPage tcp = smp.getTermsAndConditionsPage();
+        tcp.verifyLegalNoticeTitle();
 
         Thread.sleep(1000);
     }
@@ -47,5 +38,4 @@ public class validateMainPageTest {
     public void tearDown() {
         Page.quitBrowser();
     }
-
 }

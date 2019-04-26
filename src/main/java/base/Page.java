@@ -1,6 +1,5 @@
 package base;
 
-import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -11,14 +10,11 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
-import utilities.Utilities;
 
-import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.NoSuchElementException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
@@ -30,7 +26,7 @@ public class Page {
     public static FileInputStream fis;
     public static Logger log = Logger.getLogger("devpinoyLogger");
     public static WebDriverWait wait;
-    public static String browser;
+    //public static String browser;
 
     public static void initConfiguration() throws IOException {
 
@@ -80,11 +76,6 @@ public class Page {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Integer.parseInt(config.getProperty("implicit.wait")), TimeUnit.SECONDS);
         wait = new WebDriverWait(driver, 5);
-    }
-
-    public void getScreenshot(String result) throws IOException {
-        File src = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-        FileUtils.copyFile(src, new File("C://test//" + result + "screenshot.png"));
     }
 
     public static void quitBrowser() {

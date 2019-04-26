@@ -35,4 +35,11 @@
         </classes>
     </test>
 
+    <test verbose="2" preserve-order="true" name="Test - validate Terms and Conditions page">
+        <classes>
+            <class name="testcases.validateTermsAndConditionsPageTest"/>
+        </classes>
+    </test>
+
+
 </suite>

@@ -6,7 +6,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import pages.MainPage;
-import pages.SideMenuPage;
+import base.SideMenuPage;
 import base.Page;
 
 import java.io.IOException;
@@ -21,7 +21,7 @@ public class validateSideMenuPageTest {
     }
 
     @Test
-    public void sideMenuTests() throws InterruptedException, IOException {
+    public void sideMenuTests() throws InterruptedException {
         MainPage mp = new MainPage();
 
         SideMenuPage smp = mp.getMoreBtn();

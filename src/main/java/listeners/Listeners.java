@@ -3,8 +3,11 @@ package listeners;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
+import utilities.Utilities;
 
-public class Listeners implements ITestListener {
+import java.io.IOException;
+
+public class Listeners extends Utilities implements ITestListener {
     public void onTestStart(ITestResult iTestResult) {
 
     }
@@ -14,7 +17,13 @@ public class Listeners implements ITestListener {
     }
 
     public void onTestFailure(ITestResult iTestResult) {
-        System.out.println("Fail in listener!");
+        System.out.println("Fail in listener!, taking screenshot!");
+        try {
+            captureScreenshot(iTestResult.getName());
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
     }
 
     public void onTestSkipped(ITestResult iTestResult) {

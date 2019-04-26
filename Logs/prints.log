@@ -1,7 +1,5 @@
-13:58:37.981 [main] INFO  base.Page - Eurosport logo is displaying
-13:58:54.096 [main] INFO  base.Page - Football Logo is displaying
-13:59:17.920 [main] INFO  base.Page - test - random tests - is done successfully
-14:03:24.818 [main] INFO  base.Page - Test - validate main page - is successful
-14:03:39.293 [main] INFO  base.Page - Eurosport logo is displaying
-14:03:59.653 [main] INFO  base.Page - Football Logo is displaying
-14:04:23.965 [main] INFO  base.Page - test - random tests - is done successfully
+16:25:40.595 [main] INFO  base.Page - Football Logo is displaying
+16:26:06.191 [main] INFO  base.Page - test - random tests - is done successfully
+16:32:59.729 [main] INFO  base.Page - Test - validate main page - is successful
+16:33:32.074 [main] INFO  base.Page - Test - validate main page - is successful
+16:34:31.355 [main] INFO  base.Page - Test - validate main page - is successful
