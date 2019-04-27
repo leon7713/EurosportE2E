@@ -4,8 +4,6 @@ import base.Page;
 import base.SideMenuPage;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.openqa.selenium.support.ui.ExpectedCondition;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -14,7 +12,7 @@ import pages.conditionsAndPolicyPages.TermsAndConditionsPage;
 
 import java.io.IOException;
 
-public class validateTermsAndConditionsPageTest {
+public class validateTermsAndConditionsPageTest extends Page{
 
     public static Logger log = LogManager.getLogger(Page.class.getName());
 
@@ -23,13 +21,15 @@ public class validateTermsAndConditionsPageTest {
         Page.initConfiguration();
     }
 
-    @Test
-    public void validateTermsAndCondPageTest() throws InterruptedException {
+    @Test (dataProvider = "DataProvider_2")
+    public void validateTermsAndCondPageTest(String ActWordsNumb) throws InterruptedException {
         MainPage mp = new MainPage();
         SideMenuPage smp = mp.clickOnHamburgerBtn();
         Thread.sleep(1000);
         TermsAndConditionsPage tcp = smp.getTermsAndConditionsPage();
         tcp.verifyLegalNoticeTitle();
+        tcp.verifyNumbWordsInText(ActWordsNumb);
+        tcp.verifyCommentsLabel();
 
         Thread.sleep(1000);
     }

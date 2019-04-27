@@ -1,18 +1,19 @@
 package testcases;
 
 import base.Page;
+import base.SideMenuPage;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-import pages.FootballPage;
 import pages.MainPage;
-import pages.PremierLeaguePage;
+import pages.conditionsAndPolicyPages.PrivacyPolicyPage;
 
 import java.io.IOException;
 
-public class validatePremierLeaguePageTest extends Page{
+public class validatePrivacyPolicyPageTest extends Page {
 
     public static Logger log = LogManager.getLogger(Page.class.getName());
 
@@ -21,17 +22,14 @@ public class validatePremierLeaguePageTest extends Page{
         Page.initConfiguration();
     }
 
-    @Test (dataProvider = "DataProvider_1")
-    public void PremierLeagueTests(String mainCatNumb) throws InterruptedException, IOException {
+    @Test (dataProvider = "DataProvider_3")
+    public void validatePrivacyPolicyPageTest(String ActWordNumb) throws InterruptedException {
         MainPage mp = new MainPage();
-
-        FootballPage fp = mp.getFootballBtn();
-        PremierLeaguePage plp = fp.getPremierLeagueBtn();
-
-        plp.getPremierLeagueLogo();
-        plp.verifyCatNumb(mainCatNumb);
-        plp.getRandomCategory();
-        log.info("test - random tests - is done successfully");
+        SideMenuPage smp = mp.clickOnHamburgerBtn();
+        Thread.sleep(1000);
+        PrivacyPolicyPage ppp = smp.getPrivacyPolicyPage();
+        ppp.verifyMainTitle();
+        ppp.verifyWordsCount(ActWordNumb);
 
         Thread.sleep(1000);
     }
@@ -40,5 +38,4 @@ public class validatePremierLeaguePageTest extends Page{
     public void tearDown() {
         Page.quitBrowser();
     }
-
 }

@@ -1,7 +1,7 @@
-26/04/2019 18:04:59 devpinoyLogger config file loaded !!!
-26/04/2019 18:04:59 devpinoyLogger OR file loaded !!!
-26/04/2019 18:04:59 devpinoyLogger chrome launched !!!
-26/04/2019 18:05:09 devpinoyLogger navigated to: https://www.eurosport.com/
-26/04/2019 18:05:11 devpinoyLogger Clicking on element: hamburger_CSS
-26/04/2019 18:05:16 devpinoyLogger Clicking on element: termsAndConditions_XPATH
-26/04/2019 18:05:19 devpinoyLogger The element is displayed: legalNotice_CSS
+27/04/2019 14:03:06 devpinoyLogger config file loaded !!!
+27/04/2019 14:03:06 devpinoyLogger OR file loaded !!!
+27/04/2019 14:03:06 devpinoyLogger chrome launched !!!
+27/04/2019 14:03:19 devpinoyLogger navigated to: https://www.eurosport.com/
+27/04/2019 14:03:20 devpinoyLogger Clicking on element: hamburger_CSS
+27/04/2019 14:03:26 devpinoyLogger Clicking on element: privacyPolicySM_XPATH
+27/04/2019 14:03:26 devpinoyLogger The element is displayed: mainTitle_CSS

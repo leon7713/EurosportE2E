@@ -6,7 +6,8 @@
         <listener class-name="listeners.Listeners" />
     </listeners>
     
-    <test verbose="2" preserve-order="true" name="Test - validate main page">
+
+    <test preserve-order="true" name="Test - sanity">
         <classes>
             <class name="testcases.validateMainPageTest">
                 <methods>
@@ -16,6 +17,7 @@
             </class>
         </classes>
     </test>
+
 
     <test verbose="2" preserve-order="true" name="Test - validate side main page">
         <classes>
@@ -41,5 +43,10 @@
         </classes>
     </test>
 
+    <test verbose="2" preserve-order="true" name="Test - validate Privacy and Policy page">
+        <classes>
+            <class name="testcases.validatePrivacyPolicyPageTest"/>
+        </classes>
+    </test>
 
 </suite>

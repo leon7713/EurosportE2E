@@ -1,69 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-04-20T14:03:08 IDT" name="All Test Suite" finished-at="2019-04-20T14:04:26 IDT" duration-ms="77561">
+  <suite started-at="2019-04-27T14:25:30 IDT" name="All Test Suite" finished-at="2019-04-27T14:27:52 IDT" duration-ms="141387">
     <groups>
     </groups>
-    <test started-at="2019-04-20T14:03:08 IDT" name="Test - validate main page" finished-at="2019-04-20T14:03:28 IDT" duration-ms="19466">
+    <test started-at="2019-04-27T14:25:30 IDT" name="Test - sanity" finished-at="2019-04-27T14:26:07 IDT" duration-ms="36279">
       <class name="testcases.validateMainPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.validateMainPageTest@784c3487]" started-at="2019-04-20T14:03:08 IDT" name="setUp" finished-at="2019-04-20T14:03:24 IDT" duration-ms="15936" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.validateMainPageTest@a202ccb]" started-at="2019-04-27T14:25:30 IDT" name="setUp" finished-at="2019-04-27T14:25:59 IDT" duration-ms="28175" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyCatNumber()[pri:0, instance:testcases.validateMainPageTest@784c3487]" started-at="2019-04-20T14:03:24 IDT" name="verifyCatNumber" finished-at="2019-04-20T14:03:25 IDT" duration-ms="1271" status="PASS">
+        <test-method signature="verifyCatNumber()[pri:0, instance:testcases.validateMainPageTest@a202ccb]" started-at="2019-04-27T14:25:59 IDT" name="verifyCatNumber" finished-at="2019-04-27T14:26:04 IDT" duration-ms="5454" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCatNumber -->
-        <test-method signature="verifyLegalNotices()[pri:0, instance:testcases.validateMainPageTest@784c3487]" started-at="2019-04-20T14:03:25 IDT" name="verifyLegalNotices" finished-at="2019-04-20T14:03:27 IDT" duration-ms="1325" status="PASS">
+        <test-method signature="verifyLegalNotices()[pri:0, instance:testcases.validateMainPageTest@a202ccb]" started-at="2019-04-27T14:26:04 IDT" name="verifyLegalNotices" finished-at="2019-04-27T14:26:06 IDT" duration-ms="1488" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLegalNotices -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.validateMainPageTest@784c3487]" started-at="2019-04-20T14:03:27 IDT" name="tearDown" finished-at="2019-04-20T14:03:28 IDT" duration-ms="875" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.validateMainPageTest@a202ccb]" started-at="2019-04-27T14:26:06 IDT" name="tearDown" finished-at="2019-04-27T14:26:07 IDT" duration-ms="1120" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testcases.validateMainPageTest -->
-    </test> <!-- Test - validate main page -->
-    <test started-at="2019-04-20T14:03:28 IDT" name="Test - validate side main page" finished-at="2019-04-20T14:03:41 IDT" duration-ms="13138">
+    </test> <!-- Test - sanity -->
+    <test started-at="2019-04-27T14:26:07 IDT" name="Test - validate side main page" finished-at="2019-04-27T14:26:22 IDT" duration-ms="15606">
       <class name="testcases.validateSideMenuPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.validateSideMenuPageTest@3d9f6567]" started-at="2019-04-20T14:03:28 IDT" name="setUp" finished-at="2019-04-20T14:03:38 IDT" duration-ms="10679" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.validateSideMenuPageTest@7b8233cd]" started-at="2019-04-27T14:26:07 IDT" name="setUp" finished-at="2019-04-27T14:26:19 IDT" duration-ms="12146" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="sideMenuTests()[pri:0, instance:testcases.validateSideMenuPageTest@3d9f6567]" started-at="2019-04-20T14:03:38 IDT" name="sideMenuTests" finished-at="2019-04-20T14:03:40 IDT" duration-ms="1673" status="PASS">
+        <test-method signature="sideMenuTests()[pri:0, instance:testcases.validateSideMenuPageTest@7b8233cd]" started-at="2019-04-27T14:26:19 IDT" name="sideMenuTests" finished-at="2019-04-27T14:26:22 IDT" duration-ms="2677" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sideMenuTests -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.validateSideMenuPageTest@3d9f6567]" started-at="2019-04-20T14:03:40 IDT" name="tearDown" finished-at="2019-04-20T14:03:41 IDT" duration-ms="786" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.validateSideMenuPageTest@7b8233cd]" started-at="2019-04-27T14:26:22 IDT" name="tearDown" finished-at="2019-04-27T14:26:22 IDT" duration-ms="782" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testcases.validateSideMenuPageTest -->
     </test> <!-- Test - validate side main page -->
-    <test started-at="2019-04-20T14:03:41 IDT" name="Test - validate Football page" finished-at="2019-04-20T14:04:01 IDT" duration-ms="20486">
+    <test started-at="2019-04-27T14:26:23 IDT" name="Test - validate Football page" finished-at="2019-04-27T14:26:47 IDT" duration-ms="24045">
       <class name="testcases.validateFootballPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.validateFootballPageTest@3401a114]" started-at="2019-04-20T14:03:41 IDT" name="setUp" finished-at="2019-04-20T14:03:53 IDT" duration-ms="12230" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.validateFootballPageTest@72758afa]" started-at="2019-04-27T14:26:23 IDT" name="setUp" finished-at="2019-04-27T14:26:36 IDT" duration-ms="13721" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="footballPageTests()[pri:0, instance:testcases.validateFootballPageTest@3401a114]" started-at="2019-04-20T14:03:53 IDT" name="footballPageTests" finished-at="2019-04-20T14:04:01 IDT" duration-ms="7454" status="PASS">
+        <test-method signature="footballPageTests()[pri:0, instance:testcases.validateFootballPageTest@72758afa]" started-at="2019-04-27T14:26:36 IDT" name="footballPageTests" finished-at="2019-04-27T14:26:46 IDT" duration-ms="9479" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- footballPageTests -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.validateFootballPageTest@3401a114]" started-at="2019-04-20T14:04:01 IDT" name="tearDown" finished-at="2019-04-20T14:04:01 IDT" duration-ms="801" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.validateFootballPageTest@72758afa]" started-at="2019-04-27T14:26:46 IDT" name="tearDown" finished-at="2019-04-27T14:26:47 IDT" duration-ms="844" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testcases.validateFootballPageTest -->
     </test> <!-- Test - validate Football page -->
-    <test started-at="2019-04-20T14:04:01 IDT" name="Test - validate Premier League Football page" finished-at="2019-04-20T14:04:26 IDT" duration-ms="24321">
+    <test started-at="2019-04-27T14:26:47 IDT" name="Test - validate Premier League Football page" finished-at="2019-04-27T14:27:09 IDT" duration-ms="22689">
       <class name="testcases.validatePremierLeaguePageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.validatePremierLeaguePageTest@2bd2b28e]" started-at="2019-04-20T14:04:01 IDT" name="setUp" finished-at="2019-04-20T14:04:12 IDT" duration-ms="10951" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.validatePremierLeaguePageTest@57fd91c9]" started-at="2019-04-27T14:26:47 IDT" name="setUp" finished-at="2019-04-27T14:26:58 IDT" duration-ms="11296" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="PremierLeagueTests(java.lang.String)[pri:0, instance:testcases.validatePremierLeaguePageTest@2bd2b28e]" started-at="2019-04-20T14:04:12 IDT" name="PremierLeagueTests" data-provider="getData" finished-at="2019-04-20T14:04:24 IDT" duration-ms="12193" status="PASS">
+        <test-method signature="PremierLeagueTests(java.lang.String)[pri:0, instance:testcases.validatePremierLeaguePageTest@57fd91c9]" started-at="2019-04-27T14:26:58 IDT" name="PremierLeagueTests" data-provider="DataProvider_1" finished-at="2019-04-27T14:27:08 IDT" duration-ms="10561" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -74,11 +74,57 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PremierLeagueTests -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.validatePremierLeaguePageTest@2bd2b28e]" started-at="2019-04-20T14:04:24 IDT" name="tearDown" finished-at="2019-04-20T14:04:26 IDT" duration-ms="1169" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.validatePremierLeaguePageTest@57fd91c9]" started-at="2019-04-27T14:27:08 IDT" name="tearDown" finished-at="2019-04-27T14:27:09 IDT" duration-ms="823" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testcases.validatePremierLeaguePageTest -->
     </test> <!-- Test - validate Premier League Football page -->
+    <test started-at="2019-04-27T14:27:09 IDT" name="Test - validate Terms and Conditions page" finished-at="2019-04-27T14:27:31 IDT" duration-ms="21414">
+      <class name="testcases.validateTermsAndConditionsPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.validateTermsAndConditionsPageTest@58c34bb3]" started-at="2019-04-27T14:27:09 IDT" name="setUp" finished-at="2019-04-27T14:27:21 IDT" duration-ms="11483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateTermsAndCondPageTest(java.lang.String)[pri:0, instance:testcases.validateTermsAndConditionsPageTest@58c34bb3]" started-at="2019-04-27T14:27:21 IDT" name="validateTermsAndCondPageTest" data-provider="DataProvider_2" finished-at="2019-04-27T14:27:30 IDT" duration-ms="9106" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3792]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTermsAndCondPageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.validateTermsAndConditionsPageTest@58c34bb3]" started-at="2019-04-27T14:27:30 IDT" name="tearDown" finished-at="2019-04-27T14:27:31 IDT" duration-ms="824" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.validateTermsAndConditionsPageTest -->
+    </test> <!-- Test - validate Terms and Conditions page -->
+    <test started-at="2019-04-27T14:27:31 IDT" name="Test - validate Privacy and Policy page" finished-at="2019-04-27T14:27:52 IDT" duration-ms="21050">
+      <class name="testcases.validatePrivacyPolicyPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.validatePrivacyPolicyPageTest@65b3a85a]" started-at="2019-04-27T14:27:31 IDT" name="setUp" finished-at="2019-04-27T14:27:43 IDT" duration-ms="12161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validatePrivacyPolicyPageTest(java.lang.String)[pri:0, instance:testcases.validatePrivacyPolicyPageTest@65b3a85a]" started-at="2019-04-27T14:27:43 IDT" name="validatePrivacyPolicyPageTest" data-provider="DataProvider_3" finished-at="2019-04-27T14:27:51 IDT" duration-ms="8074" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8130]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePrivacyPolicyPageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.validatePrivacyPolicyPageTest@65b3a85a]" started-at="2019-04-27T14:27:51 IDT" name="tearDown" finished-at="2019-04-27T14:27:52 IDT" duration-ms="814" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.validatePrivacyPolicyPageTest -->
+    </test> <!-- Test - validate Privacy and Policy page -->
   </suite> <!-- All Test Suite -->
 </testng-results>

@@ -1,7 +1,7 @@
-18:04:59,365 DEBUG devpinoyLogger:35 - config file loaded !!!
-18:04:59,365 DEBUG devpinoyLogger:38 - OR file loaded !!!
-18:04:59,365 DEBUG devpinoyLogger:57 - chrome launched !!!
-18:05:09,891 DEBUG devpinoyLogger:75 - navigated to: https://www.eurosport.com/
-18:05:11,286 DEBUG devpinoyLogger:104 - Clicking on element: hamburger_CSS
-18:05:16,989 DEBUG devpinoyLogger:104 - Clicking on element: termsAndConditions_XPATH
-18:05:19,065  INFO devpinoyLogger:159 - The element is displayed: legalNotice_CSS
+14:03:06,804 DEBUG devpinoyLogger:35 - config file loaded !!!
+14:03:06,810 DEBUG devpinoyLogger:38 - OR file loaded !!!
+14:03:06,811 DEBUG devpinoyLogger:57 - chrome launched !!!
+14:03:19,405 DEBUG devpinoyLogger:75 - navigated to: https://www.eurosport.com/
+14:03:20,981 DEBUG devpinoyLogger:104 - Clicking on element: hamburger_CSS
+14:03:26,914 DEBUG devpinoyLogger:104 - Clicking on element: privacyPolicySM_XPATH
+14:03:26,966  INFO devpinoyLogger:159 - The element is displayed: mainTitle_CSS

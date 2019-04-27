@@ -1,5 +1,6 @@
 package base;
 
+import pages.conditionsAndPolicyPages.PrivacyPolicyPage;
 import pages.conditionsAndPolicyPages.TermsAndConditionsPage;
 
 public class SideMenuPage extends Page {
@@ -19,5 +20,10 @@ public class SideMenuPage extends Page {
     public TermsAndConditionsPage getTermsAndConditionsPage() {
         click("termsAndConditions_XPATH");
         return new TermsAndConditionsPage();
+    }
+
+    public PrivacyPolicyPage getPrivacyPolicyPage() {
+        click("privacyPolicySM_XPATH");
+        return new PrivacyPolicyPage();
     }
 }

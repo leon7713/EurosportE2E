@@ -181,11 +181,31 @@ public class Page {
     }
 
     @DataProvider
-    public Object[][] getData() {
+    public Object[][] DataProvider_1() {
         //row stands for how many different data types test should run
         //column stands for how many values per each test
         Object[][] data = new Object[1][1];
         data[0][0] = "5"; //main categories number
+
+        return data;
+    }
+
+    @DataProvider
+    public Object[][] DataProvider_2() {
+        //row stands for how many different data types test should run
+        //column stands for how many values per each test
+        Object[][] data = new Object[1][1];
+        data[0][0] = "3792"; //words count
+
+        return data;
+    }
+
+    @DataProvider
+    public Object[][] DataProvider_3() {
+        //row stands for how many different data types test should run
+        //column stands for how many values per each test
+        Object[][] data = new Object[1][1];
+        data[0][0] = "8130"; //words count
 
         return data;
     }
