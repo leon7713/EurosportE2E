@@ -1,45 +1,12 @@
-14:25:30,971 DEBUG devpinoyLogger:35 - config file loaded !!!
-14:25:30,974 DEBUG devpinoyLogger:38 - OR file loaded !!!
-14:25:30,975 DEBUG devpinoyLogger:57 - chrome launched !!!
-14:25:57,988 DEBUG devpinoyLogger:75 - navigated to: https://www.eurosport.com/
-14:25:59,562  INFO devpinoyLogger:159 - The element is displayed: mainLogo_CN
-14:25:59,605  INFO devpinoyLogger:180 - Elements are equal
-14:26:04,924  INFO devpinoyLogger:159 - The element is displayed: legalNotices_CN
-14:26:05,036  INFO devpinoyLogger:159 - The element is displayed: privacyPolicy_XPATH
-14:26:05,104  INFO devpinoyLogger:159 - The element is displayed: cookiePolicy_XPATH
-14:26:07,373 DEBUG devpinoyLogger:35 - config file loaded !!!
-14:26:07,374 DEBUG devpinoyLogger:38 - OR file loaded !!!
-14:26:07,375 DEBUG devpinoyLogger:57 - chrome launched !!!
-14:26:18,386 DEBUG devpinoyLogger:75 - navigated to: https://www.eurosport.com/
-14:26:20,906 DEBUG devpinoyLogger:104 - Clicking on element: moreBtn_XPATH
-14:26:21,093  INFO devpinoyLogger:159 - The element is displayed: eurosportLogo_CN
-14:26:21,157  INFO devpinoyLogger:180 - Elements are equal
-14:26:21,195  INFO devpinoyLogger:180 - Elements are equal
-14:26:23,055 DEBUG devpinoyLogger:35 - config file loaded !!!
-14:26:23,057 DEBUG devpinoyLogger:38 - OR file loaded !!!
-14:26:23,057 DEBUG devpinoyLogger:57 - chrome launched !!!
-14:26:35,646 DEBUG devpinoyLogger:75 - navigated to: https://www.eurosport.com/
-14:26:44,792 DEBUG devpinoyLogger:104 - Clicking on element: footbalBtn_LT
-14:26:44,859  INFO devpinoyLogger:159 - The element is displayed: footballLogo_LT
-14:26:47,120 DEBUG devpinoyLogger:35 - config file loaded !!!
-14:26:47,121 DEBUG devpinoyLogger:38 - OR file loaded !!!
-14:26:47,122 DEBUG devpinoyLogger:57 - chrome launched !!!
-14:26:57,287 DEBUG devpinoyLogger:75 - navigated to: https://www.eurosport.com/
-14:27:02,956 DEBUG devpinoyLogger:104 - Clicking on element: footbalBtn_LT
-14:27:05,611 DEBUG devpinoyLogger:104 - Clicking on element: premierLeagueBtn_XPATH
-14:27:05,659  INFO devpinoyLogger:159 - The element is displayed: premierLeagueLogo_XPATH
-14:27:09,862 DEBUG devpinoyLogger:35 - config file loaded !!!
-14:27:09,863 DEBUG devpinoyLogger:38 - OR file loaded !!!
-14:27:09,863 DEBUG devpinoyLogger:57 - chrome launched !!!
-14:27:20,212 DEBUG devpinoyLogger:75 - navigated to: https://www.eurosport.com/
-14:27:21,982 DEBUG devpinoyLogger:104 - Clicking on element: hamburger_CSS
-14:27:29,128 DEBUG devpinoyLogger:104 - Clicking on element: termsAndConditions_XPATH
-14:27:29,166  INFO devpinoyLogger:159 - The element is displayed: legalNotice_CSS
-14:27:29,451  INFO devpinoyLogger:159 - The element is displayed: commentsLabel_CSS
-14:27:31,285 DEBUG devpinoyLogger:35 - config file loaded !!!
-14:27:31,286 DEBUG devpinoyLogger:38 - OR file loaded !!!
-14:27:31,286 DEBUG devpinoyLogger:57 - chrome launched !!!
-14:27:42,291 DEBUG devpinoyLogger:75 - navigated to: https://www.eurosport.com/
-14:27:44,130 DEBUG devpinoyLogger:104 - Clicking on element: hamburger_CSS
-14:27:50,082 DEBUG devpinoyLogger:104 - Clicking on element: privacyPolicySM_XPATH
-14:27:50,117  INFO devpinoyLogger:159 - The element is displayed: mainTitle_CSS
+15:45:14,570 DEBUG devpinoyLogger:35 - config file loaded !!!
+15:45:14,570 DEBUG devpinoyLogger:38 - OR file loaded !!!
+15:45:14,570 DEBUG devpinoyLogger:57 - chrome launched !!!
+15:45:24,974 DEBUG devpinoyLogger:75 - navigated to: https://www.eurosport.com/
+15:45:26,455 DEBUG devpinoyLogger:104 - Clicking on element: hamburger_CSS
+15:45:27,553 DEBUG devpinoyLogger:104 - Clicking on element: privacySettingsSM_XPATH
+15:45:28,138  INFO devpinoyLogger:159 - The element is displayed: mainTitle_XPATH
+15:45:30,300 DEBUG devpinoyLogger:104 - Clicking on element: measurementToggleOff_XPATH
+15:45:31,493 DEBUG devpinoyLogger:104 - Clicking on element: measurementToggleOn_XPATH
+15:45:31,669 DEBUG devpinoyLogger:104 - Clicking on element: vendorList_XPATH
+15:45:33,865 DEBUG devpinoyLogger:104 - Clicking on element: backBtn_CSS
+15:45:35,898  INFO devpinoyLogger:159 - The element is displayed: mainTitle_XPATH

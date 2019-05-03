@@ -6,14 +6,11 @@
       <change beforePath="$PROJECT_DIR$/Logs/prints.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/prints.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/base/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/Page.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/base/SideMenuPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/SideMenuPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/conditionsAndPolicyPages/PrivacyPolicyPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/conditionsAndPolicyPages/PrivacyPolicyPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/conditionsAndPolicyPages/TermsAndConditionsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/conditionsAndPolicyPages/TermsAndConditionsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/validatePremierLeaguePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/validatePremierLeaguePageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/validateTermsAndConditionsPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/validateTermsAndConditionsPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/conditionsAndPolicyPages/PrivacySettingsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/conditionsAndPolicyPages/PrivacySettingsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/validatePrivacyPolicyPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/validatePrivacyPolicyPageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/logs/Application.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/logs/Application.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/logs/Selenium.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/logs/Selenium.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/properties/OR.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/properties/OR.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/runner/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/runner/testng.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,8 +28,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/base/Page.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="207" column="26" selection-start-line="207" selection-start-column="26" selection-end-line="207" selection-end-column="26" />
+            <state relative-caret-position="154">
+              <caret line="178" column="60" selection-start-line="178" selection-start-column="60" selection-end-line="178" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,10 +38,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/testcases/validatePrivacyPolicyPageTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/testcases/validatePrivacySettingsPageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+            <state relative-caret-position="103">
+              <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -53,15 +50,14 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pages/conditionsAndPolicyPages/PrivacyPolicyPage.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pages/conditionsAndPolicyPages/PrivacySettingsPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+            <state relative-caret-position="170">
+              <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#141#142#0" expanded="true" />
-                <element signature="e#177#178#0" expanded="true" />
-                <element signature="e#533#541#0" expanded="true" />
+                <element signature="e#149#150#0" expanded="true" />
+                <element signature="e#185#186#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -70,8 +66,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/properties/OR.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="8" selection-start-line="33" selection-end-line="33" selection-end-column="8" />
+            <state relative-caret-position="247">
+              <caret line="43" column="42" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -130,13 +126,15 @@
         <option value="$PROJECT_DIR$/src/test/java/testcases/validateMainPageTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/testcases/validateTermsAndConditionsTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/testcases/validateTermsAndConditionsPageTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/base/SideMenuPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/conditionsAndPolicyPages/TermsAndConditionsPage.java" />
         <option value="$PROJECT_DIR$/src/test/resources/runner/testng.xml" />
-        <option value="$PROJECT_DIR$/src/test/resources/properties/OR.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/testcases/validatePrivacyPolicyPageTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/base/Page.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/conditionsAndPolicyPages/PrivacyPolicyPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/testcases/validatePrivacyPolicyPageTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/base/SideMenuPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/base/Page.java" />
+        <option value="$PROJECT_DIR$/src/test/java/testcases/validatePrivacySettingsPageTest.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/properties/OR.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/conditionsAndPolicyPages/PrivacySettingsPage.java" />
       </list>
     </option>
   </component>
@@ -147,7 +145,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -161,6 +159,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -283,8 +283,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -325,29 +323,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/Leonidus/projects/EurosportE2E/src/test/resources/runner/testng.xml">
+  <component name="RunManager" selected="TestNG.validatePrivacySettingsPageTest">
     <configuration name="C:/Users/Leonidus/projects/EurosportE2E/src/test/resources/runner/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EurosportE2E" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/runner/testng.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="validateMainPageTest.verifyCatNumber" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="EurosportE2E" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testcases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testcases" />
-      <option name="MAIN_CLASS_NAME" value="testcases.validateMainPageTest" />
-      <option name="METHOD_NAME" value="verifyCatNumber" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -364,6 +344,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="testcases" />
       <option name="MAIN_CLASS_NAME" value="testcases.validatePrivacyPolicyPageTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="validatePrivacySettingsPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EurosportE2E" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testcases" />
+      <option name="MAIN_CLASS_NAME" value="testcases.validatePrivacySettingsPageTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -408,18 +405,18 @@
     </configuration>
     <list>
       <item itemvalue="TestNG.C:/Users/Leonidus/projects/EurosportE2E/src/test/resources/runner/testng.xml" />
-      <item itemvalue="TestNG.validateMainPageTest.verifyCatNumber" />
       <item itemvalue="TestNG.validateTermsAndConditionsPageTest.validateTermsAndCondPageTest" />
       <item itemvalue="TestNG.validateTermsAndConditionsPageTest" />
       <item itemvalue="TestNG.validatePrivacyPolicyPageTest" />
+      <item itemvalue="TestNG.validatePrivacySettingsPageTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.validatePrivacyPolicyPageTest" />
+        <item itemvalue="TestNG.validatePrivacySettingsPageTest" />
         <item itemvalue="TestNG.C:/Users/Leonidus/projects/EurosportE2E/src/test/resources/runner/testng.xml" />
+        <item itemvalue="TestNG.validatePrivacyPolicyPageTest" />
         <item itemvalue="TestNG.validateTermsAndConditionsPageTest" />
         <item itemvalue="TestNG.validateTermsAndConditionsPageTest.validateTermsAndCondPageTest" />
-        <item itemvalue="TestNG.validateMainPageTest.verifyCatNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -437,35 +434,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="validateTermsAndConditionsPageTest - 2019.04.27 at 12h 52m 35s.xml">
-      <configuration name="validateTermsAndConditionsPageTest" configurationId="TestNG" />
+    <history-entry file="validatePrivacySettingsPageTest - 2019.05.03 at 13h 59m 22s.xml">
+      <configuration name="validatePrivacySettingsPageTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="validateTermsAndConditionsPageTest - 2019.04.27 at 12h 55m 02s.xml">
-      <configuration name="validateTermsAndConditionsPageTest" configurationId="TestNG" />
+    <history-entry file="validatePrivacySettingsPageTest - 2019.05.03 at 13h 59m 57s.xml">
+      <configuration name="validatePrivacySettingsPageTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="validatePrivacyPolicyPageTest - 2019.04.27 at 13h 12m 12s.xml">
-      <configuration name="validatePrivacyPolicyPageTest" configurationId="TestNG" />
+    <history-entry file="validatePrivacySettingsPageTest - 2019.05.03 at 14h 00m 55s.xml">
+      <configuration name="validatePrivacySettingsPageTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="validatePrivacyPolicyPageTest - 2019.04.27 at 13h 13m 15s.xml">
-      <configuration name="validatePrivacyPolicyPageTest" configurationId="TestNG" />
+    <history-entry file="validatePrivacySettingsPageTest - 2019.05.03 at 14h 27m 06s.xml">
+      <configuration name="validatePrivacySettingsPageTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="validatePrivacyPolicyPageTest - 2019.04.27 at 13h 18m 56s.xml">
-      <configuration name="validatePrivacyPolicyPageTest" configurationId="TestNG" />
+    <history-entry file="validatePrivacySettingsPageTest - 2019.05.03 at 14h 41m 58s.xml">
+      <configuration name="validatePrivacySettingsPageTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Leonidus_projects_EurosportE2E_src_test_resources_runner_testng_xml - 2019.04.27 at 13h 25m 11s.xml">
-      <configuration name="C:/Users/Leonidus/projects/EurosportE2E/src/test/resources/runner/testng.xml" configurationId="TestNG" />
+    <history-entry file="validatePrivacySettingsPageTest - 2019.05.03 at 14h 53m 03s.xml">
+      <configuration name="validatePrivacySettingsPageTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Leonidus_projects_EurosportE2E_src_test_resources_runner_testng_xml - 2019.04.27 at 13h 44m 46s.xml">
-      <configuration name="C:/Users/Leonidus/projects/EurosportE2E/src/test/resources/runner/testng.xml" configurationId="TestNG" />
+    <history-entry file="validatePrivacySettingsPageTest - 2019.05.03 at 15h 37m 04s.xml">
+      <configuration name="validatePrivacySettingsPageTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="validatePrivacyPolicyPageTest - 2019.04.27 at 14h 00m 34s.xml">
-      <configuration name="validatePrivacyPolicyPageTest" configurationId="TestNG" />
+    <history-entry file="validatePrivacySettingsPageTest - 2019.05.03 at 15h 43m 22s.xml">
+      <configuration name="validatePrivacySettingsPageTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="validatePrivacyPolicyPageTest - 2019.04.27 at 14h 02m 00s.xml">
-      <configuration name="validatePrivacyPolicyPageTest" configurationId="TestNG" />
+    <history-entry file="validatePrivacySettingsPageTest - 2019.05.03 at 15h 44m 41s.xml">
+      <configuration name="validatePrivacySettingsPageTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="validatePrivacyPolicyPageTest - 2019.04.27 at 14h 03m 29s.xml">
-      <configuration name="validatePrivacyPolicyPageTest" configurationId="TestNG" />
+    <history-entry file="validatePrivacySettingsPageTest - 2019.05.03 at 15h 45m 40s.xml">
+      <configuration name="validatePrivacySettingsPageTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -481,7 +478,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27987897" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28441754" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -653,16 +650,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/MainPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="50" column="33" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testcases/validateMainPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -670,20 +657,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/conditionsAndPolicyPages/PrivacySettingsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/conditionsAndPolicyPages/CookiePolicy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -711,16 +684,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testcases/validateSideMenuPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.14.0/selenium-remote-driver-3.14.0.jar!/org/openqa/selenium/remote/RemoteWebDriver.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="97">
@@ -738,16 +701,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testcases/validatePremierLeaguePageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.14.0/selenium-api-3.14.0.jar!/org/openqa/selenium/By.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -761,16 +714,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/base/SideMenuPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/runner/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="445">
@@ -778,10 +721,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testcases/validateTermsAndConditionsPageTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/testcases/validatePrivacyPolicyPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/conditionsAndPolicyPages/PrivacyPolicyPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/conditionsAndPolicyPages/CookiePolicy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testcases/validatePremierLeaguePageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
-          <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#699#700#0" expanded="true" />
+            <element signature="e#766#767#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/base/SideMenuPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
+            <element signature="e#555#556#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testcases/validateSideMenuPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -790,8 +796,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/conditionsAndPolicyPages/TermsAndConditionsPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="52" selection-start-line="6" selection-start-column="13" selection-end-line="14" selection-end-column="52" />
+        <state relative-caret-position="110">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testcases/validateTermsAndConditionsPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -800,18 +816,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/base/Page.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="207" column="26" selection-start-line="207" selection-start-column="26" selection-end-line="207" selection-end-column="26" />
+        <state relative-caret-position="154">
+          <caret line="178" column="60" selection-start-line="178" selection-start-column="60" selection-end-line="178" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testcases/validatePrivacyPolicyPageTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/testcases/validatePrivacySettingsPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+        <state relative-caret-position="103">
+          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -820,20 +836,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/properties/OR.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="8" selection-start-line="33" selection-end-line="33" selection-end-column="8" />
+        <state relative-caret-position="247">
+          <caret line="43" column="42" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/conditionsAndPolicyPages/PrivacyPolicyPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/conditionsAndPolicyPages/PrivacySettingsPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+        <state relative-caret-position="170">
+          <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#141#142#0" expanded="true" />
-            <element signature="e#177#178#0" expanded="true" />
-            <element signature="e#533#541#0" expanded="true" />
+            <element signature="e#149#150#0" expanded="true" />
+            <element signature="e#185#186#0" expanded="true" />
           </folding>
         </state>
       </provider>
