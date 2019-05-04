@@ -1,12 +1,8 @@
-03/05/2019 15:44:17 devpinoyLogger config file loaded !!!
-03/05/2019 15:44:17 devpinoyLogger OR file loaded !!!
-03/05/2019 15:44:17 devpinoyLogger chrome launched !!!
-03/05/2019 15:44:28 devpinoyLogger navigated to: https://www.eurosport.com/
-03/05/2019 15:44:30 devpinoyLogger Clicking on element: hamburger_CSS
-03/05/2019 15:44:31 devpinoyLogger Clicking on element: privacySettingsSM_XPATH
-03/05/2019 15:44:31 devpinoyLogger The element is displayed: mainTitle_XPATH
-03/05/2019 15:44:34 devpinoyLogger Clicking on element: measurementToggleOff_XPATH
-03/05/2019 15:44:35 devpinoyLogger Clicking on element: measurementToggleOn_XPATH
-03/05/2019 15:44:35 devpinoyLogger Clicking on element: vendorList_XPATH
-03/05/2019 15:44:35 devpinoyLogger Clicking on element: backBtn_CSS
-03/05/2019 15:44:37 devpinoyLogger The element is displayed: mainTitle_XPATH
+04/05/2019 14:39:04 devpinoyLogger config file loaded !!!
+04/05/2019 14:39:04 devpinoyLogger OR file loaded !!!
+04/05/2019 14:39:04 devpinoyLogger chrome launched !!!
+04/05/2019 14:39:19 devpinoyLogger navigated to: https://www.eurosport.com/
+04/05/2019 14:39:21 devpinoyLogger Clicking on element: hamburger_CSS
+04/05/2019 14:39:24 devpinoyLogger Clicking on element: helpPage_XPATH
+04/05/2019 14:39:24 devpinoyLogger The element is displayed: mainTitleHP_CN
+04/05/2019 14:39:24 devpinoyLogger Typing in an element: searchFieald_XPATH entered value as: Subscribe

@@ -49,4 +49,22 @@
         </classes>
     </test>
 
+    <test verbose="2" preserve-order="true" name="Test - validate Privacy and Settings page">
+        <classes>
+            <class name="testcases.validatePrivacySettingsPageTest"/>
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true" name="Test - validate Cookie Policy page">
+        <classes>
+            <class name="testcases.validateCookiePolicyPageTest"/>
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true" name="Test - validate Help Page">
+        <classes>
+            <class name="testcases.validateHelpPageTest"/>
+        </classes>
+    </test>
+
 </suite>

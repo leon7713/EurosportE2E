@@ -8,11 +8,11 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import pages.MainPage;
-import pages.conditionsAndPolicyPages.PrivacySettingsPage;
+import pages.conditionsAndPolicyPages.CookiePolicyPage;
 
 import java.io.IOException;
 
-public class validatePrivacySettingsPageTest extends Page{
+public class validateCookiePolicyPageTest extends Page{
 
     public static Logger log = LogManager.getLogger(Page.class.getName());
 
@@ -21,18 +21,16 @@ public class validatePrivacySettingsPageTest extends Page{
         Page.initConfiguration();
     }
 
-    @Test (dataProvider = "DataProvider_4")
-    public void validatePrivacySettingsPageTest(String vendorsNumb) throws InterruptedException {
+    @Test (dataProvider = "DataProvider_5")
+    public void CookiePolicyPageTest(String wordsNumb) throws InterruptedException{
         MainPage mp = new MainPage();
         SideMenuPage smp = mp.clickOnHamburgerBtn();
         Thread.sleep(1000);
-        PrivacySettingsPage psp = smp.getPrivacySettingsPage();
-        psp.validateMainTitle();
-        psp.measurement_On_Off();
-        psp.clickRandomMeasurement();
-        psp.verifyVendorsNumber(vendorsNumb);
+        CookiePolicyPage cpp = smp.getCookiePolicyPage();
+        cpp.verifyMainTitle();
+        cpp.verifyMainTextWordsCount(wordsNumb);
 
-        Thread.sleep(3000);
+        Thread.sleep(2000);
     }
 
     @AfterTest

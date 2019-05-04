@@ -1,8 +1,10 @@
 package base;
 
+import pages.conditionsAndPolicyPages.CookiePolicyPage;
 import pages.conditionsAndPolicyPages.PrivacyPolicyPage;
 import pages.conditionsAndPolicyPages.PrivacySettingsPage;
 import pages.conditionsAndPolicyPages.TermsAndConditionsPage;
+import pages.mainSideMenuPages.HelpPage;
 
 public class SideMenuPage extends Page {
 
@@ -31,5 +33,15 @@ public class SideMenuPage extends Page {
     public PrivacySettingsPage getPrivacySettingsPage() {
         click("privacySettingsSM_XPATH");
         return new PrivacySettingsPage();
+    }
+
+    public CookiePolicyPage getCookiePolicyPage() {
+        click("cookiePolicyPage_XPATH");
+        return new CookiePolicyPage();
+    }
+
+    public HelpPage getHelpPage() {
+        click("helpPage_XPATH");
+        return new HelpPage();
     }
 }

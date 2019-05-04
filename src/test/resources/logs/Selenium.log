@@ -1,12 +1,72 @@
-15:45:14,570 DEBUG devpinoyLogger:35 - config file loaded !!!
-15:45:14,570 DEBUG devpinoyLogger:38 - OR file loaded !!!
-15:45:14,570 DEBUG devpinoyLogger:57 - chrome launched !!!
-15:45:24,974 DEBUG devpinoyLogger:75 - navigated to: https://www.eurosport.com/
-15:45:26,455 DEBUG devpinoyLogger:104 - Clicking on element: hamburger_CSS
-15:45:27,553 DEBUG devpinoyLogger:104 - Clicking on element: privacySettingsSM_XPATH
-15:45:28,138  INFO devpinoyLogger:159 - The element is displayed: mainTitle_XPATH
-15:45:30,300 DEBUG devpinoyLogger:104 - Clicking on element: measurementToggleOff_XPATH
-15:45:31,493 DEBUG devpinoyLogger:104 - Clicking on element: measurementToggleOn_XPATH
-15:45:31,669 DEBUG devpinoyLogger:104 - Clicking on element: vendorList_XPATH
-15:45:33,865 DEBUG devpinoyLogger:104 - Clicking on element: backBtn_CSS
-15:45:35,898  INFO devpinoyLogger:159 - The element is displayed: mainTitle_XPATH
+14:42:05,242 DEBUG devpinoyLogger:35 - config file loaded !!!
+14:42:05,242 DEBUG devpinoyLogger:38 - OR file loaded !!!
+14:42:05,242 DEBUG devpinoyLogger:57 - chrome launched !!!
+14:42:16,123 DEBUG devpinoyLogger:75 - navigated to: https://www.eurosport.com/
+14:42:17,406  INFO devpinoyLogger:159 - The element is displayed: mainLogo_CN
+14:42:17,442  INFO devpinoyLogger:180 - Elements are equal
+14:42:22,587  INFO devpinoyLogger:159 - The element is displayed: legalNotices_CN
+14:42:22,637  INFO devpinoyLogger:159 - The element is displayed: privacyPolicy_XPATH
+14:42:22,686  INFO devpinoyLogger:159 - The element is displayed: cookiePolicy_XPATH
+14:42:24,503 DEBUG devpinoyLogger:35 - config file loaded !!!
+14:42:24,503 DEBUG devpinoyLogger:38 - OR file loaded !!!
+14:42:24,503 DEBUG devpinoyLogger:57 - chrome launched !!!
+14:42:33,830 DEBUG devpinoyLogger:75 - navigated to: https://www.eurosport.com/
+14:42:35,230 DEBUG devpinoyLogger:104 - Clicking on element: moreBtn_XPATH
+14:42:35,285  INFO devpinoyLogger:159 - The element is displayed: eurosportLogo_CN
+14:42:35,317  INFO devpinoyLogger:180 - Elements are equal
+14:42:35,373  INFO devpinoyLogger:180 - Elements are equal
+14:42:37,160 DEBUG devpinoyLogger:35 - config file loaded !!!
+14:42:37,161 DEBUG devpinoyLogger:38 - OR file loaded !!!
+14:42:37,162 DEBUG devpinoyLogger:57 - chrome launched !!!
+14:42:45,289 DEBUG devpinoyLogger:75 - navigated to: https://www.eurosport.com/
+14:42:54,664 DEBUG devpinoyLogger:104 - Clicking on element: footbalBtn_LT
+14:42:54,740  INFO devpinoyLogger:159 - The element is displayed: footballLogo_LT
+14:42:56,987 DEBUG devpinoyLogger:35 - config file loaded !!!
+14:42:56,987 DEBUG devpinoyLogger:38 - OR file loaded !!!
+14:42:56,987 DEBUG devpinoyLogger:57 - chrome launched !!!
+14:43:05,607 DEBUG devpinoyLogger:75 - navigated to: https://www.eurosport.com/
+14:43:10,642 DEBUG devpinoyLogger:104 - Clicking on element: footbalBtn_LT
+14:43:13,783 DEBUG devpinoyLogger:104 - Clicking on element: premierLeagueBtn_XPATH
+14:43:13,823  INFO devpinoyLogger:159 - The element is displayed: premierLeagueLogo_XPATH
+14:43:17,537 DEBUG devpinoyLogger:35 - config file loaded !!!
+14:43:17,537 DEBUG devpinoyLogger:38 - OR file loaded !!!
+14:43:17,538 DEBUG devpinoyLogger:57 - chrome launched !!!
+14:43:27,099 DEBUG devpinoyLogger:75 - navigated to: https://www.eurosport.com/
+14:43:28,538 DEBUG devpinoyLogger:104 - Clicking on element: hamburger_CSS
+14:43:35,454 DEBUG devpinoyLogger:104 - Clicking on element: termsAndConditions_XPATH
+14:43:35,496  INFO devpinoyLogger:159 - The element is displayed: legalNotice_CSS
+14:43:35,727  INFO devpinoyLogger:159 - The element is displayed: commentsLabel_CSS
+14:43:37,587 DEBUG devpinoyLogger:35 - config file loaded !!!
+14:43:37,599 DEBUG devpinoyLogger:38 - OR file loaded !!!
+14:43:37,599 DEBUG devpinoyLogger:57 - chrome launched !!!
+14:43:44,984 DEBUG devpinoyLogger:75 - navigated to: https://www.eurosport.com/
+14:43:46,350 DEBUG devpinoyLogger:104 - Clicking on element: hamburger_CSS
+14:43:51,670 DEBUG devpinoyLogger:104 - Clicking on element: privacyPolicySM_XPATH
+14:43:51,729  INFO devpinoyLogger:159 - The element is displayed: mainTitle_CSS
+14:43:54,119 DEBUG devpinoyLogger:35 - config file loaded !!!
+14:43:54,119 DEBUG devpinoyLogger:38 - OR file loaded !!!
+14:43:54,119 DEBUG devpinoyLogger:57 - chrome launched !!!
+14:44:03,749 DEBUG devpinoyLogger:75 - navigated to: https://www.eurosport.com/
+14:44:05,229 DEBUG devpinoyLogger:104 - Clicking on element: hamburger_CSS
+14:44:06,329 DEBUG devpinoyLogger:104 - Clicking on element: privacySettingsSM_XPATH
+14:44:06,888  INFO devpinoyLogger:159 - The element is displayed: mainTitle_XPATH
+14:44:09,031 DEBUG devpinoyLogger:104 - Clicking on element: measurementToggleOff_XPATH
+14:44:10,177 DEBUG devpinoyLogger:104 - Clicking on element: measurementToggleOn_XPATH
+14:44:16,716 DEBUG devpinoyLogger:104 - Clicking on element: vendorList_XPATH
+14:44:18,887 DEBUG devpinoyLogger:104 - Clicking on element: backBtn_CSS
+14:44:20,931  INFO devpinoyLogger:159 - The element is displayed: mainTitle_XPATH
+14:44:24,758 DEBUG devpinoyLogger:35 - config file loaded !!!
+14:44:24,758 DEBUG devpinoyLogger:38 - OR file loaded !!!
+14:44:24,758 DEBUG devpinoyLogger:57 - chrome launched !!!
+14:44:34,056 DEBUG devpinoyLogger:75 - navigated to: https://www.eurosport.com/
+14:44:35,462 DEBUG devpinoyLogger:104 - Clicking on element: hamburger_CSS
+14:44:42,089 DEBUG devpinoyLogger:104 - Clicking on element: cookiePolicyPage_XPATH
+14:44:42,124  INFO devpinoyLogger:159 - The element is displayed: mainTitleCPP_CSS
+14:44:45,109 DEBUG devpinoyLogger:35 - config file loaded !!!
+14:44:45,109 DEBUG devpinoyLogger:38 - OR file loaded !!!
+14:44:45,109 DEBUG devpinoyLogger:57 - chrome launched !!!
+14:44:52,400 DEBUG devpinoyLogger:75 - navigated to: https://www.eurosport.com/
+14:44:53,800 DEBUG devpinoyLogger:104 - Clicking on element: hamburger_CSS
+14:44:56,889 DEBUG devpinoyLogger:104 - Clicking on element: helpPage_XPATH
+14:44:56,932  INFO devpinoyLogger:159 - The element is displayed: mainTitleHP_CN
+14:44:57,069 DEBUG devpinoyLogger:120 - Typing in an element: searchFieald_XPATH entered value as: Subscribe

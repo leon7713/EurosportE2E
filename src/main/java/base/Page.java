@@ -219,4 +219,14 @@ public class Page {
 
         return data;
     }
+
+    @DataProvider
+    public Object[][] DataProvider_5() {
+        //row stands for how many different data types test should run
+        //column stands for how many values per each test
+        Object[][] data = new Object[1][1];
+        data[0][0] = "1500"; //main text words count
+
+        return data;
+    }
 }
