@@ -120,25 +120,6 @@ public class Page {
         log.debug("Typing in an element: " + locator + " entered value as: " + value);
     }
 
-    static WebElement dropdown;
-
-    public static void select(String locator, String value) {
-
-        if (locator.endsWith("_CSS")) {
-            dropdown = driver.findElement(By.cssSelector(OR.getProperty(locator)));
-        }
-        else if (locator.endsWith("_XPATH")) {
-            dropdown = driver.findElement(By.xpath(OR.getProperty(locator)));
-        }
-        else if (locator.endsWith("_ID")) {
-            dropdown = driver.findElement(By.id(OR.getProperty(locator)));
-        }
-
-        Select select = new Select(dropdown);
-        select.selectByVisibleText(value);
-
-    }
-
     public static void isElementDisplayed(String locator) {
 
         if (locator.endsWith("_CSS")) {

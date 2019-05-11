@@ -1,4 +1,4 @@
-package testcases;
+package testcases.sideMenu;
 
 import base.Page;
 import base.SideMenuPage;
@@ -8,11 +8,11 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import pages.MainPage;
-import pages.conditionsAndPolicyPages.PrivacyPolicyPage;
+import pages.conditionsAndPolicyPages.TermsAndConditionsPage;
 
 import java.io.IOException;
 
-public class validatePrivacyPolicyPageTest extends Page {
+public class validateTermsAndConditionsPageTest extends Page{
 
     public static Logger log = LogManager.getLogger(Page.class.getName());
 
@@ -21,14 +21,15 @@ public class validatePrivacyPolicyPageTest extends Page {
         Page.initConfiguration();
     }
 
-    @Test (dataProvider = "DataProvider_3")
-    public void validatePrivacyPolicyPageTest(String ActWordNumb) throws InterruptedException {
+    @Test (dataProvider = "DataProvider_2")
+    public void validateTermsAndCondPageTest(String ActWordsNumb) throws InterruptedException {
         MainPage mp = new MainPage();
         SideMenuPage smp = mp.clickOnHamburgerBtn();
         Thread.sleep(1000);
-        PrivacyPolicyPage ppp = smp.getPrivacyPolicyPage();
-        ppp.verifyMainTitle();
-        ppp.verifyWordsCount(ActWordNumb);
+        TermsAndConditionsPage tcp = smp.getTermsAndConditionsPage();
+        tcp.verifyLegalNoticeTitle();
+        tcp.verifyNumbWordsInText(ActWordsNumb);
+        tcp.verifyCommentsLabel();
 
         Thread.sleep(1000);
     }

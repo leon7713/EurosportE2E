@@ -1,4 +1,4 @@
-package testcases;
+package testcases.sideMenu;
 
 import base.Page;
 import base.SideMenuPage;

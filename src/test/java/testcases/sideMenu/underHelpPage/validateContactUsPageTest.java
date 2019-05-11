@@ -1,4 +1,4 @@
-package testcases;
+package testcases.sideMenu.underHelpPage;
 
 import base.Page;
 import base.SideMenuPage;
@@ -9,10 +9,11 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import pages.MainPage;
 import pages.mainSideMenuPages.HelpPage;
+import pages.mainSideMenuPages.underHelpPagePages.ContactUsPage;
 
 import java.io.IOException;
 
-public class validateHelpPageTest extends Page {
+public class validateContactUsPageTest {
 
     public static Logger log = LogManager.getLogger(Page.class.getName());
 
@@ -22,13 +23,13 @@ public class validateHelpPageTest extends Page {
     }
 
     @Test
-    public void helpPageTest() throws InterruptedException {
+    public void contactUsPageTest() throws InterruptedException{
         MainPage mp = new MainPage();
         SideMenuPage smp = mp.clickOnHamburgerBtn();
-        Thread.sleep(1000);
+        Thread.sleep(2000);
         HelpPage hp = smp.getHelpPage();
-        hp.validateMainTitle();
-        hp.performSearch();
+        ContactUsPage cup = hp.getContactUsPage();
+        cup.validateMainTitle();
 
         Thread.sleep(2000);
     }

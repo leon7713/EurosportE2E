@@ -1,4 +1,4 @@
-package testcases;
+package testcases.sideMenu;
 
 import base.Page;
 import base.SideMenuPage;
@@ -8,11 +8,11 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import pages.MainPage;
-import pages.conditionsAndPolicyPages.TermsAndConditionsPage;
+import pages.mainSideMenuPages.HelpPage;
 
 import java.io.IOException;
 
-public class validateTermsAndConditionsPageTest extends Page{
+public class validateHelpPageTest extends Page {
 
     public static Logger log = LogManager.getLogger(Page.class.getName());
 
@@ -21,17 +21,17 @@ public class validateTermsAndConditionsPageTest extends Page{
         Page.initConfiguration();
     }
 
-    @Test (dataProvider = "DataProvider_2")
-    public void validateTermsAndCondPageTest(String ActWordsNumb) throws InterruptedException {
+    @Test
+    public void helpPageTest() throws InterruptedException {
         MainPage mp = new MainPage();
         SideMenuPage smp = mp.clickOnHamburgerBtn();
         Thread.sleep(1000);
-        TermsAndConditionsPage tcp = smp.getTermsAndConditionsPage();
-        tcp.verifyLegalNoticeTitle();
-        tcp.verifyNumbWordsInText(ActWordsNumb);
-        tcp.verifyCommentsLabel();
+        HelpPage hp = smp.getHelpPage();
+        hp.validateMainTitle();
+        hp.changeLanguage();
+        hp.performSearch();
 
-        Thread.sleep(1000);
+        Thread.sleep(2000);
     }
 
     @AfterTest

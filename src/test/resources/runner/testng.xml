@@ -21,7 +21,7 @@
 
     <test verbose="2" preserve-order="true" name="Test - validate side main page">
         <classes>
-            <class name="testcases.validateSideMenuPageTest"/>
+            <class name="testcases.sideMenu.validateSideMenuPageTest"/>
         </classes>
     </test>
 
@@ -39,31 +39,37 @@
 
     <test verbose="2" preserve-order="true" name="Test - validate Terms and Conditions page">
         <classes>
-            <class name="testcases.validateTermsAndConditionsPageTest"/>
+            <class name="testcases.sideMenu.validateTermsAndConditionsPageTest"/>
         </classes>
     </test>
 
     <test verbose="2" preserve-order="true" name="Test - validate Privacy and Policy page">
         <classes>
-            <class name="testcases.validatePrivacyPolicyPageTest"/>
+            <class name="testcases.sideMenu.validatePrivacyPolicyPageTest"/>
         </classes>
     </test>
 
     <test verbose="2" preserve-order="true" name="Test - validate Privacy and Settings page">
         <classes>
-            <class name="testcases.validatePrivacySettingsPageTest"/>
+            <class name="testcases.sideMenu.validatePrivacySettingsPageTest"/>
         </classes>
     </test>
 
     <test verbose="2" preserve-order="true" name="Test - validate Cookie Policy page">
         <classes>
-            <class name="testcases.validateCookiePolicyPageTest"/>
+            <class name="testcases.sideMenu.validateCookiePolicyPageTest"/>
         </classes>
     </test>
 
     <test verbose="2" preserve-order="true" name="Test - validate Help Page">
         <classes>
-            <class name="testcases.validateHelpPageTest"/>
+            <class name="testcases.sideMenu.validateHelpPageTest"/>
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true" name="Test - validate Contact Us Page">
+        <classes>
+            <class name="testcases.sideMenu.underHelpPage.validateContactUsPageTest"/>
         </classes>
     </test>
 
