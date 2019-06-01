@@ -30,6 +30,7 @@ public class validateContactUsPageTest {
         HelpPage hp = smp.getHelpPage();
         ContactUsPage cup = hp.getContactUsPage();
         cup.validateMainTitle();
+        cup.selectRandomItem();
 
         Thread.sleep(2000);
     }

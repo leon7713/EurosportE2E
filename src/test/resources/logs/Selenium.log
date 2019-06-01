@@ -1,87 +1,9 @@
-14:53:46,147 DEBUG devpinoyLogger:35 - config file loaded !!!
-14:53:46,151 DEBUG devpinoyLogger:38 - OR file loaded !!!
-14:53:46,151 DEBUG devpinoyLogger:57 - chrome launched !!!
-14:53:57,022 DEBUG devpinoyLogger:75 - navigated to: https://www.eurosport.com/
-14:53:58,348  INFO devpinoyLogger:140 - The element is displayed: mainLogo_CN
-14:53:58,397  INFO devpinoyLogger:161 - Elements are equal
-14:54:03,559  INFO devpinoyLogger:140 - The element is displayed: legalNotices_CN
-14:54:03,601  INFO devpinoyLogger:140 - The element is displayed: privacyPolicy_XPATH
-14:54:03,650  INFO devpinoyLogger:140 - The element is displayed: cookiePolicy_XPATH
-14:54:05,479 DEBUG devpinoyLogger:35 - config file loaded !!!
-14:54:05,480 DEBUG devpinoyLogger:38 - OR file loaded !!!
-14:54:05,481 DEBUG devpinoyLogger:57 - chrome launched !!!
-14:54:14,379 DEBUG devpinoyLogger:75 - navigated to: https://www.eurosport.com/
-14:54:15,778 DEBUG devpinoyLogger:104 - Clicking on element: moreBtn_XPATH
-14:54:15,845  INFO devpinoyLogger:140 - The element is displayed: eurosportLogo_CN
-14:54:15,870  INFO devpinoyLogger:161 - Elements are equal
-14:54:15,925  INFO devpinoyLogger:161 - Elements are equal
-14:54:17,728 DEBUG devpinoyLogger:35 - config file loaded !!!
-14:54:17,730 DEBUG devpinoyLogger:38 - OR file loaded !!!
-14:54:17,731 DEBUG devpinoyLogger:57 - chrome launched !!!
-14:54:25,919 DEBUG devpinoyLogger:75 - navigated to: https://www.eurosport.com/
-14:54:31,958 DEBUG devpinoyLogger:104 - Clicking on element: footbalBtn_LT
-14:54:32,021  INFO devpinoyLogger:140 - The element is displayed: footballLogo_LT
-14:54:34,186 DEBUG devpinoyLogger:35 - config file loaded !!!
-14:54:34,188 DEBUG devpinoyLogger:38 - OR file loaded !!!
-14:54:34,188 DEBUG devpinoyLogger:57 - chrome launched !!!
-14:54:40,867 DEBUG devpinoyLogger:75 - navigated to: https://www.eurosport.com/
-14:54:45,245 DEBUG devpinoyLogger:104 - Clicking on element: footbalBtn_LT
-14:54:48,641 DEBUG devpinoyLogger:104 - Clicking on element: premierLeagueBtn_XPATH
-14:54:48,684  INFO devpinoyLogger:140 - The element is displayed: premierLeagueLogo_XPATH
-14:54:53,158 DEBUG devpinoyLogger:35 - config file loaded !!!
-14:54:53,159 DEBUG devpinoyLogger:38 - OR file loaded !!!
-14:54:53,160 DEBUG devpinoyLogger:57 - chrome launched !!!
-14:55:04,812 DEBUG devpinoyLogger:75 - navigated to: https://www.eurosport.com/
-14:55:06,139 DEBUG devpinoyLogger:104 - Clicking on element: hamburger_CSS
-14:55:11,094 DEBUG devpinoyLogger:104 - Clicking on element: termsAndConditions_XPATH
-14:55:11,141  INFO devpinoyLogger:140 - The element is displayed: legalNotice_CSS
-14:55:11,418  INFO devpinoyLogger:140 - The element is displayed: commentsLabel_CSS
-14:55:13,238 DEBUG devpinoyLogger:35 - config file loaded !!!
-14:55:13,239 DEBUG devpinoyLogger:38 - OR file loaded !!!
-14:55:13,240 DEBUG devpinoyLogger:57 - chrome launched !!!
-14:55:19,889 DEBUG devpinoyLogger:75 - navigated to: https://www.eurosport.com/
-14:55:21,228 DEBUG devpinoyLogger:104 - Clicking on element: hamburger_CSS
-14:55:26,542 DEBUG devpinoyLogger:104 - Clicking on element: privacyPolicySM_XPATH
-14:55:26,600  INFO devpinoyLogger:140 - The element is displayed: mainTitle_CSS
-14:55:28,978 DEBUG devpinoyLogger:35 - config file loaded !!!
-14:55:28,979 DEBUG devpinoyLogger:38 - OR file loaded !!!
-14:55:28,980 DEBUG devpinoyLogger:57 - chrome launched !!!
-14:55:37,857 DEBUG devpinoyLogger:75 - navigated to: https://www.eurosport.com/
-14:55:39,319 DEBUG devpinoyLogger:104 - Clicking on element: hamburger_CSS
-14:55:40,434 DEBUG devpinoyLogger:104 - Clicking on element: privacySettingsSM_XPATH
-14:55:41,067  INFO devpinoyLogger:140 - The element is displayed: mainTitle_XPATH
-14:55:43,205 DEBUG devpinoyLogger:104 - Clicking on element: measurementToggleOff_XPATH
-14:55:44,344 DEBUG devpinoyLogger:104 - Clicking on element: measurementToggleOn_XPATH
-14:55:50,801 DEBUG devpinoyLogger:104 - Clicking on element: vendorList_XPATH
-14:55:52,935 DEBUG devpinoyLogger:104 - Clicking on element: backBtn_CSS
-14:55:54,971  INFO devpinoyLogger:140 - The element is displayed: mainTitle_XPATH
-14:55:58,783 DEBUG devpinoyLogger:35 - config file loaded !!!
-14:55:58,783 DEBUG devpinoyLogger:38 - OR file loaded !!!
-14:55:58,784 DEBUG devpinoyLogger:57 - chrome launched !!!
-14:56:06,001 DEBUG devpinoyLogger:75 - navigated to: https://www.eurosport.com/
-14:56:07,396 DEBUG devpinoyLogger:104 - Clicking on element: hamburger_CSS
-14:56:11,663 DEBUG devpinoyLogger:104 - Clicking on element: cookiePolicyPage_XPATH
-14:56:11,715  INFO devpinoyLogger:140 - The element is displayed: mainTitleCPP_CSS
-14:56:14,754 DEBUG devpinoyLogger:35 - config file loaded !!!
-14:56:14,755 DEBUG devpinoyLogger:38 - OR file loaded !!!
-14:56:14,755 DEBUG devpinoyLogger:57 - chrome launched !!!
-14:56:24,276 DEBUG devpinoyLogger:75 - navigated to: https://www.eurosport.com/
-14:56:25,666 DEBUG devpinoyLogger:104 - Clicking on element: hamburger_CSS
-14:56:28,518 DEBUG devpinoyLogger:104 - Clicking on element: helpPage_XPATH
-14:56:28,562  INFO devpinoyLogger:140 - The element is displayed: mainTitleHP_CN
-14:56:29,744 DEBUG devpinoyLogger:104 - Clicking on element: languageSelector_XPATH
-14:56:30,769 DEBUG devpinoyLogger:104 - Clicking on element: dutchLang_XPATH
-14:56:30,888  INFO devpinoyLogger:140 - The element is displayed: settingsAndDevicesDutch_XPATH
-14:56:31,171 DEBUG devpinoyLogger:104 - Clicking on element: languageSelector_XPATH
-14:56:32,377 DEBUG devpinoyLogger:104 - Clicking on element: englishLang_XPATH
-14:56:32,498  INFO devpinoyLogger:140 - The element is displayed: settingsAndDevicesEnglish_XPATH
-14:56:32,619 DEBUG devpinoyLogger:120 - Typing in an element: searchFieald_XPATH entered value as: Subscribe
-14:56:36,287  INFO devpinoyLogger:140 - The element is displayed: headerSearch_XPATH
-14:56:39,538 DEBUG devpinoyLogger:35 - config file loaded !!!
-14:56:39,538 DEBUG devpinoyLogger:38 - OR file loaded !!!
-14:56:39,539 DEBUG devpinoyLogger:57 - chrome launched !!!
-14:56:47,830 DEBUG devpinoyLogger:75 - navigated to: https://www.eurosport.com/
-14:56:49,213 DEBUG devpinoyLogger:104 - Clicking on element: hamburger_CSS
-14:56:53,023 DEBUG devpinoyLogger:104 - Clicking on element: helpPage_XPATH
-14:56:54,151 DEBUG devpinoyLogger:104 - Clicking on element: writeToUsBtn_XPATH
-14:56:54,196  INFO devpinoyLogger:140 - The element is displayed: mainTitleCUP_CSS
+19:40:58,894 DEBUG devpinoyLogger:34 - config file loaded !!!
+19:40:58,904 DEBUG devpinoyLogger:37 - OR file loaded !!!
+19:40:58,905 DEBUG devpinoyLogger:56 - chrome launched !!!
+19:41:08,698 DEBUG devpinoyLogger:74 - navigated to: https://www.eurosport.com/
+19:41:10,062 DEBUG devpinoyLogger:103 - Clicking on element: hamburger_CSS
+19:41:13,803 DEBUG devpinoyLogger:103 - Clicking on element: helpPage_XPATH
+19:41:14,762 DEBUG devpinoyLogger:103 - Clicking on element: writeToUsBtn_XPATH
+19:41:14,820  INFO devpinoyLogger:139 - The element is displayed: mainTitleCUP_CSS
+19:41:25,009  INFO devpinoyLogger:139 - The element is displayed: //*[@value= "Submit"]

@@ -5,30 +5,18 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/prints.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/prints.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/base/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/mainSideMenuPages/HelpPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/mainSideMenuPages/HelpPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/validateCookiePolicyPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/sideMenu/validateCookiePolicyPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/validateHelpPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/sideMenu/validateHelpPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/validatePrivacyPolicyPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/sideMenu/validatePrivacyPolicyPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/validatePrivacySettingsPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/sideMenu/validatePrivacySettingsPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/validateSideMenuPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/sideMenu/validateSideMenuPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/validateTermsAndConditionsPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/sideMenu/validateTermsAndConditionsPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/mainSideMenuPages/underHelpPagePages/ContactUsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/mainSideMenuPages/underHelpPagePages/ContactUsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/sideMenu/underHelpPage/validateContactUsPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/sideMenu/underHelpPage/validateContactUsPageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/logs/Application.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/logs/Application.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/logs/Selenium.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/logs/Selenium.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/properties/OR.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/properties/OR.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/runner/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/runner/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/OR.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/OR.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/base/Page.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/base/Page.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/mainSideMenuPages/HelpPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/mainSideMenuPages/HelpPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/mainSideMenuPages/underHelpPagePages/ContactUsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/mainSideMenuPages/underHelpPagePages/ContactUsPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/logs/Application.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Selenium.log" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/logs/Selenium.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/properties/OR.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/properties/OR.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/runner/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runner/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testcases/validateCookiePolicyPageTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testcases/validateHelpPageTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testcases/validatePrivacyPolicyPageTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testcases/validatePrivacySettingsPageTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testcases/validateSideMenuPageTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testcases/validateTermsAndConditionsPageTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testcases/sideMenu/underHelpPage/validateContactUsPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testcases/sideMenu/underHelpPage/validateContactUsPageTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -46,8 +34,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/base/Page.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="104" column="5" selection-start-line="104" selection-start-column="5" selection-end-line="104" selection-end-column="5" />
+            <state relative-caret-position="1190">
+              <caret line="87" column="72" selection-start-line="87" selection-start-column="72" selection-end-line="87" selection-end-column="72" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -58,8 +46,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/testcases/sideMenu/underHelpPage/validateContactUsPageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
+            <state relative-caret-position="357">
+              <caret line="32" column="21" lean-forward="true" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -67,26 +55,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pages/mainSideMenuPages/HelpPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="47" column="33" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/pages/mainSideMenuPages/underHelpPagePages/ContactUsPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+            <state relative-caret-position="180">
+              <caret line="34" column="62" selection-start-line="34" selection-start-column="62" selection-end-line="34" selection-end-column="62" />
               <folding>
-                <element signature="e#155#156#0" expanded="true" />
-                <element signature="e#191#192#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -95,17 +70,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/properties/OR.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1105">
-              <caret line="65" column="28" selection-start-line="65" selection-start-column="28" selection-end-line="65" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/runner/testng.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="69" column="76" selection-start-line="69" selection-start-column="76" selection-end-line="69" selection-end-column="76" />
+            <state relative-caret-position="271">
+              <caret line="67" column="15" selection-start-line="67" selection-end-line="67" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -169,13 +135,13 @@
         <option value="$PROJECT_DIR$/src/test/java/testcases/validateHelpPageTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/testcases/sideMenu/validateSideMenuPageTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/mainSideMenuPages/underHelpPagePages/contactUsPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/base/Page.java" />
         <option value="$PROJECT_DIR$/src/test/java/testcases/sideMenu/validateHelpPageTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/mainSideMenuPages/HelpPage.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/runner/testng.xml" />
         <option value="$PROJECT_DIR$/src/test/java/testcases/sideMenu/underHelpPage/validateContactUsPageTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/base/Page.java" />
         <option value="$PROJECT_DIR$/src/test/resources/properties/OR.properties" />
         <option value="$PROJECT_DIR$/src/main/java/pages/mainSideMenuPages/underHelpPagePages/ContactUsPage.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/runner/testng.xml" />
       </list>
     </option>
   </component>
@@ -200,8 +166,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -365,6 +329,32 @@
             <path>
               <item name="EurosportE2E" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 10 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="EurosportE2E" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 10 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="java.base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EurosportE2E" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 10 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="java.base" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EurosportE2E" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 10 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="java.base" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EurosportE2E" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
               <item name="Maven: org.seleniumhq.selenium:selenium-api:3.14.0" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
@@ -410,6 +400,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -450,7 +442,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/Leonidus/projects/EurosportE2E/src/test/resources/runner/testng.xml">
+  <component name="RunManager" selected="TestNG.validateContactUsPageTest.contactUsPageTest">
     <configuration name="C:/Users/Leonidus/projects/EurosportE2E/src/test/resources/runner/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EurosportE2E" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/runner/testng.xml" />
@@ -472,6 +464,24 @@
       <option name="PACKAGE_NAME" value="testcases.sideMenu.underHelpPage" />
       <option name="MAIN_CLASS_NAME" value="testcases.sideMenu.underHelpPage.validateContactUsPageTest" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="validateContactUsPageTest.contactUsPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EurosportE2E" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcases.sideMenu.underHelpPage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testcases.sideMenu.underHelpPage" />
+      <option name="MAIN_CLASS_NAME" value="testcases.sideMenu.underHelpPage.validateContactUsPageTest" />
+      <option name="METHOD_NAME" value="contactUsPageTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -512,37 +522,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="validatePrivacySettingsPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="EurosportE2E" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testcases.sideMenu.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testcases" />
-      <option name="MAIN_CLASS_NAME" value="testcases.sideMenu.validatePrivacySettingsPageTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="TestNG.C:/Users/Leonidus/projects/EurosportE2E/src/test/resources/runner/testng.xml" />
+      <item itemvalue="TestNG.validateContactUsPageTest" />
+      <item itemvalue="TestNG.validateContactUsPageTest.contactUsPageTest" />
       <item itemvalue="TestNG.validateCookiePolicyPageTest" />
       <item itemvalue="TestNG.validateHelpPageTest" />
-      <item itemvalue="TestNG.validatePrivacySettingsPageTest" />
-      <item itemvalue="TestNG.validateContactUsPageTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.validateContactUsPageTest.contactUsPageTest" />
         <item itemvalue="TestNG.C:/Users/Leonidus/projects/EurosportE2E/src/test/resources/runner/testng.xml" />
         <item itemvalue="TestNG.validateContactUsPageTest" />
         <item itemvalue="TestNG.validateHelpPageTest" />
         <item itemvalue="TestNG.validateCookiePolicyPageTest" />
-        <item itemvalue="TestNG.validatePrivacySettingsPageTest" />
       </list>
     </recent_temporary>
   </component>
@@ -560,35 +553,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="validateHelpPageTest - 2019.05.11 at 14h 31m 58s.xml">
-      <configuration name="validateHelpPageTest" configurationId="TestNG" />
+    <history-entry file="validateContactUsPageTest_contactUsPageTest - 2019.06.01 at 19h 09m 37s.xml">
+      <configuration name="validateContactUsPageTest.contactUsPageTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="validateHelpPageTest - 2019.05.11 at 14h 32m 34s.xml">
-      <configuration name="validateHelpPageTest" configurationId="TestNG" />
+    <history-entry file="validateContactUsPageTest_contactUsPageTest - 2019.06.01 at 19h 11m 10s.xml">
+      <configuration name="validateContactUsPageTest.contactUsPageTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="validateHelpPageTest - 2019.05.11 at 14h 33m 09s.xml">
-      <configuration name="validateHelpPageTest" configurationId="TestNG" />
+    <history-entry file="validateContactUsPageTest_contactUsPageTest - 2019.06.01 at 19h 12m 35s.xml">
+      <configuration name="validateContactUsPageTest.contactUsPageTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="validateContactUsPageTest - 2019.05.11 at 14h 43m 06s.xml">
-      <configuration name="validateContactUsPageTest" configurationId="TestNG" />
+    <history-entry file="validateContactUsPageTest_contactUsPageTest - 2019.06.01 at 19h 20m 18s.xml">
+      <configuration name="validateContactUsPageTest.contactUsPageTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="validateContactUsPageTest - 2019.05.11 at 14h 43m 43s.xml">
-      <configuration name="validateContactUsPageTest" configurationId="TestNG" />
+    <history-entry file="validateContactUsPageTest_contactUsPageTest - 2019.06.01 at 19h 22m 49s.xml">
+      <configuration name="validateContactUsPageTest.contactUsPageTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="validateContactUsPageTest - 2019.05.11 at 14h 48m 13s.xml">
-      <configuration name="validateContactUsPageTest" configurationId="TestNG" />
+    <history-entry file="validateContactUsPageTest_contactUsPageTest - 2019.06.01 at 19h 23m 50s.xml">
+      <configuration name="validateContactUsPageTest.contactUsPageTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="validateContactUsPageTest - 2019.05.11 at 14h 49m 16s.xml">
-      <configuration name="validateContactUsPageTest" configurationId="TestNG" />
+    <history-entry file="validateContactUsPageTest_contactUsPageTest - 2019.06.01 at 19h 27m 14s.xml">
+      <configuration name="validateContactUsPageTest.contactUsPageTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Leonidus_projects_EurosportE2E_src_test_resources_runner_testng_xml - 2019.05.11 at 14h 52m 20s.xml">
-      <configuration name="C:/Users/Leonidus/projects/EurosportE2E/src/test/resources/runner/testng.xml" configurationId="TestNG" />
+    <history-entry file="validateContactUsPageTest_contactUsPageTest - 2019.06.01 at 19h 30m 06s.xml">
+      <configuration name="validateContactUsPageTest.contactUsPageTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Leonidus_projects_EurosportE2E_src_test_resources_runner_testng_xml - 2019.05.11 at 14h 53m 10s.xml">
-      <configuration name="C:/Users/Leonidus/projects/EurosportE2E/src/test/resources/runner/testng.xml" configurationId="TestNG" />
+    <history-entry file="validateContactUsPageTest_contactUsPageTest - 2019.06.01 at 19h 39m 48s.xml">
+      <configuration name="validateContactUsPageTest.contactUsPageTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Leonidus_projects_EurosportE2E_src_test_resources_runner_testng_xml - 2019.05.11 at 14h 56m 57s.xml">
-      <configuration name="C:/Users/Leonidus/projects/EurosportE2E/src/test/resources/runner/testng.xml" configurationId="TestNG" />
+    <history-entry file="validateContactUsPageTest_contactUsPageTest - 2019.06.01 at 19h 41m 28s.xml">
+      <configuration name="validateContactUsPageTest.contactUsPageTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -604,7 +597,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24583964" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24205749" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -613,15 +606,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.42389524" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.34860885" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39770868" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50075644" side_tool="true" weight="0.400982" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3289689" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3289689" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32569557" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -644,10 +637,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/myresources/ExtentReporterNG.java" />
-    <entry file="file://$PROJECT_DIR$/Logs/prints-2019-01-02.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/surefire-reports/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -962,16 +951,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/base/Page.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="104" column="5" selection-start-line="104" selection-start-column="5" selection-end-line="104" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/base/SideMenuPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -984,8 +963,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/mainSideMenuPages/HelpPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
+        <state relative-caret-position="478">
           <caret line="47" column="33" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/runner/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="69" column="76" selection-start-line="69" selection-start-column="76" selection-end-line="69" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="140" column="6" selection-start-line="140" selection-start-column="6" selection-end-line="140" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.14.0/selenium-support-3.14.0.jar!/org/openqa/selenium/support/ui/WebDriverWait.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/base/Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1190">
+          <caret line="87" column="72" selection-start-line="87" selection-start-column="72" selection-end-line="87" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -994,36 +1004,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testcases/sideMenu/underHelpPage/validateContactUsPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
+        <state relative-caret-position="357">
+          <caret line="32" column="21" lean-forward="true" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/mainSideMenuPages/underHelpPagePages/ContactUsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-          <folding>
-            <element signature="e#155#156#0" expanded="true" />
-            <element signature="e#191#192#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/properties/OR.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="65" column="28" selection-start-line="65" selection-start-column="28" selection-end-line="65" selection-end-column="28" />
+        <state relative-caret-position="271">
+          <caret line="67" column="15" selection-start-line="67" selection-end-line="67" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/runner/testng.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/mainSideMenuPages/underHelpPagePages/ContactUsPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="69" column="76" selection-start-line="69" selection-start-column="76" selection-end-line="69" selection-end-column="76" />
+        <state relative-caret-position="180">
+          <caret line="34" column="62" selection-start-line="34" selection-start-column="62" selection-end-line="34" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
