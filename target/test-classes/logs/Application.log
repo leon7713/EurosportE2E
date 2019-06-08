@@ -1,8 +1,9 @@
-01/06/2019 19:39:19 devpinoyLogger config file loaded !!!
-01/06/2019 19:39:19 devpinoyLogger OR file loaded !!!
-01/06/2019 19:39:19 devpinoyLogger chrome launched !!!
-01/06/2019 19:39:30 devpinoyLogger navigated to: https://www.eurosport.com/
-01/06/2019 19:39:31 devpinoyLogger Clicking on element: hamburger_CSS
-01/06/2019 19:39:35 devpinoyLogger Clicking on element: helpPage_XPATH
-01/06/2019 19:39:37 devpinoyLogger Clicking on element: writeToUsBtn_XPATH
-01/06/2019 19:39:37 devpinoyLogger The element is displayed: mainTitleCUP_CSS
+08/06/2019 16:16:30 devpinoyLogger config file loaded !!!
+08/06/2019 16:16:30 devpinoyLogger OR file loaded !!!
+08/06/2019 16:16:30 devpinoyLogger chrome launched !!!
+08/06/2019 16:16:43 devpinoyLogger navigated to: https://www.eurosport.com/
+08/06/2019 16:16:44 devpinoyLogger Clicking on element: loginIcon_XPATH
+08/06/2019 16:16:44 devpinoyLogger The element is displayed: loginMainTitle_XPATH
+08/06/2019 16:16:45 devpinoyLogger Typing in an element: emailFeild_CSS entered value as: leonushar@gmail.com
+08/06/2019 16:16:46 devpinoyLogger Typing in an element: passwordField_CSS entered value as: Lo71651983
+08/06/2019 16:16:47 devpinoyLogger Clicking on element: loginBtn_CSS

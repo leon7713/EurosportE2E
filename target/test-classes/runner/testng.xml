@@ -73,4 +73,10 @@
         </classes>
     </test>
 
+    <test verbose="2" preserve-order="true" name="Test - login Page">
+        <classes>
+            <class name="testcases.loginPageTest"/>
+        </classes>
+    </test>
+
 </suite>

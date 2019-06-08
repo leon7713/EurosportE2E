@@ -1,9 +1,94 @@
-01/06/2019 19:40:58 devpinoyLogger config file loaded !!!
-01/06/2019 19:40:58 devpinoyLogger OR file loaded !!!
-01/06/2019 19:40:58 devpinoyLogger chrome launched !!!
-01/06/2019 19:41:08 devpinoyLogger navigated to: https://www.eurosport.com/
-01/06/2019 19:41:10 devpinoyLogger Clicking on element: hamburger_CSS
-01/06/2019 19:41:13 devpinoyLogger Clicking on element: helpPage_XPATH
-01/06/2019 19:41:14 devpinoyLogger Clicking on element: writeToUsBtn_XPATH
-01/06/2019 19:41:14 devpinoyLogger The element is displayed: mainTitleCUP_CSS
-01/06/2019 19:41:25 devpinoyLogger The element is displayed: //*[@value= "Submit"]
+08/06/2019 16:20:17 devpinoyLogger config file loaded !!!
+08/06/2019 16:20:17 devpinoyLogger OR file loaded !!!
+08/06/2019 16:20:17 devpinoyLogger chrome launched !!!
+08/06/2019 16:20:28 devpinoyLogger navigated to: https://www.eurosport.com/
+08/06/2019 16:20:30 devpinoyLogger The element is displayed: mainLogo_CN
+08/06/2019 16:20:30 devpinoyLogger Elements are equal
+08/06/2019 16:20:35 devpinoyLogger The element is displayed: legalNotices_CN
+08/06/2019 16:20:35 devpinoyLogger The element is displayed: privacyPolicy_XPATH
+08/06/2019 16:20:35 devpinoyLogger The element is displayed: cookiePolicy_XPATH
+08/06/2019 16:20:37 devpinoyLogger config file loaded !!!
+08/06/2019 16:20:37 devpinoyLogger OR file loaded !!!
+08/06/2019 16:20:37 devpinoyLogger chrome launched !!!
+08/06/2019 16:20:47 devpinoyLogger navigated to: https://www.eurosport.com/
+08/06/2019 16:20:48 devpinoyLogger Clicking on element: moreBtn_XPATH
+08/06/2019 16:20:48 devpinoyLogger The element is displayed: eurosportLogo_CN
+08/06/2019 16:20:48 devpinoyLogger Elements are equal
+08/06/2019 16:20:48 devpinoyLogger Elements are equal
+08/06/2019 16:20:50 devpinoyLogger config file loaded !!!
+08/06/2019 16:20:50 devpinoyLogger OR file loaded !!!
+08/06/2019 16:20:50 devpinoyLogger chrome launched !!!
+08/06/2019 16:21:00 devpinoyLogger navigated to: https://www.eurosport.com/
+08/06/2019 16:21:06 devpinoyLogger Clicking on element: footbalBtn_LT
+08/06/2019 16:21:06 devpinoyLogger The element is displayed: footballLogo_LT
+08/06/2019 16:21:08 devpinoyLogger config file loaded !!!
+08/06/2019 16:21:08 devpinoyLogger OR file loaded !!!
+08/06/2019 16:21:08 devpinoyLogger chrome launched !!!
+08/06/2019 16:21:16 devpinoyLogger navigated to: https://www.eurosport.com/
+08/06/2019 16:21:21 devpinoyLogger Clicking on element: footbalBtn_LT
+08/06/2019 16:21:24 devpinoyLogger Clicking on element: premierLeagueBtn_XPATH
+08/06/2019 16:21:24 devpinoyLogger The element is displayed: premierLeagueLogo_XPATH
+08/06/2019 16:21:29 devpinoyLogger config file loaded !!!
+08/06/2019 16:21:29 devpinoyLogger OR file loaded !!!
+08/06/2019 16:21:29 devpinoyLogger chrome launched !!!
+08/06/2019 16:21:39 devpinoyLogger navigated to: https://www.eurosport.com/
+08/06/2019 16:21:41 devpinoyLogger Clicking on element: hamburger_CSS
+08/06/2019 16:21:47 devpinoyLogger Clicking on element: termsAndConditions_XPATH
+08/06/2019 16:21:47 devpinoyLogger The element is displayed: legalNotice_CSS
+08/06/2019 16:21:47 devpinoyLogger The element is displayed: commentsLabel_CSS
+08/06/2019 16:21:49 devpinoyLogger config file loaded !!!
+08/06/2019 16:21:49 devpinoyLogger OR file loaded !!!
+08/06/2019 16:21:49 devpinoyLogger chrome launched !!!
+08/06/2019 16:21:57 devpinoyLogger navigated to: https://www.eurosport.com/
+08/06/2019 16:21:58 devpinoyLogger Clicking on element: hamburger_CSS
+08/06/2019 16:22:05 devpinoyLogger Clicking on element: privacyPolicySM_XPATH
+08/06/2019 16:22:05 devpinoyLogger The element is displayed: mainTitle_CSS
+08/06/2019 16:22:07 devpinoyLogger config file loaded !!!
+08/06/2019 16:22:07 devpinoyLogger OR file loaded !!!
+08/06/2019 16:22:07 devpinoyLogger chrome launched !!!
+08/06/2019 16:22:18 devpinoyLogger navigated to: https://www.eurosport.com/
+08/06/2019 16:22:19 devpinoyLogger Clicking on element: hamburger_CSS
+08/06/2019 16:22:20 devpinoyLogger Clicking on element: privacySettingsSM_XPATH
+08/06/2019 16:22:21 devpinoyLogger The element is displayed: mainTitle_XPATH
+08/06/2019 16:22:23 devpinoyLogger Clicking on element: measurementToggleOff_XPATH
+08/06/2019 16:22:24 devpinoyLogger Clicking on element: measurementToggleOn_XPATH
+08/06/2019 16:22:31 devpinoyLogger Clicking on element: vendorList_XPATH
+08/06/2019 16:22:32 devpinoyLogger config file loaded !!!
+08/06/2019 16:22:32 devpinoyLogger OR file loaded !!!
+08/06/2019 16:22:32 devpinoyLogger chrome launched !!!
+08/06/2019 16:22:40 devpinoyLogger navigated to: https://www.eurosport.com/
+08/06/2019 16:22:42 devpinoyLogger Clicking on element: hamburger_CSS
+08/06/2019 16:22:47 devpinoyLogger Clicking on element: cookiePolicyPage_XPATH
+08/06/2019 16:22:47 devpinoyLogger The element is displayed: mainTitleCPP_CSS
+08/06/2019 16:22:50 devpinoyLogger config file loaded !!!
+08/06/2019 16:22:50 devpinoyLogger OR file loaded !!!
+08/06/2019 16:22:50 devpinoyLogger chrome launched !!!
+08/06/2019 16:23:02 devpinoyLogger navigated to: https://www.eurosport.com/
+08/06/2019 16:23:04 devpinoyLogger Clicking on element: hamburger_CSS
+08/06/2019 16:23:07 devpinoyLogger Clicking on element: helpPage_XPATH
+08/06/2019 16:23:07 devpinoyLogger The element is displayed: mainTitleHP_CN
+08/06/2019 16:23:09 devpinoyLogger Clicking on element: languageSelector_XPATH
+08/06/2019 16:23:10 devpinoyLogger Clicking on element: dutchLang_XPATH
+08/06/2019 16:23:10 devpinoyLogger The element is displayed: settingsAndDevicesDutch_XPATH
+08/06/2019 16:23:10 devpinoyLogger Clicking on element: languageSelector_XPATH
+08/06/2019 16:23:11 devpinoyLogger Clicking on element: englishLang_XPATH
+08/06/2019 16:23:12 devpinoyLogger The element is displayed: settingsAndDevicesEnglish_XPATH
+08/06/2019 16:23:12 devpinoyLogger Typing in an element: searchFieald_XPATH entered value as: Subscribe
+08/06/2019 16:23:16 devpinoyLogger The element is displayed: headerSearch_XPATH
+08/06/2019 16:23:19 devpinoyLogger config file loaded !!!
+08/06/2019 16:23:19 devpinoyLogger OR file loaded !!!
+08/06/2019 16:23:19 devpinoyLogger chrome launched !!!
+08/06/2019 16:23:29 devpinoyLogger navigated to: https://www.eurosport.com/
+08/06/2019 16:23:30 devpinoyLogger Clicking on element: hamburger_CSS
+08/06/2019 16:23:34 devpinoyLogger Clicking on element: helpPage_XPATH
+08/06/2019 16:23:36 devpinoyLogger Clicking on element: writeToUsBtn_XPATH
+08/06/2019 16:23:36 devpinoyLogger The element is displayed: mainTitleCUP_CSS
+08/06/2019 16:23:46 devpinoyLogger The element is displayed: //*[@value= "Submit"]
+08/06/2019 16:23:49 devpinoyLogger config file loaded !!!
+08/06/2019 16:23:49 devpinoyLogger OR file loaded !!!
+08/06/2019 16:23:49 devpinoyLogger chrome launched !!!
+08/06/2019 16:23:58 devpinoyLogger navigated to: https://www.eurosport.com/
+08/06/2019 16:24:00 devpinoyLogger Clicking on element: loginIcon_XPATH
+08/06/2019 16:24:00 devpinoyLogger The element is displayed: loginMainTitle_XPATH
+08/06/2019 16:24:01 devpinoyLogger Typing in an element: emailFeild_CSS entered value as: leonushar@gmail.com
+08/06/2019 16:24:01 devpinoyLogger Typing in an element: passwordField_CSS entered value as: Lo71651983

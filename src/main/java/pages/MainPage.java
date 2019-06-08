@@ -52,4 +52,9 @@ public class MainPage extends Page {
         click("hamburger_CSS");
         return new SideMenuPage();
     }
+
+    public LoginPage getLoginPage() {
+        click("loginIcon_XPATH");
+        return new LoginPage();
+    }
 }

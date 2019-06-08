@@ -1,8 +1,9 @@
-19:39:19,177 DEBUG devpinoyLogger:34 - config file loaded !!!
-19:39:19,189 DEBUG devpinoyLogger:37 - OR file loaded !!!
-19:39:19,190 DEBUG devpinoyLogger:56 - chrome launched !!!
-19:39:30,252 DEBUG devpinoyLogger:74 - navigated to: https://www.eurosport.com/
-19:39:31,672 DEBUG devpinoyLogger:103 - Clicking on element: hamburger_CSS
-19:39:35,955 DEBUG devpinoyLogger:103 - Clicking on element: helpPage_XPATH
-19:39:37,339 DEBUG devpinoyLogger:103 - Clicking on element: writeToUsBtn_XPATH
-19:39:37,376  INFO devpinoyLogger:139 - The element is displayed: mainTitleCUP_CSS
+16:16:30,810 DEBUG devpinoyLogger:34 - config file loaded !!!
+16:16:30,823 DEBUG devpinoyLogger:37 - OR file loaded !!!
+16:16:30,825 DEBUG devpinoyLogger:56 - chrome launched !!!
+16:16:43,399 DEBUG devpinoyLogger:74 - navigated to: https://www.eurosport.com/
+16:16:44,898 DEBUG devpinoyLogger:103 - Clicking on element: loginIcon_XPATH
+16:16:44,943  INFO devpinoyLogger:139 - The element is displayed: loginMainTitle_XPATH
+16:16:45,342 DEBUG devpinoyLogger:119 - Typing in an element: emailFeild_CSS entered value as: leonushar@gmail.com
+16:16:46,046 DEBUG devpinoyLogger:119 - Typing in an element: passwordField_CSS entered value as: Lo71651983
+16:16:47,148 DEBUG devpinoyLogger:103 - Clicking on element: loginBtn_CSS
