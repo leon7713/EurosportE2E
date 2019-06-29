@@ -19,7 +19,7 @@
     </test>
 
 
-    <test verbose="2" preserve-order="true" name="Test - validate side main page">
+    <test verbose="2" preserve-order="true" name="Test - validate side menu page">
         <classes>
             <class name="testcases.sideMenu.validateSideMenuPageTest"/>
         </classes>
@@ -76,6 +76,24 @@
     <test verbose="2" preserve-order="true" name="Test - login Page">
         <classes>
             <class name="testcases.loginPageTest"/>
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true" name="Test - live chat Page">
+        <classes>
+            <class name="testcases.sideMenu.underHelpPage.validateLiveChatPageTest"/>
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true" name="Test - discover eurosport Page">
+        <classes>
+            <class name="testcases.sideMenu.underHelpPage.validateDiscoverEurosportPageTest"/>
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true" name="Test - main Page">
+        <classes>
+            <class name="testcases.validateMainPageTest"/>
         </classes>
     </test>
 

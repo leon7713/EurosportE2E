@@ -1,9 +1,8 @@
-08/06/2019 16:16:30 devpinoyLogger config file loaded !!!
-08/06/2019 16:16:30 devpinoyLogger OR file loaded !!!
-08/06/2019 16:16:30 devpinoyLogger chrome launched !!!
-08/06/2019 16:16:43 devpinoyLogger navigated to: https://www.eurosport.com/
-08/06/2019 16:16:44 devpinoyLogger Clicking on element: loginIcon_XPATH
-08/06/2019 16:16:44 devpinoyLogger The element is displayed: loginMainTitle_XPATH
-08/06/2019 16:16:45 devpinoyLogger Typing in an element: emailFeild_CSS entered value as: leonushar@gmail.com
-08/06/2019 16:16:46 devpinoyLogger Typing in an element: passwordField_CSS entered value as: Lo71651983
-08/06/2019 16:16:47 devpinoyLogger Clicking on element: loginBtn_CSS
+29/06/2019 13:19:08 devpinoyLogger config file loaded !!!
+29/06/2019 13:19:08 devpinoyLogger OR file loaded !!!
+29/06/2019 13:19:08 devpinoyLogger chrome launched !!!
+29/06/2019 13:19:21 devpinoyLogger navigated to: https://www.eurosport.com/
+29/06/2019 13:19:26 devpinoyLogger Clicking on element: hamburger_CSS
+29/06/2019 13:19:30 devpinoyLogger Clicking on element: helpPage_XPATH
+29/06/2019 13:19:32 devpinoyLogger Clicking on element: discoverEurosport_XPATH
+29/06/2019 13:19:33 devpinoyLogger Clicking on element: seeAllCategoriesBtn_CSS

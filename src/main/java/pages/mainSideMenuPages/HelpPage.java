@@ -7,6 +7,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import pages.mainSideMenuPages.underHelpPagePages.ContactUsPage;
+import pages.mainSideMenuPages.underHelpPagePages.DiscoverEurosportPage;
+import pages.mainSideMenuPages.underHelpPagePages.LiveChatPage;
 
 public class HelpPage extends Page {
 
@@ -47,5 +49,18 @@ public class HelpPage extends Page {
     public ContactUsPage getContactUsPage() {
         click("writeToUsBtn_XPATH");
         return new ContactUsPage();
+    }
+
+    public LiveChatPage getLiveChatPage() throws InterruptedException {
+        Actions actions = new Actions(driver);
+        actions.moveToElement(driver.findElement(By.cssSelector(OR.getProperty("startChatBtn_CSS")))).build().perform();
+        Thread.sleep(2000);
+        click("startChatBtn_CSS");
+        return new LiveChatPage();
+    }
+
+    public DiscoverEurosportPage getDoscovetEurosportPage() {
+        click("discoverEurosport_XPATH");
+        return new DiscoverEurosportPage();
     }
 }

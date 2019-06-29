@@ -195,7 +195,7 @@ public class Page {
         //row stands for how many different data types test should run
         //column stands for how many values per each test
         Object[][] data = new Object[1][1];
-        data[0][0] = "132"; //vendors row count
+        data[0][0] = "131"; //vendors row count
 
         return data;
     }
