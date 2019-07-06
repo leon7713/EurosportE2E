@@ -97,4 +97,10 @@
         </classes>
     </test>
 
+    <test verbose="2" preserve-order="true" name="Test - settings and devices Page test">
+        <classes>
+            <class name="testcases.sideMenu.underHelpPage.validateSettingAndDevicesPageTest"/>
+        </classes>
+    </test>
+
 </suite>

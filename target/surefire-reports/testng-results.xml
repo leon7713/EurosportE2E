@@ -1,69 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-04-27T14:25:30 IDT" name="All Test Suite" finished-at="2019-04-27T14:27:52 IDT" duration-ms="141387">
+  <suite started-at="2019-06-29T13:44:58 IDT" name="All Test Suite" finished-at="2019-06-29T13:51:17 IDT" duration-ms="378762">
     <groups>
     </groups>
-    <test started-at="2019-04-27T14:25:30 IDT" name="Test - sanity" finished-at="2019-04-27T14:26:07 IDT" duration-ms="36279">
+    <test started-at="2019-06-29T13:44:58 IDT" name="Test - sanity" finished-at="2019-06-29T13:45:29 IDT" duration-ms="30643">
       <class name="testcases.validateMainPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.validateMainPageTest@a202ccb]" started-at="2019-04-27T14:25:30 IDT" name="setUp" finished-at="2019-04-27T14:25:59 IDT" duration-ms="28175" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.validateMainPageTest@20f12539]" started-at="2019-06-29T13:44:58 IDT" name="setUp" finished-at="2019-06-29T13:45:21 IDT" duration-ms="23328" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyCatNumber()[pri:0, instance:testcases.validateMainPageTest@a202ccb]" started-at="2019-04-27T14:25:59 IDT" name="verifyCatNumber" finished-at="2019-04-27T14:26:04 IDT" duration-ms="5454" status="PASS">
+        <test-method signature="verifyCatNumber()[pri:0, instance:testcases.validateMainPageTest@20f12539]" started-at="2019-06-29T13:45:21 IDT" name="verifyCatNumber" finished-at="2019-06-29T13:45:27 IDT" duration-ms="5192" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCatNumber -->
-        <test-method signature="verifyLegalNotices()[pri:0, instance:testcases.validateMainPageTest@a202ccb]" started-at="2019-04-27T14:26:04 IDT" name="verifyLegalNotices" finished-at="2019-04-27T14:26:06 IDT" duration-ms="1488" status="PASS">
+        <test-method signature="verifyLegalNotices()[pri:0, instance:testcases.validateMainPageTest@20f12539]" started-at="2019-06-29T13:45:27 IDT" name="verifyLegalNotices" finished-at="2019-06-29T13:45:28 IDT" duration-ms="1251" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLegalNotices -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.validateMainPageTest@a202ccb]" started-at="2019-04-27T14:26:06 IDT" name="tearDown" finished-at="2019-04-27T14:26:07 IDT" duration-ms="1120" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.validateMainPageTest@20f12539]" started-at="2019-06-29T13:45:28 IDT" name="tearDown" finished-at="2019-06-29T13:45:29 IDT" duration-ms="825" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testcases.validateMainPageTest -->
     </test> <!-- Test - sanity -->
-    <test started-at="2019-04-27T14:26:07 IDT" name="Test - validate side main page" finished-at="2019-04-27T14:26:22 IDT" duration-ms="15606">
-      <class name="testcases.validateSideMenuPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.validateSideMenuPageTest@7b8233cd]" started-at="2019-04-27T14:26:07 IDT" name="setUp" finished-at="2019-04-27T14:26:19 IDT" duration-ms="12146" status="PASS">
+    <test started-at="2019-06-29T13:45:29 IDT" name="Test - validate side menu page" finished-at="2019-06-29T13:45:48 IDT" duration-ms="19490">
+      <class name="testcases.sideMenu.validateSideMenuPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.sideMenu.validateSideMenuPageTest@4b20ca2b]" started-at="2019-06-29T13:45:29 IDT" name="setUp" finished-at="2019-06-29T13:45:46 IDT" duration-ms="17053" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="sideMenuTests()[pri:0, instance:testcases.validateSideMenuPageTest@7b8233cd]" started-at="2019-04-27T14:26:19 IDT" name="sideMenuTests" finished-at="2019-04-27T14:26:22 IDT" duration-ms="2677" status="PASS">
+        <test-method signature="sideMenuTests()[pri:0, instance:testcases.sideMenu.validateSideMenuPageTest@4b20ca2b]" started-at="2019-06-29T13:45:46 IDT" name="sideMenuTests" finished-at="2019-06-29T13:45:47 IDT" duration-ms="1588" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sideMenuTests -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.validateSideMenuPageTest@7b8233cd]" started-at="2019-04-27T14:26:22 IDT" name="tearDown" finished-at="2019-04-27T14:26:22 IDT" duration-ms="782" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.sideMenu.validateSideMenuPageTest@4b20ca2b]" started-at="2019-06-29T13:45:47 IDT" name="tearDown" finished-at="2019-06-29T13:45:48 IDT" duration-ms="848" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testcases.validateSideMenuPageTest -->
-    </test> <!-- Test - validate side main page -->
-    <test started-at="2019-04-27T14:26:23 IDT" name="Test - validate Football page" finished-at="2019-04-27T14:26:47 IDT" duration-ms="24045">
+      </class> <!-- testcases.sideMenu.validateSideMenuPageTest -->
+    </test> <!-- Test - validate side menu page -->
+    <test started-at="2019-06-29T13:45:48 IDT" name="Test - validate Football page" finished-at="2019-06-29T13:46:12 IDT" duration-ms="23436">
       <class name="testcases.validateFootballPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.validateFootballPageTest@72758afa]" started-at="2019-04-27T14:26:23 IDT" name="setUp" finished-at="2019-04-27T14:26:36 IDT" duration-ms="13721" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.validateFootballPageTest@fb9c7aa]" started-at="2019-06-29T13:45:48 IDT" name="setUp" finished-at="2019-06-29T13:46:05 IDT" duration-ms="16584" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="footballPageTests()[pri:0, instance:testcases.validateFootballPageTest@72758afa]" started-at="2019-04-27T14:26:36 IDT" name="footballPageTests" finished-at="2019-04-27T14:26:46 IDT" duration-ms="9479" status="PASS">
+        <test-method signature="footballPageTests()[pri:0, instance:testcases.validateFootballPageTest@fb9c7aa]" started-at="2019-06-29T13:46:05 IDT" name="footballPageTests" finished-at="2019-06-29T13:46:11 IDT" duration-ms="6075" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- footballPageTests -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.validateFootballPageTest@72758afa]" started-at="2019-04-27T14:26:46 IDT" name="tearDown" finished-at="2019-04-27T14:26:47 IDT" duration-ms="844" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.validateFootballPageTest@fb9c7aa]" started-at="2019-06-29T13:46:11 IDT" name="tearDown" finished-at="2019-06-29T13:46:12 IDT" duration-ms="777" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testcases.validateFootballPageTest -->
     </test> <!-- Test - validate Football page -->
-    <test started-at="2019-04-27T14:26:47 IDT" name="Test - validate Premier League Football page" finished-at="2019-04-27T14:27:09 IDT" duration-ms="22689">
+    <test started-at="2019-06-29T13:46:12 IDT" name="Test - validate Premier League Football page" finished-at="2019-06-29T13:46:39 IDT" duration-ms="27550">
       <class name="testcases.validatePremierLeaguePageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.validatePremierLeaguePageTest@57fd91c9]" started-at="2019-04-27T14:26:47 IDT" name="setUp" finished-at="2019-04-27T14:26:58 IDT" duration-ms="11296" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.validatePremierLeaguePageTest@52045dbe]" started-at="2019-06-29T13:46:12 IDT" name="setUp" finished-at="2019-06-29T13:46:27 IDT" duration-ms="15150" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="PremierLeagueTests(java.lang.String)[pri:0, instance:testcases.validatePremierLeaguePageTest@57fd91c9]" started-at="2019-04-27T14:26:58 IDT" name="PremierLeagueTests" data-provider="DataProvider_1" finished-at="2019-04-27T14:27:08 IDT" duration-ms="10561" status="PASS">
+        <test-method signature="PremierLeagueTests(java.lang.String)[pri:0, instance:testcases.validatePremierLeaguePageTest@52045dbe]" started-at="2019-06-29T13:46:27 IDT" name="PremierLeagueTests" data-provider="DataProvider_1" finished-at="2019-06-29T13:46:39 IDT" duration-ms="11575" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -74,19 +74,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PremierLeagueTests -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.validatePremierLeaguePageTest@57fd91c9]" started-at="2019-04-27T14:27:08 IDT" name="tearDown" finished-at="2019-04-27T14:27:09 IDT" duration-ms="823" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.validatePremierLeaguePageTest@52045dbe]" started-at="2019-06-29T13:46:39 IDT" name="tearDown" finished-at="2019-06-29T13:46:39 IDT" duration-ms="816" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testcases.validatePremierLeaguePageTest -->
     </test> <!-- Test - validate Premier League Football page -->
-    <test started-at="2019-04-27T14:27:09 IDT" name="Test - validate Terms and Conditions page" finished-at="2019-04-27T14:27:31 IDT" duration-ms="21414">
-      <class name="testcases.validateTermsAndConditionsPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.validateTermsAndConditionsPageTest@58c34bb3]" started-at="2019-04-27T14:27:09 IDT" name="setUp" finished-at="2019-04-27T14:27:21 IDT" duration-ms="11483" status="PASS">
+    <test started-at="2019-06-29T13:46:39 IDT" name="Test - validate Terms and Conditions page" finished-at="2019-06-29T13:47:06 IDT" duration-ms="26192">
+      <class name="testcases.sideMenu.validateTermsAndConditionsPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.sideMenu.validateTermsAndConditionsPageTest@62163b39]" started-at="2019-06-29T13:46:39 IDT" name="setUp" finished-at="2019-06-29T13:46:56 IDT" duration-ms="16936" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validateTermsAndCondPageTest(java.lang.String)[pri:0, instance:testcases.validateTermsAndConditionsPageTest@58c34bb3]" started-at="2019-04-27T14:27:21 IDT" name="validateTermsAndCondPageTest" data-provider="DataProvider_2" finished-at="2019-04-27T14:27:30 IDT" duration-ms="9106" status="PASS">
+        <test-method signature="validateTermsAndCondPageTest(java.lang.String)[pri:0, instance:testcases.sideMenu.validateTermsAndConditionsPageTest@62163b39]" started-at="2019-06-29T13:46:56 IDT" name="validateTermsAndCondPageTest" data-provider="DataProvider_2" finished-at="2019-06-29T13:47:05 IDT" duration-ms="8461" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -97,19 +97,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateTermsAndCondPageTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.validateTermsAndConditionsPageTest@58c34bb3]" started-at="2019-04-27T14:27:30 IDT" name="tearDown" finished-at="2019-04-27T14:27:31 IDT" duration-ms="824" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.sideMenu.validateTermsAndConditionsPageTest@62163b39]" started-at="2019-06-29T13:47:05 IDT" name="tearDown" finished-at="2019-06-29T13:47:06 IDT" duration-ms="794" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testcases.validateTermsAndConditionsPageTest -->
+      </class> <!-- testcases.sideMenu.validateTermsAndConditionsPageTest -->
     </test> <!-- Test - validate Terms and Conditions page -->
-    <test started-at="2019-04-27T14:27:31 IDT" name="Test - validate Privacy and Policy page" finished-at="2019-04-27T14:27:52 IDT" duration-ms="21050">
-      <class name="testcases.validatePrivacyPolicyPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.validatePrivacyPolicyPageTest@65b3a85a]" started-at="2019-04-27T14:27:31 IDT" name="setUp" finished-at="2019-04-27T14:27:43 IDT" duration-ms="12161" status="PASS">
+    <test started-at="2019-06-29T13:47:06 IDT" name="Test - validate Privacy and Policy page" finished-at="2019-06-29T13:47:29 IDT" duration-ms="23516">
+      <class name="testcases.sideMenu.validatePrivacyPolicyPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.sideMenu.validatePrivacyPolicyPageTest@57eda880]" started-at="2019-06-29T13:47:06 IDT" name="setUp" finished-at="2019-06-29T13:47:21 IDT" duration-ms="15150" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validatePrivacyPolicyPageTest(java.lang.String)[pri:0, instance:testcases.validatePrivacyPolicyPageTest@65b3a85a]" started-at="2019-04-27T14:27:43 IDT" name="validatePrivacyPolicyPageTest" data-provider="DataProvider_3" finished-at="2019-04-27T14:27:51 IDT" duration-ms="8074" status="PASS">
+        <test-method signature="validatePrivacyPolicyPageTest(java.lang.String)[pri:0, instance:testcases.sideMenu.validatePrivacyPolicyPageTest@57eda880]" started-at="2019-06-29T13:47:21 IDT" name="validatePrivacyPolicyPageTest" data-provider="DataProvider_3" finished-at="2019-06-29T13:47:28 IDT" duration-ms="7581" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -120,11 +120,157 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validatePrivacyPolicyPageTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.validatePrivacyPolicyPageTest@65b3a85a]" started-at="2019-04-27T14:27:51 IDT" name="tearDown" finished-at="2019-04-27T14:27:52 IDT" duration-ms="814" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.sideMenu.validatePrivacyPolicyPageTest@57eda880]" started-at="2019-06-29T13:47:28 IDT" name="tearDown" finished-at="2019-06-29T13:47:29 IDT" duration-ms="784" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testcases.validatePrivacyPolicyPageTest -->
+      </class> <!-- testcases.sideMenu.validatePrivacyPolicyPageTest -->
     </test> <!-- Test - validate Privacy and Policy page -->
+    <test started-at="2019-06-29T13:47:29 IDT" name="Test - validate Privacy and Settings page" finished-at="2019-06-29T13:48:05 IDT" duration-ms="36403">
+      <class name="testcases.sideMenu.validatePrivacySettingsPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.sideMenu.validatePrivacySettingsPageTest@4febb875]" started-at="2019-06-29T13:47:29 IDT" name="setUp" finished-at="2019-06-29T13:47:46 IDT" duration-ms="16465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validatePrivacySettingsPageTest(java.lang.String)[pri:0, instance:testcases.sideMenu.validatePrivacySettingsPageTest@4febb875]" started-at="2019-06-29T13:47:46 IDT" name="validatePrivacySettingsPageTest" data-provider="DataProvider_4" finished-at="2019-06-29T13:48:05 IDT" duration-ms="19150" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[131]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePrivacySettingsPageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.sideMenu.validatePrivacySettingsPageTest@4febb875]" started-at="2019-06-29T13:48:05 IDT" name="tearDown" finished-at="2019-06-29T13:48:05 IDT" duration-ms="787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.sideMenu.validatePrivacySettingsPageTest -->
+    </test> <!-- Test - validate Privacy and Settings page -->
+    <test started-at="2019-06-29T13:48:05 IDT" name="Test - validate Cookie Policy page" finished-at="2019-06-29T13:48:29 IDT" duration-ms="23692">
+      <class name="testcases.sideMenu.validateCookiePolicyPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.sideMenu.validateCookiePolicyPageTest@183e8023]" started-at="2019-06-29T13:48:05 IDT" name="setUp" finished-at="2019-06-29T13:48:21 IDT" duration-ms="15836" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="CookiePolicyPageTest(java.lang.String)[pri:0, instance:testcases.sideMenu.validateCookiePolicyPageTest@183e8023]" started-at="2019-06-29T13:48:21 IDT" name="CookiePolicyPageTest" data-provider="DataProvider_5" finished-at="2019-06-29T13:48:28 IDT" duration-ms="7067" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1500]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CookiePolicyPageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.sideMenu.validateCookiePolicyPageTest@183e8023]" started-at="2019-06-29T13:48:28 IDT" name="tearDown" finished-at="2019-06-29T13:48:29 IDT" duration-ms="789" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.sideMenu.validateCookiePolicyPageTest -->
+    </test> <!-- Test - validate Cookie Policy page -->
+    <test started-at="2019-06-29T13:48:29 IDT" name="Test - validate Help Page" finished-at="2019-06-29T13:48:59 IDT" duration-ms="29380">
+      <class name="testcases.sideMenu.validateHelpPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.sideMenu.validateHelpPageTest@5b444398]" started-at="2019-06-29T13:48:29 IDT" name="setUp" finished-at="2019-06-29T13:48:44 IDT" duration-ms="14435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="helpPageTest()[pri:0, instance:testcases.sideMenu.validateHelpPageTest@5b444398]" started-at="2019-06-29T13:48:44 IDT" name="helpPageTest" finished-at="2019-06-29T13:48:58 IDT" duration-ms="14110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- helpPageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.sideMenu.validateHelpPageTest@5b444398]" started-at="2019-06-29T13:48:58 IDT" name="tearDown" finished-at="2019-06-29T13:48:59 IDT" duration-ms="835" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.sideMenu.validateHelpPageTest -->
+    </test> <!-- Test - validate Help Page -->
+    <test started-at="2019-06-29T13:48:59 IDT" name="Test - validate Contact Us Page" finished-at="2019-06-29T13:49:33 IDT" duration-ms="34771">
+      <class name="testcases.sideMenu.underHelpPage.validateContactUsPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.sideMenu.underHelpPage.validateContactUsPageTest@6821ea29]" started-at="2019-06-29T13:48:59 IDT" name="setUp" finished-at="2019-06-29T13:49:16 IDT" duration-ms="17080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="contactUsPageTest()[pri:0, instance:testcases.sideMenu.underHelpPage.validateContactUsPageTest@6821ea29]" started-at="2019-06-29T13:49:16 IDT" name="contactUsPageTest" finished-at="2019-06-29T13:49:32 IDT" duration-ms="16801" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactUsPageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.sideMenu.underHelpPage.validateContactUsPageTest@6821ea29]" started-at="2019-06-29T13:49:32 IDT" name="tearDown" finished-at="2019-06-29T13:49:33 IDT" duration-ms="890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.sideMenu.underHelpPage.validateContactUsPageTest -->
+    </test> <!-- Test - validate Contact Us Page -->
+    <test started-at="2019-06-29T13:49:33 IDT" name="Test - login Page" finished-at="2019-06-29T13:49:54 IDT" duration-ms="21067">
+      <class name="testcases.loginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.loginPageTest@58359ebd]" started-at="2019-06-29T13:49:33 IDT" name="setUp" finished-at="2019-06-29T13:49:50 IDT" duration-ms="16692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:0, instance:testcases.loginPageTest@58359ebd]" started-at="2019-06-29T13:49:50 IDT" name="loginTest" finished-at="2019-06-29T13:49:54 IDT" duration-ms="3493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.loginPageTest@58359ebd]" started-at="2019-06-29T13:49:54 IDT" name="tearDown" finished-at="2019-06-29T13:49:54 IDT" duration-ms="882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.loginPageTest -->
+    </test> <!-- Test - login Page -->
+    <test started-at="2019-06-29T13:49:54 IDT" name="Test - live chat Page" finished-at="2019-06-29T13:50:27 IDT" duration-ms="32779">
+      <class name="testcases.sideMenu.underHelpPage.validateLiveChatPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.sideMenu.underHelpPage.validateLiveChatPageTest@14b030a0]" started-at="2019-06-29T13:49:54 IDT" name="setUp" finished-at="2019-06-29T13:50:10 IDT" duration-ms="15177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="liveChatPageTest()[pri:0, instance:testcases.sideMenu.underHelpPage.validateLiveChatPageTest@14b030a0]" started-at="2019-06-29T13:50:10 IDT" name="liveChatPageTest" finished-at="2019-06-29T13:50:26 IDT" duration-ms="16823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- liveChatPageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.sideMenu.underHelpPage.validateLiveChatPageTest@14b030a0]" started-at="2019-06-29T13:50:26 IDT" name="tearDown" finished-at="2019-06-29T13:50:27 IDT" duration-ms="779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.sideMenu.underHelpPage.validateLiveChatPageTest -->
+    </test> <!-- Test - live chat Page -->
+    <test started-at="2019-06-29T13:50:27 IDT" name="Test - discover eurosport Page" finished-at="2019-06-29T13:50:53 IDT" duration-ms="25279">
+      <class name="testcases.sideMenu.underHelpPage.validateDiscoverEurosportPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.sideMenu.underHelpPage.validateDiscoverEurosportPageTest@60d1a32f]" started-at="2019-06-29T13:50:27 IDT" name="setUp" finished-at="2019-06-29T13:50:44 IDT" duration-ms="16552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="discoverEurosportPageTest()[pri:0, instance:testcases.sideMenu.underHelpPage.validateDiscoverEurosportPageTest@60d1a32f]" started-at="2019-06-29T13:50:44 IDT" name="discoverEurosportPageTest" finished-at="2019-06-29T13:50:52 IDT" duration-ms="7920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- discoverEurosportPageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.sideMenu.underHelpPage.validateDiscoverEurosportPageTest@60d1a32f]" started-at="2019-06-29T13:50:52 IDT" name="tearDown" finished-at="2019-06-29T13:50:53 IDT" duration-ms="806" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.sideMenu.underHelpPage.validateDiscoverEurosportPageTest -->
+    </test> <!-- Test - discover eurosport Page -->
+    <test started-at="2019-06-29T13:50:53 IDT" name="Test - main Page" finished-at="2019-06-29T13:51:17 IDT" duration-ms="24327">
+      <class name="testcases.validateMainPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.validateMainPageTest@4b672daa]" started-at="2019-06-29T13:50:53 IDT" name="setUp" finished-at="2019-06-29T13:51:10 IDT" duration-ms="17004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyCatNumber()[pri:0, instance:testcases.validateMainPageTest@4b672daa]" started-at="2019-06-29T13:51:10 IDT" name="verifyCatNumber" finished-at="2019-06-29T13:51:15 IDT" duration-ms="5142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCatNumber -->
+        <test-method signature="verifyLegalNotices()[pri:0, instance:testcases.validateMainPageTest@4b672daa]" started-at="2019-06-29T13:51:15 IDT" name="verifyLegalNotices" finished-at="2019-06-29T13:51:16 IDT" duration-ms="1221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLegalNotices -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.validateMainPageTest@4b672daa]" started-at="2019-06-29T13:51:16 IDT" name="tearDown" finished-at="2019-06-29T13:51:17 IDT" duration-ms="960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.validateMainPageTest -->
+    </test> <!-- Test - main Page -->
   </suite> <!-- All Test Suite -->
 </testng-results>

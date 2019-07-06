@@ -1,8 +1,9 @@
-29/06/2019 13:19:08 devpinoyLogger config file loaded !!!
-29/06/2019 13:19:08 devpinoyLogger OR file loaded !!!
-29/06/2019 13:19:08 devpinoyLogger chrome launched !!!
-29/06/2019 13:19:21 devpinoyLogger navigated to: https://www.eurosport.com/
-29/06/2019 13:19:26 devpinoyLogger Clicking on element: hamburger_CSS
-29/06/2019 13:19:30 devpinoyLogger Clicking on element: helpPage_XPATH
-29/06/2019 13:19:32 devpinoyLogger Clicking on element: discoverEurosport_XPATH
-29/06/2019 13:19:33 devpinoyLogger Clicking on element: seeAllCategoriesBtn_CSS
+06/07/2019 14:02:43 devpinoyLogger config file loaded !!!
+06/07/2019 14:02:43 devpinoyLogger OR file loaded !!!
+06/07/2019 14:02:43 devpinoyLogger chrome launched !!!
+06/07/2019 14:02:58 devpinoyLogger navigated to: https://www.eurosport.com/
+06/07/2019 14:03:02 devpinoyLogger Clicking on element: hamburger_CSS
+06/07/2019 14:03:07 devpinoyLogger Clicking on element: helpPage_XPATH
+06/07/2019 14:03:07 devpinoyLogger Clicking on element: settingAndDevices_CSS
+06/07/2019 14:03:07 devpinoyLogger The element is displayed: mainTitleSDP_CSS
+06/07/2019 14:03:08 devpinoyLogger Clicking on element: seeAllArticles_CSS

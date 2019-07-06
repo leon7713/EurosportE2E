@@ -9,6 +9,7 @@ import org.testng.Assert;
 import pages.mainSideMenuPages.underHelpPagePages.ContactUsPage;
 import pages.mainSideMenuPages.underHelpPagePages.DiscoverEurosportPage;
 import pages.mainSideMenuPages.underHelpPagePages.LiveChatPage;
+import pages.mainSideMenuPages.underHelpPagePages.SettingsAndDevicesPage;
 
 public class HelpPage extends Page {
 
@@ -62,5 +63,10 @@ public class HelpPage extends Page {
     public DiscoverEurosportPage getDoscovetEurosportPage() {
         click("discoverEurosport_XPATH");
         return new DiscoverEurosportPage();
+    }
+
+    public SettingsAndDevicesPage getSettingsAndDevicesPage() {
+        click("settingAndDevices_CSS");
+        return new SettingsAndDevicesPage();
     }
 }

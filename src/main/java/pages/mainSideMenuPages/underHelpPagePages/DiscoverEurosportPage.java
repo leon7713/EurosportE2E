@@ -10,6 +10,7 @@ import java.util.Set;
 public class DiscoverEurosportPage extends Page {
 
     public void verifyDoscoverEurosportPage() {
+        isElementDisplayed("mainTitleDEP_CSS");
         click("seeAllCategoriesBtn_CSS");
         Set<String> set = new HashSet<String>();
         for (int i = 1; i <= Integer.parseInt(OR.getProperty("numberOfCategories")); i++) {
