@@ -27,7 +27,7 @@ public class PassInformationPage extends Page {
 
         Assert.assertEquals(map.size(), Integer.parseInt(OR.getProperty("countriesNumber")));
 
-        
+
 
 //        for (Map.Entry<Integer, String> pair : map.entrySet()) {
 //            try {
