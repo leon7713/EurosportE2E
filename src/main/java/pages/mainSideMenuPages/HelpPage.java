@@ -6,10 +6,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
-import pages.mainSideMenuPages.underHelpPagePages.ContactUsPage;
-import pages.mainSideMenuPages.underHelpPagePages.DiscoverEurosportPage;
-import pages.mainSideMenuPages.underHelpPagePages.LiveChatPage;
-import pages.mainSideMenuPages.underHelpPagePages.SettingsAndDevicesPage;
+import pages.mainSideMenuPages.underHelpPagePages.*;
 
 public class HelpPage extends Page {
 
@@ -68,5 +65,10 @@ public class HelpPage extends Page {
     public SettingsAndDevicesPage getSettingsAndDevicesPage() {
         click("settingAndDevices_CSS");
         return new SettingsAndDevicesPage();
+    }
+
+    public PassInformationPage getPassInformationPage() {
+        click("passInformation_CSS");
+        return new PassInformationPage();
     }
 }

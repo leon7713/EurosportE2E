@@ -1,9 +1,8 @@
-14:05:11,932 DEBUG devpinoyLogger:34 - config file loaded !!!
-14:05:11,940 DEBUG devpinoyLogger:37 - OR file loaded !!!
-14:05:11,941 DEBUG devpinoyLogger:56 - chrome launched !!!
-14:05:25,900 DEBUG devpinoyLogger:74 - navigated to: https://www.eurosport.com/
-14:05:30,313 DEBUG devpinoyLogger:103 - Clicking on element: hamburger_CSS
-14:05:34,347 DEBUG devpinoyLogger:103 - Clicking on element: helpPage_XPATH
-14:05:35,436 DEBUG devpinoyLogger:103 - Clicking on element: settingAndDevices_CSS
-14:05:35,624  INFO devpinoyLogger:139 - The element is displayed: mainTitleSDP_CSS
-14:05:36,539 DEBUG devpinoyLogger:103 - Clicking on element: seeAllArticles_CSS
+15:02:46,552 DEBUG devpinoyLogger:34 - config file loaded !!!
+15:02:46,558 DEBUG devpinoyLogger:37 - OR file loaded !!!
+15:02:46,559 DEBUG devpinoyLogger:56 - chrome launched !!!
+15:02:59,991 DEBUG devpinoyLogger:74 - navigated to: https://www.eurosport.com/
+15:03:04,404 DEBUG devpinoyLogger:103 - Clicking on element: hamburger_CSS
+15:03:08,581 DEBUG devpinoyLogger:103 - Clicking on element: helpPage_XPATH
+15:03:09,648 DEBUG devpinoyLogger:103 - Clicking on element: passInformation_CSS
+15:03:09,685  INFO devpinoyLogger:139 - The element is displayed: main_title_PIP_XPATH
