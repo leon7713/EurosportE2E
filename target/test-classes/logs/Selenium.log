@@ -1,8 +1,8 @@
-15:00:23,085 DEBUG devpinoyLogger:34 - config file loaded !!!
-15:00:23,091 DEBUG devpinoyLogger:37 - OR file loaded !!!
-15:00:23,092 DEBUG devpinoyLogger:56 - chrome launched !!!
-15:00:35,800 DEBUG devpinoyLogger:74 - navigated to: https://www.eurosport.com/
-15:00:40,241 DEBUG devpinoyLogger:103 - Clicking on element: hamburger_CSS
-15:00:43,936 DEBUG devpinoyLogger:103 - Clicking on element: helpPage_XPATH
-15:00:44,490 DEBUG devpinoyLogger:103 - Clicking on element: passInformation_CSS
-15:00:44,551  INFO devpinoyLogger:139 - The element is displayed: main_title_PIP_XPATH
+14:03:54,488 DEBUG devpinoyLogger:34 - config file loaded !!!
+14:03:54,496 DEBUG devpinoyLogger:37 - OR file loaded !!!
+14:03:54,497 DEBUG devpinoyLogger:56 - chrome launched !!!
+14:04:16,869 DEBUG devpinoyLogger:74 - navigated to: https://www.eurosport.com/
+14:04:21,394 DEBUG devpinoyLogger:103 - Clicking on element: hamburger_CSS
+14:04:26,226 DEBUG devpinoyLogger:103 - Clicking on element: helpPage_XPATH
+14:04:27,227 DEBUG devpinoyLogger:103 - Clicking on element: mainAccount_CSS
+14:04:27,284  INFO devpinoyLogger:139 - The element is displayed: main_title_MAP_XPATH

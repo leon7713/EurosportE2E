@@ -71,4 +71,9 @@ public class HelpPage extends Page {
         click("passInformation_CSS");
         return new PassInformationPage();
     }
+
+    public ManageAccountPage getManageAccountPage() {
+        click("mainAccount_CSS");
+        return new ManageAccountPage();
+    }
 }

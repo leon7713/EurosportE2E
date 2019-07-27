@@ -1,8 +1,8 @@
-13/07/2019 15:02:46 devpinoyLogger config file loaded !!!
-13/07/2019 15:02:46 devpinoyLogger OR file loaded !!!
-13/07/2019 15:02:46 devpinoyLogger chrome launched !!!
-13/07/2019 15:02:59 devpinoyLogger navigated to: https://www.eurosport.com/
-13/07/2019 15:03:04 devpinoyLogger Clicking on element: hamburger_CSS
-13/07/2019 15:03:08 devpinoyLogger Clicking on element: helpPage_XPATH
-13/07/2019 15:03:09 devpinoyLogger Clicking on element: passInformation_CSS
-13/07/2019 15:03:09 devpinoyLogger The element is displayed: main_title_PIP_XPATH
+27/07/2019 14:28:34 devpinoyLogger config file loaded !!!
+27/07/2019 14:28:34 devpinoyLogger OR file loaded !!!
+27/07/2019 14:28:34 devpinoyLogger chrome launched !!!
+27/07/2019 14:28:57 devpinoyLogger navigated to: https://www.eurosport.com/
+27/07/2019 14:29:02 devpinoyLogger Clicking on element: hamburger_CSS
+27/07/2019 14:29:06 devpinoyLogger Clicking on element: helpPage_XPATH
+27/07/2019 14:29:07 devpinoyLogger Clicking on element: mainAccount_CSS
+27/07/2019 14:29:07 devpinoyLogger The element is displayed: main_title_MAP_XPATH

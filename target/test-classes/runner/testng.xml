@@ -103,4 +103,16 @@
         </classes>
     </test>
 
+    <test verbose="2" preserve-order="true" name="Test - pass information Page Test">
+        <classes>
+            <class name="testcases.sideMenu.underHelpPage.validatePassInformationPageTest"/>
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true" name="Test - manage account Page Test">
+        <classes>
+            <class name="testcases.sideMenu.underHelpPage.validateManageAccountPageTest"/>
+        </classes>
+    </test>
+
 </suite>
