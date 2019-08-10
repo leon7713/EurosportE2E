@@ -3,17 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="48cf84e9-ac89-4f4b-9bc2-81a63e93a1b6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/mainSideMenuPages/HelpPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/mainSideMenuPages/HelpPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/logs/Application.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/logs/Application.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/logs/Selenium.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/logs/Selenium.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/properties/OR.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/properties/OR.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/runner/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/runner/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/EurosportE2E.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/OR.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/OR.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pages/mainSideMenuPages/HelpPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/mainSideMenuPages/HelpPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/mainSideMenuPages/underHelpPagePages/PassInformationPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/mainSideMenuPages/underHelpPagePages/PassInformationPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/EurosportE2E.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Application.log" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/logs/Application.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/logs/Selenium.log" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/logs/Selenium.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/properties/OR.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/properties/OR.properties" afterDir="false" />
@@ -90,17 +86,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.validateManageAccountPageTest">
-    <configuration name="C:/Users/Leonidus/projects/EurosportE2E/src/test/resources/runner/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="EurosportE2E" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/runner/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.validatePaymentsAndBillingPageTest">
     <configuration name="validateDiscoverEurosportPageTest.discoverEurosportPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EurosportE2E" />
       <extension name="coverage">
@@ -153,6 +139,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="validatePaymentsAndBillingPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EurosportE2E" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcases.sideMenu.underHelpPage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testcases.sideMenu.underHelpPage" />
+      <option name="MAIN_CLASS_NAME" value="testcases.sideMenu.underHelpPage.validatePaymentsAndBillingPageTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="validateSettingAndDevicesPageTest.settingAndDevicesPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EurosportE2E" />
       <extension name="coverage">
@@ -172,19 +175,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.C:/Users/Leonidus/projects/EurosportE2E/src/test/resources/runner/testng.xml" />
       <item itemvalue="TestNG.validateDiscoverEurosportPageTest.discoverEurosportPageTest" />
       <item itemvalue="TestNG.validateManageAccountPageTest" />
       <item itemvalue="TestNG.validatePassInformationPageTest" />
       <item itemvalue="TestNG.validateSettingAndDevicesPageTest.settingAndDevicesPageTest" />
+      <item itemvalue="TestNG.validatePaymentsAndBillingPageTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.validatePaymentsAndBillingPageTest" />
         <item itemvalue="TestNG.validateManageAccountPageTest" />
         <item itemvalue="TestNG.validatePassInformationPageTest" />
         <item itemvalue="TestNG.validateSettingAndDevicesPageTest.settingAndDevicesPageTest" />
         <item itemvalue="TestNG.validateDiscoverEurosportPageTest.discoverEurosportPageTest" />
-        <item itemvalue="TestNG.C:/Users/Leonidus/projects/EurosportE2E/src/test/resources/runner/testng.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -225,7 +228,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

@@ -115,4 +115,10 @@
         </classes>
     </test>
 
+    <test verbose="2" preserve-order="true" name="Test - Payments and Billing Page Test">
+        <classes>
+            <class name="testcases.sideMenu.underHelpPage.validatePaymentsAndBillingPageTest"/>
+        </classes>
+    </test>
+
 </suite>

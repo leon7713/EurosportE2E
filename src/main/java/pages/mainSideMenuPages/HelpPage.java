@@ -76,4 +76,9 @@ public class HelpPage extends Page {
         click("mainAccount_CSS");
         return new ManageAccountPage();
     }
+
+    public PaymentsAndBillingPage getPaymentsAndBillingPage() {
+        click("paymentsAndBilling_CSS");
+        return new PaymentsAndBillingPage();
+    }
 }
