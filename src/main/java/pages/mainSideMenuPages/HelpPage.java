@@ -81,4 +81,9 @@ public class HelpPage extends Page {
         click("paymentsAndBilling_CSS");
         return new PaymentsAndBillingPage();
     }
+
+    public ResolveIssuesPage getResolveIssuesPage() {
+        click("resolveIssues_CSS");
+        return new ResolveIssuesPage();
+    }
 }

@@ -1,8 +1,7 @@
-16:59:45,164 DEBUG devpinoyLogger:34 - config file loaded !!!
-16:59:45,171 DEBUG devpinoyLogger:37 - OR file loaded !!!
-16:59:45,172 DEBUG devpinoyLogger:56 - chrome launched !!!
-17:00:00,434 DEBUG devpinoyLogger:74 - navigated to: https://www.eurosport.com/
-17:00:04,973 DEBUG devpinoyLogger:103 - Clicking on element: hamburger_CSS
-17:00:09,350 DEBUG devpinoyLogger:103 - Clicking on element: helpPage_XPATH
-17:00:10,293 DEBUG devpinoyLogger:103 - Clicking on element: paymentsAndBilling_CSS
-17:00:10,358  INFO devpinoyLogger:139 - The element is displayed: main_title_PBP_XPATH
+09:48:48,385 DEBUG devpinoyLogger:34 - config file loaded !!!
+09:48:48,392 DEBUG devpinoyLogger:37 - OR file loaded !!!
+09:48:48,393 DEBUG devpinoyLogger:56 - chrome launched !!!
+09:49:02,680 DEBUG devpinoyLogger:74 - navigated to: https://www.eurosport.com/
+09:49:07,046 DEBUG devpinoyLogger:103 - Clicking on element: hamburger_CSS
+09:49:10,999 DEBUG devpinoyLogger:103 - Clicking on element: helpPage_XPATH
+09:49:11,556 DEBUG devpinoyLogger:103 - Clicking on element: resolveIssues_CSS

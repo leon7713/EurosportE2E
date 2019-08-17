@@ -121,4 +121,10 @@
         </classes>
     </test>
 
+    <test verbose="2" preserve-order="true" name="Test - Resolve Issues">
+        <classes>
+            <class name="testcases.sideMenu.underHelpPage.validateResolveIssuesPageTest"/>
+        </classes>
+    </test>
+
 </suite>

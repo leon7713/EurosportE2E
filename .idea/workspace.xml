@@ -86,25 +86,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.validatePaymentsAndBillingPageTest">
-    <configuration name="validateDiscoverEurosportPageTest.discoverEurosportPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="EurosportE2E" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testcases.sideMenu.underHelpPage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testcases.sideMenu.underHelpPage" />
-      <option name="MAIN_CLASS_NAME" value="testcases.sideMenu.underHelpPage.validateDiscoverEurosportPageTest" />
-      <option name="METHOD_NAME" value="discoverEurosportPageTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.validateResolveIssuesPageTest.ResolveIssuesPageTest">
     <configuration name="validateManageAccountPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EurosportE2E" />
       <extension name="coverage">
@@ -156,6 +138,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="validateResolveIssuesPageTest.ResolveIssuesPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EurosportE2E" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcases.sideMenu.underHelpPage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testcases.sideMenu.underHelpPage" />
+      <option name="MAIN_CLASS_NAME" value="testcases.sideMenu.underHelpPage.validateResolveIssuesPageTest" />
+      <option name="METHOD_NAME" value="ResolveIssuesPageTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="validateSettingAndDevicesPageTest.settingAndDevicesPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EurosportE2E" />
       <extension name="coverage">
@@ -175,19 +175,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.validateDiscoverEurosportPageTest.discoverEurosportPageTest" />
       <item itemvalue="TestNG.validateManageAccountPageTest" />
       <item itemvalue="TestNG.validatePassInformationPageTest" />
       <item itemvalue="TestNG.validateSettingAndDevicesPageTest.settingAndDevicesPageTest" />
       <item itemvalue="TestNG.validatePaymentsAndBillingPageTest" />
+      <item itemvalue="TestNG.validateResolveIssuesPageTest.ResolveIssuesPageTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.validateResolveIssuesPageTest.ResolveIssuesPageTest" />
         <item itemvalue="TestNG.validatePaymentsAndBillingPageTest" />
         <item itemvalue="TestNG.validateManageAccountPageTest" />
         <item itemvalue="TestNG.validatePassInformationPageTest" />
         <item itemvalue="TestNG.validateSettingAndDevicesPageTest.settingAndDevicesPageTest" />
-        <item itemvalue="TestNG.validateDiscoverEurosportPageTest.discoverEurosportPageTest" />
       </list>
     </recent_temporary>
   </component>
