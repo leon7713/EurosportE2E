@@ -1,2 +1,2 @@
 # EurosportE2E
-Eurosport E2E practice project
+Eurosport E2E project
